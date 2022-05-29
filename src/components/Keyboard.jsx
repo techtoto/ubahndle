@@ -6,20 +6,6 @@ import routes from '../data/routes.json';
 import './Keyboard.scss';
 
 const KEYBOARD_MAPPING = {
-  "B": "Bakerloo",
-  "C": "Central",
-  "I": "Circle",
-  "D": "District",
-  "L": "DLR",
-  "E": "Elizabeth",
-  "H": "Hammersmith",
-  "J": "Jubilee",
-  "M": "Metropolitan",
-  "N": "Northern",
-  "O": "Overground",
-  "P": "Piccadilly",
-  "V": "Victoria",
-  "W": "Waterloo",
 }
 
 const Keyboard = (props) => {
@@ -57,7 +43,7 @@ const Keyboard = (props) => {
     <Grid centered columns={3} className='keyboard'>
       <Grid.Row>
         {
-          ["Bakerloo", "Central", "Circle"].map((routeId) => {
+          ["U1", "U2", "U3"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -73,7 +59,7 @@ const Keyboard = (props) => {
       </Grid.Row>
       <Grid.Row>
         {
-          ["District", "Hammersmith", "Jubilee"].map((routeId) => {
+          ["U4", "U5", "U6"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -89,7 +75,7 @@ const Keyboard = (props) => {
         </Grid.Row>
         <Grid.Row>
         {
-          ["Metropolitan", "Northern", "Piccadilly"].map((routeId) => {
+          ["U7", "U8", "U9"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -105,7 +91,7 @@ const Keyboard = (props) => {
         </Grid.Row>
         <Grid.Row>
         {
-          ["Victoria", "Waterloo", "Elizabeth"].map((routeId) => {
+          ["S1", "S2", "S25"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -119,14 +105,78 @@ const Keyboard = (props) => {
           })
         }
         </Grid.Row>
-        <Grid.Row columns={4}>
+        <Grid.Row>
+        {
+          ["S26", "S3", "S41"].map((routeId) => {
+            return (
+              <Key
+                id={routeId}
+                key={routeId}
+                onClick={onChar}
+                isCorrect={correctRoutes.includes(routeId)}
+                isPresent={presentRoutes.includes(routeId)}
+                isAbsent={absentRoutes.includes(routeId)}
+              />
+            )
+          })
+        }
+        </Grid.Row>
+        <Grid.Row>
+        {
+          ["S42", "S45", "S46"].map((routeId) => {
+            return (
+              <Key
+                id={routeId}
+                key={routeId}
+                onClick={onChar}
+                isCorrect={correctRoutes.includes(routeId)}
+                isPresent={presentRoutes.includes(routeId)}
+                isAbsent={absentRoutes.includes(routeId)}
+              />
+            )
+          })
+        }
+        </Grid.Row>
+        <Grid.Row>
+        {
+          ["S47", "S5", "S7"].map((routeId) => {
+            return (
+              <Key
+                id={routeId}
+                key={routeId}
+                onClick={onChar}
+                isCorrect={correctRoutes.includes(routeId)}
+                isPresent={presentRoutes.includes(routeId)}
+                isAbsent={absentRoutes.includes(routeId)}
+              />
+            )
+          })
+        }
+        </Grid.Row>
+        <Grid.Row>
+        {
+          ["S75", "S8", "S85"].map((routeId) => {
+            return (
+              <Key
+                id={routeId}
+                key={routeId}
+                onClick={onChar}
+                isCorrect={correctRoutes.includes(routeId)}
+                isPresent={presentRoutes.includes(routeId)}
+                isAbsent={absentRoutes.includes(routeId)}
+              />
+            )
+          })
+        }
+        </Grid.Row>
+        <Grid.Row columns={3}>
           <Grid.Column className='key' stretched>
             <Button onClick={handleEnter}>
               Enter
             </Button>
           </Grid.Column>
         {
-          ["DLR", "Overground"].map((routeId) => {
+          ["S9"].map((routeId) => {
             return (
               <Key
                 id={routeId}

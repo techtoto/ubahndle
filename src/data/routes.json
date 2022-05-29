@@ -1,75 +1,132 @@
 {
-  "Bakerloo":{
-    "id": "Bakerloo",
-    "name": "Bakerloo",
-    "color": "#A45A2A"
+  "U1":{
+    "id": "U1",
+    "name": "U1",
+    "color": "#55f200"
   },
-  "Central":{
-    "id": "Central",
-    "name": "Central",
-    "color": "#DA291C"
+  "U2":{
+    "id": "U2",
+    "name": "U2",
+    "color": "#e75313"
   },
-  "Circle":{
-    "id": "Circle",
-    "name": "Circle",
-    "color": "#FFCD00",
-    "text_color": "#10069f"
+  "U3":{
+    "id": "U3",
+    "name": "U3",
+    "color": "#00ff66"
   },
-  "District":{
-    "id": "District",
-    "name": "District",
-    "color": "#007A33"
+  "U4":{
+    "id": "U4",
+    "name": "U4",
+    "color": "#ffd502"
   },
-  "DLR":{
-    "id": "DLR",
-    "name": "DLR",
-    "color": "#00B2A9"
+  "U5":{
+    "id": "U5",
+    "name": "U5",
+    "color": "#805233"
   },
-  "Elizabeth":{
-    "id": "Elizabeth",
-    "name": "Elizabeth line",
-    "color": "#753BBD"
+  "U6":{
+    "id": "U6",
+    "name": "U6",
+    "color": "#6d61f2"
   },
-  "Hammersmith":{
-    "id": "Hammersmith",
-    "name": "Hammersmith & City",
-    "color": "#E89CAE",
-    "text_color": "#10069f"
+  "U7":{
+    "id": "U7",
+    "name": "U7",
+    "color": "#33ccff"
   },
-  "Jubilee":{
-    "id": "Jubilee",
-    "name": "Jubilee",
-    "color": "#7C878E"
+  "U8":{
+    "id": "U8",
+    "name": "U8",
+    "color": "#005b98"
   },
-  "Metropolitan":{
-    "id": "Metropolitan",
-    "name": "Metropolitan",
-    "color": "#840B55"
+  "U9":{
+    "id": "U9",
+    "name": "U9",
+    "color": "#ff7300"
   },
-  "Northern":{
-    "id": "Northern",
-    "name": "Northern",
-    "color": "#000000"
+  "S1":{
+    "id": "S1",
+    "name": "S1",
+    "color": "#da6ba3"
   },
-  "Overground":{
-    "id": "Overground",
-    "name": "Overground",
-    "color": "#E87722"
+  "S2":{
+    "id": "S2",
+    "name": "S2",
+    "color": "#00b300"
   },
-  "Piccadilly":{
-    "id": "Piccadilly",
-    "name": "Piccadilly",
-    "color": "#10069f"
+  "S25":{
+    "id": "S25",
+    "name": "S25",
+    "color": "#00b300"
   },
-  "Victoria":{
-    "id": "Victoria",
-    "name": "Victoria",
-    "color": "#00A3E0"
+  "S26":{
+    "id": "S26",
+    "name": "S26",
+    "color": "#00b300"
   },
-  "Waterloo":{
-    "id": "Waterloo",
-    "name": "Waterloo & City",
-    "color": "#6ECEB2",
-    "text_color": "#10069f"
+  "S3":{
+    "id": "S3",
+    "name": "S3",
+    "color": "#6ECEB2"
+  },
+  "S3":{
+    "id": "S3",
+    "name": "S3",
+    "color": "#6ECEB2"
+  },
+  "S41":{
+    "id": "S41",
+    "name": "S41",
+    "color": "#ad5837"
+  },
+  "S42":{
+    "id": "S42",
+    "name": "S42",
+    "color": "#cb6318"
+  },
+  "S45":{
+    "id": "S45",
+    "name": "S45",
+    "color": "#cd9c53"
+  },
+  "S46":{
+    "id": "S46",
+    "name": "S46",
+    "color": "#cd9c53"
+  },
+  "S47":{
+    "id": "S47",
+    "name": "S47",
+    "color": "#cd9c53"
+  },
+  "S5":{
+    "id": "S5",
+    "name": "S5",
+    "color": "#eb7405"
+  },
+  "S7":{
+    "id": "S7",
+    "name": "S7",
+    "color": "#6d61f2"
+  },
+  "S75":{
+    "id": "S75",
+    "name": "S75",
+    "color": "#6d61f2"
+  },
+  "S8":{
+    "id": "S8",
+    "name": "S8",
+    "color": "#55f200"
+  },
+  "S85":{
+    "id": "S85",
+    "name": "S85",
+    "color": "#55f200"
+  },
+  "S9":{
+    "id": "S9",
+    "name": "S9",
+    "color": "#992746"
   }
 }
