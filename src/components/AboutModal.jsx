@@ -118,7 +118,7 @@ const AboutModal = (props) => {
 
         <p>
           <Trans i18nKey="about.about.around_the_world">
-            Subwaydles around the world: <a href="https://www.subwaydle.com" target="_blank">New York</a>, <a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a>.
+            Subwaydles around the world: <a href="https://www.subwaydle.com" target="_blank">New York</a>, <a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a>, <a href="https://london.subwaydle.com" target="_blank">London</a>.
           </Trans>
         </p>
 
@@ -132,7 +132,7 @@ const AboutModal = (props) => {
 
         <p>
           <Trans i18nKey="about.about.created">
-            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a>, adapted to the Berlin rapid transit system by <a href="https://www.hangzhi.de" target="_blank">Hangzhi Yu</a>
+            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Berlin rapid transit system by <a href="https://www.hangzhi.de" target="_blank">Hangzhi Yu</a>
           </Trans>
         </p>
 
