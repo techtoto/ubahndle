@@ -12,14 +12,6 @@ import './MapFrame.scss';
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
 const linesWithMultipleRoutes = {
-  "Central": 3,
-  "District": 4,
-  "DLR": 5,
-  "Elizabeth": 5,
-  "Metropolitan": 4,
-  "Northern": 6,
-  "Overground": 11,
-  "Piccadilly": 3,
 }
 
 const MapFrame = (props) => {

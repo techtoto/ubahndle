@@ -42,7 +42,7 @@ i18n
           },
           solution: {
             win_message: "Brilliant! You completed today's journey!",
-            lose_message: "Oh no, looks like you got lost on the Tube...",
+            lose_message: "Oh no, looks like you got lost in Berlin...",
             title: "Today's Journey",
             direction: "from {{origin}} to {{destination}}",
             share: "Share",
@@ -50,8 +50,8 @@ i18n
           },
           about: {
             title: "How to Play",
-            intro: "<p>Guess the <strong>ROUNDLE</strong> in 6 tries.</p><p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p><p>You need to guess a specific set of three trains that can make the trip.</p>",
-            explanation: "<p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p><p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (i.e. Edgware to Morden - Northern line trains travel via Bank only, no fast/semi-fast Metroplitan line trains).</p>",
+            intro: "<p>Guess the <strong>UBAHNDLE</strong> in 6 tries.</p><p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p><p>You need to guess a specific set of three trains that can make the trip.</p>",
+            explanation: "<p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p><p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (i.e. no S3 line express trains).</p>",
             examples: {
               title: "Examples",
               correct: "is in the correct position of the trip.",
