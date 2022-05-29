@@ -1,10 +1,8 @@
-# Roundle (a.k.a. Subwaydle-London)
+# Ubahndle (a.k.a. Subwaydle-Berlin)
 
-A London-based fork of the original [Subwaydle](https://www.subwaydle.com) game. Contains some source code lifted from the [open-source clone](https://github.com/cwackerfuss/word-guessing-game) by Hannah Park. Subwaydle is a static JavaScript app, written using Create React App with React, Sass, Semantic UI React and Mapbox. A few Ruby scripts were written to generate JSON data files used by the app.
+A Berlin-based fork of the original [Subwaydle](https://www.subwaydle.com) game. Contains some source code lifted from the [open-source clone](https://github.com/cwackerfuss/word-guessing-game) by Hannah Park. Subwaydle is a static JavaScript app, written using Create React App with React, Sass, Semantic UI React and Mapbox. A few Ruby scripts were written to generate JSON data files used by the app.
 
 Geolocation data [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
-
-See it live at https://london.subwaydle.com
 
 ## Running locally
 
