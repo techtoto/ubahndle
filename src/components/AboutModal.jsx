@@ -13,7 +13,7 @@ const AboutModal = (props) => {
       <Modal.Header>{ t('about.title') }</Modal.Header>
       <Modal.Content scrolling>
         <Trans i18nKey="about.intro">
-          <p>Guess the <strong>ROUNDLE</strong> in 6 tries.</p>
+          <p>Guess the <strong>UBAHNDLE</strong> in 6 tries.</p>
           <p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p>
           <p>You need to guess a specific set of three trains that can make the trip.</p>
         </Trans>
@@ -106,7 +106,7 @@ const AboutModal = (props) => {
         <Trans i18nKey="about.explanation">
           <p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to
           find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p>
-          <p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (i.e. Edgware to Morden - Northern line trains travel via Bank only, no fast/semi-fast Metroplitan line trains).</p>
+          <p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (i.e. no S3 line express trains).</p>
         </Trans>
 
         <Header as='h4'>{ t('about.about.title') }</Header>
@@ -132,12 +132,11 @@ const AboutModal = (props) => {
 
         <p>
           <Trans i18nKey="about.about.created">
-            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a>
+            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a>, adapted to the Berlin rapid transit system by <a href="https://www.hangzhi.de" target="_blank">Hangzhi Yu</a>
           </Trans>
-          <a href='https://twitter.com/_blahblahblah' target='_blank'><Icon name='twitter' link /></a>
         </p>
 
-          <p><a href="https://github.com/blahblahblah-/subwaydle-london" target="_blank">Source code</a>.</p>
+          <p><a href="https://github.com/Hnagzhi/subwaydle-berlin" target="_blank">Source code</a>.</p>
 
           <p>Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.</p>
 
