@@ -29,7 +29,8 @@ i18n
             display: {
               title: "Display",
               show_badges: "Show answer status badges",
-              show_badges_hint: "Having trouble seeing the difference in the colours? Turn on status badges!"
+              show_badges_hint: "Having trouble seeing the difference in the colours? Turn on status badges!",
+              darkMode: "Dark Mode",
             }
           },
           statistics: {
@@ -81,7 +82,8 @@ i18n
             display: {
               title: "Anzeige",
               show_badges: "Status-Indikatoren anzeigen",
-              show_badges_hint: "Probleme, die Farbkodierung der Lösungen zu sehen? Status-Indikatoren können helfen."
+              show_badges_hint: "Probleme, die Farbkodierung der Lösungen zu sehen? Status-Indikatoren können helfen.",
+              darkMode: "Dunkler Modus",
             }
           },
           statistics: {

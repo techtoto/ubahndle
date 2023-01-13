@@ -25,6 +25,8 @@ import {
 
 import { addStatsForCompletedGame, loadStats } from './utils/stats';
 
+import { loadSettings } from './utils/settings';
+
 import stations from './data/stations.json';
 
 import './App.scss';
@@ -66,10 +68,13 @@ const App = () => {
     return loaded.guesses;
   });
   const [stats, setStats] = useState(() => loadStats());
+  const [settings, setSettings] = useState(() => loadSettings());
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const solution = todaysSolution();
+
+  const isDarkMode = settings.display.darkMode;
 
   useEffect(() => {
     saveGameStateToLocalStorage({ guesses, answer: flattenedTodaysTrip() })
@@ -176,17 +181,21 @@ const App = () => {
   const origin = stations[solution.origin].name;
   const destination = stations[solution.destination].name;
 
+  useEffect(() => {
+    document.body.classList.toggle('dark', isDarkMode);
+  }, [isDarkMode]);
+
   return (
-    <Segment basic className='app-wrapper'>
-      <Segment clearing basic className='header-wrapper'>
+    <Segment basic className='app-wrapper' inverted={isDarkMode}>
+      <Segment clearing basic className='header-wrapper' inverted={isDarkMode}>
         <Header floated='left'>Ubahndle</Header>
-        <Icon className='float-right' name='cog' size='large' link onClick={handleSettingsOpen} />
-        <Icon className='float-right' name='chart bar' size='large' link onClick={handleStatsOpen} />
-        <Icon className='float-right' name='question circle outline' size='large' link onClick={handleAboutOpen} />
+        <Icon className='float-right' inverted={isDarkMode} name='cog' size='large' link onClick={handleSettingsOpen} />
+        <Icon className='float-right' inverted={isDarkMode} name='chart bar' size='large' link onClick={handleStatsOpen} />
+        <Icon className='float-right' inverted={isDarkMode} name='question circle outline' size='large' link onClick={handleAboutOpen} />
       </Segment>
       <Header as='h5' textAlign='center' className='hint'>
         <Trans i18nKey="hint">
-          Travel from {{origin}} to {{destination}} with 2 interchanges.
+          Travel from {{ origin }} to {{ destination }} with 2 interchanges.
         </Trans>
       </Header>
       <Segment basic className='game-grid-wrapper'>
@@ -203,6 +212,7 @@ const App = () => {
           </Message>
         }
         <GameGrid
+          isDarkMode={isDarkMode}
           currentGuess={currentGuess}
           guesses={guesses}
           attempts={ATTEMPTS}
@@ -211,6 +221,7 @@ const App = () => {
       </Segment>
       <Segment basic>
         <Keyboard
+          isDarkMode={isDarkMode}
           onChar={onChar}
           onDelete={onDelete}
           onEnter={onEnter}
@@ -219,10 +230,10 @@ const App = () => {
           absentRoutes={absentRoutes}
         />
       </Segment>
-      <AboutModal open={isAboutOpen} handleClose={onAboutClose} />
-      <SolutionModal isGameWon={isGameWon} open={isSolutionsOpen} handleModalClose={onSolutionsClose} stats={stats} guesses={guesses} />
-      <StatsModal open={isStatsOpen} stats={stats} handleClose={onStatsClose} />
-      <SettingsModal open={isSettingsOpen} handleClose={onSettingsClose} />
+      <AboutModal open={isAboutOpen} isDarkMode={isDarkMode} handleClose={onAboutClose} />
+      <SolutionModal open={isSolutionsOpen} isDarkMode={isDarkMode} isGameWon={isGameWon} handleModalClose={onSolutionsClose} stats={stats} guesses={guesses} />
+      <StatsModal open={isStatsOpen} isDarkMode={isDarkMode} stats={stats} handleClose={onStatsClose} />
+      <SettingsModal open={isSettingsOpen} isDarkMode={isDarkMode} handleClose={onSettingsClose} onSettingsChange={setSettings} />
     </Segment>
   );
 }
