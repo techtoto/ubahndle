@@ -14,7 +14,29 @@
   }
 
   .absent {
-    background-color: #787c7e;
+    background-color: #686c6e;
+  }
+
+  
+  .inverted {
+    background-color: #515354;
+    box-shadow: none!important;
+  }
+
+  .inverted.correct {
+    background-color: #538d4e;
+  }
+
+  .inverted.similar {
+    background-color: #3c9af5;
+  }
+
+  .inverted.present {
+    background-color: #b59f3b;
+  }
+
+  .inverted.absent {
+    background-color: #3a3a3c;
   }
 }
 

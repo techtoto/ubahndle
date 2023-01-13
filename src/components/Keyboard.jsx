@@ -8,7 +8,7 @@ const KEYBOARD_MAPPING = {
 }
 
 const Keyboard = (props) => {
-  const { onChar, onDelete, onEnter, correctRoutes, presentRoutes, absentRoutes } = props;
+  const { onChar, onDelete, onEnter, isDarkMode, correctRoutes, presentRoutes, absentRoutes } = props;
 
   useEffect(() => {
     const listener = (e) => {
@@ -47,6 +47,7 @@ const Keyboard = (props) => {
               <Key
                 id={routeId}
                 key={routeId}
+                isDarkMode={isDarkMode}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -63,6 +64,7 @@ const Keyboard = (props) => {
               <Key
                 id={routeId}
                 key={routeId}
+                isDarkMode={isDarkMode}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -79,6 +81,7 @@ const Keyboard = (props) => {
               <Key
                 id={routeId}
                 key={routeId}
+                isDarkMode={isDarkMode}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -95,6 +98,7 @@ const Keyboard = (props) => {
               <Key
                 id={routeId}
                 key={routeId}
+                isDarkMode={isDarkMode}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -111,6 +115,7 @@ const Keyboard = (props) => {
               <Key
                 id={routeId}
                 key={routeId}
+                isDarkMode={isDarkMode}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -127,6 +132,7 @@ const Keyboard = (props) => {
               <Key
                 id={routeId}
                 key={routeId}
+                isDarkMode={isDarkMode}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -138,12 +144,12 @@ const Keyboard = (props) => {
         </Grid.Row>
         <Grid.Row columns={2}>
           <Grid.Column className='key' stretched>
-            <Button onClick={handleEnter}>
+            <Button onClick={handleEnter} inverted={isDarkMode}>
               Enter
             </Button>
           </Grid.Column>
           <Grid.Column className='key' stretched>
-            <Button onClick={handleDelete}>
+            <Button onClick={handleDelete} inverted={isDarkMode}>
               Delete
             </Button>
           </Grid.Column>
