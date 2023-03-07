@@ -69,6 +69,58 @@ i18n
           }
         }
       },
+      de: {
+        translation: {
+          hint: "Fahre von {{origin}} nach {{destination}} mit genau 2 Umstiegen.",
+          error: {
+            not_enough: "Nicht genug Züge für die Fahrt",
+            not_valid: "Fahrtverlauf nicht gültig"
+          },
+          settings: {
+            title: "Einstellungen",
+            display: {
+              title: "Anzeige",
+              show_badges: "Status-Indikatoren anzeigen",
+              show_badges_hint: "Probleme, die Farbkodierung der Lösungen zu sehen? Status-Indikatoren können helfen."
+            }
+          },
+          statistics: {
+            title: "Statistiken",
+            total_games: "Gespielt",
+            success_rate: "Gewinn-%",
+            current_streak: "Aktuelle<1 />Gewinnsträhne",
+            max_streak: "Höchste<1 />Gewinnsträhne",
+            guess_distribution: "Antwortverteilung",
+          },
+          solution: {
+            win_message: "Großartig! Du hast die heutige Fahrt geschafft!",
+            lose_message: "Oh nein, du hast dich wohl in Berlin verfahren...",
+            title: "Heutiger Fahrtverlauf",
+            direction: "von {{origin}} nach {{destination}}",
+            share: "Teilen",
+            copied: "Kopiert",
+          },
+          about: {
+            title: "Spielanleitung",
+            intro: "<p>Errate das <strong>UBAHNDLE</strong> mit 6 Versuchen.</p><p>Jeder Versuch muss eine <strong>gültige Fahrt mit exakt drei verschiedenen S- und U-Bahn-Linien</strong> sein.</p><p>Dabei müssen <strong>gültige Umstiege</strong>, d.h. solche, die auf der offiziellen VBB-Karte für Berlin als solche (auch mit Laufdistanz, z.B. S Charlottenburg/U Wilmersdorfer Straße) gekennzeichnet sind.</p><p>Dein Ziel ist es, die exakt korrekte Kombination an Linien für die tägliche Fahrt zu finden.</p>",
+            explanation: "<p>In den meisten Fällen ist es möglich, <strong>mit mehreren unterschiedlichen Fahrtverläufen</strong> die Strecke zwischen den beiden Stationen zu fahren. Dein Ziel ist es aber, <strong>den einen richtigen Fahrtverlauf</strong> zu finden, der die Lösung auf das Tagesrätsel darstellt. Diese Lösung <strong>muss nicht</strong> die schnellste Verbindung sein - in den allermeisten Fällen ist sie das gerade nicht.</p><p>Der Verlauf jeder Linie entspricht denen an einem regulären, störungsfreien Tag unter der Woche. Aktuelle Bauarbeiten, HVZ-Verstärker oder Abweichungen im Nachtverkehr werden nicht berücksichtigt.</p>",
+            examples: {
+              title: "Beispiele",
+              correct: "ist in der korrekten Position im Fahrtverlauf.",
+              present: "wird auf der Fahrt verwendet, aber an einer anderen Position.",
+              absent: "kommt im Fahrtverlauf nicht vor.",
+            },
+            about: {
+              title: "Über das Spiel",
+              subwaydle: "Dieses Spiel wurde von dem originalen <1>Subwaydle</1> für das New Yorker U-Bahn-System geforkt.",
+              around_the_world: "Subwaydles auf der ganzen Welt: <1>New York</1>, <3>Hong Kong</3>, <5>London</5>.",
+              inspirations: "Inspiriert von <1>Wordle</1>, dem <3>Open-Source-Klon</3>, <5>Nerdle</5>, und <7>New York Transit Museum</7> Trivia Nights.",
+              created: "Konzipiert und programmiert von <1>Sunny Ng</1> und an das Berliner ÖPNV-System angepasst von <3>Hangzhi Yu</3>.",
+              other_projects: "Schaut gerne bei Sunny Ng's anderen New-York-Subway-basierten Projekten vorbei:"
+            }
+          }
+        }
+      },
     }
   });
 
