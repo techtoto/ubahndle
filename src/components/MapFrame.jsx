@@ -17,9 +17,9 @@ const linesWithMultipleRoutes = {
 const MapFrame = (props) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(13.4140);
-  const [lat, setLat] = useState(52.5213);
-  const [zoom, setZoom] = useState(12);
+  const [lng, setLng] = useState(13.391114);
+  const [lat, setLat] = useState(52.510074);
+  const [zoom, setZoom] = useState(10.08);
   const solution = todaysSolution();
 
   const stopsGeoJson = () => {
@@ -166,7 +166,7 @@ const MapFrame = (props) => {
           "text-padding": 1,
           "text-variable-anchor": ["bottom-right", "top-right", "bottom-left", "top-left", "right", "left", "bottom"],
           "text-radial-offset": 0.5,
-          "icon-image": "express-stop",
+          "icon-image": "dot-11",
           "icon-size": 8/13,
           "icon-allow-overlap": true,
         },
