@@ -17,8 +17,8 @@ const linesWithMultipleRoutes = {
 const MapFrame = (props) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(-0.1272);
-  const [lat, setLat] = useState(51.5074);
+  const [lng, setLng] = useState(13.4140);
+  const [lat, setLat] = useState(52.5213);
   const [zoom, setZoom] = useState(12);
   const solution = todaysSolution();
 
@@ -95,7 +95,7 @@ const MapFrame = (props) => {
     if (map.current) return; // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/theweekendest/ck1fhati848311cp6ezdzj5cm?optimize=true',
+      style: 'mapbox://styles/hangzhi/cleyegz8s000901lnagev3c2b?optimize=true',
       center: [lng, lat],
       minZoom: 9,
       zoom: zoom,
