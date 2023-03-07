@@ -63,20 +63,34 @@ const MapFrame = (props) => {
       });
     }
 
-    const beginCoord = [stations[line.begin].stops[internalRoute].longitude, stations[line.begin].stops[internalRoute].latitude];
-    const endCoord = [stations[line.end].stops[internalRoute].longitude, stations[line.end].stops[internalRoute].latitude];
+    const beginCoord = [stations[line.begin].stops[internalRoute].latitude, stations[line.begin].stops[internalRoute].longitude];
+    const endCoord = [stations[line.end].stops[internalRoute].latitude, stations[line.end].stops[internalRoute].longitude];
 
     let coordinates = [];
 
     shape = shapes[internalRoute];
 
+    console.debug(internalRoute);
+    console.debug(shape);
+
+    console.debug(beginCoord, endCoord);
+
     const beginIndex = shape.findIndex((coord) => coord[0] === beginCoord[0] && coord[1] === beginCoord[1]);
     const endIndex = shape.findIndex((coord) => coord[0] === endCoord[0] && coord[1] === endCoord[1]);
+
+    console.debug(beginIndex);
+    console.debug(endIndex);
 
     if (beginIndex < endIndex) {
       coordinates = shape.slice(beginIndex, endIndex + 1);
     } else {
       coordinates = shape.slice(endIndex, beginIndex + 1);
+    }
+
+    for (let coordinate of coordinates) {
+      let temp = coordinate[0];
+      coordinate[0] = coordinate[1];
+      coordinate[1] = temp;
     }
 
     return {
