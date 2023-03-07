@@ -97,7 +97,7 @@ const MapFrame = (props) => {
       container: mapContainer.current,
       style: 'mapbox://styles/hangzhi/cleyegz8s000901lnagev3c2b?optimize=true',
       center: [lng, lat],
-      minZoom: 9,
+      minZoom: 1,
       zoom: zoom,
       maxPitch: 0,
     });
@@ -174,20 +174,23 @@ const MapFrame = (props) => {
           "text-color": '#ffffff',
         },
       });
-      const bounds = coordinates.reduce((bounds, coord) => {
-        return bounds.extend(coord);
-      }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
 
-      if (!bounds.isEmpty()) {
-        map.current.fitBounds(bounds, {
-          padding: {
-            top: 50,
-            right: 20,
-            left: 20,
-            bottom: 50,
-          },
-        });
-      }
+      // FIXME: LngLatBounds has coordinates swapped?
+
+//      const bounds = coordinates.reduce((bounds, coord) => {
+//        return bounds.extend(coord);
+//      }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
+//
+//      if (!bounds.isEmpty()) {
+//        map.current.fitBounds(bounds, {
+//          padding: {
+//            top: 50,
+//            right: 20,
+//            left: 20,
+//            bottom: 50,
+//          },
+//        });
+//      }
     });
 
 
