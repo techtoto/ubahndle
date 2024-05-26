@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { Grid, Button } from 'semantic-ui-react';
 import Key from './Key';
-import routes from '../data/routes.json';
 
 import './Keyboard.scss';
 
