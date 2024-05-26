@@ -12,11 +12,15 @@ def getStationById(id):
     for station in stations:
         if station[0] == str(id):
             return station
+    raise Exception(f"id missing: {id}")
 
 for filename in glob.glob("./scripts/data/stops/*.csv"):
-    with open(filename) as stopFile:
+    stops = []
+    with open(filename) as file:
+        reader = csv.reader(file)
         jsonArray = []
-        stops = stopFile.read().split("\n")
+        for row in reader:
+            stops.append(row[0])
 
     for stop in stops:
         if stop == "":
@@ -24,5 +28,5 @@ for filename in glob.glob("./scripts/data/stops/*.csv"):
         station = getStationById(stop)
         jsonArray.append([float(station[2]), float(station[3])])
 
-    with open(f"./scripts/data/shapes/{os.path.basename(filename).replace(".csv", ".json")}", "w") as outFile:
+    with open(f"./scripts/data/shapes/{os.path.basename(filename).replace('.csv', '.json')}", "w") as outFile:
         outFile.write(json.dumps(jsonArray, indent=4))
