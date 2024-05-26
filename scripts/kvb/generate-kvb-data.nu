@@ -24,4 +24,4 @@ $stations
     | select Haltestelle Name YKoordinate XKoordinate
     | rename ID Station Latitude Longitude
     | to csv 
-    | save -f $"($env.FILE_PWD)/data/stations-kvb.csv"
+    | save -f $"($env.FILE_PWD)/../data/stations-kvb.csv"
