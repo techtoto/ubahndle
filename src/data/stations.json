@@ -1,4801 +1,3133 @@
 {
-  "105": {
-    "id": "105",
-    "name": "S Adlershof",
-    "latitude": 52.434867,
-    "longitude": 13.541224,
-    "stops": {
-      "S45": {
-        "latitude": 52.434867,
-        "longitude": 13.541224
-      },
-      "S46": {
-        "latitude": 52.434867,
-        "longitude": 13.541224
-      },
-      "S8": {
-        "latitude": 52.434867,
-        "longitude": 13.541224
-      },
-      "S85": {
-        "latitude": 52.434867,
-        "longitude": 13.541224
-      },
-      "S9": {
-        "latitude": 52.434867,
-        "longitude": 13.541224
-      }
-    }
-  },
-  "11": {
-    "id": "11",
-    "name": "S Ahrensfelde Bhf",
-    "latitude": 52.571393,
-    "longitude": 13.565467,
-    "stops": {
-      "S7": {
-        "latitude": 52.571393,
-        "longitude": 13.565467
-      }
-    }
-  },
-  "59": {
-    "id": "59",
-    "name": "S Alt-Reinickendorf",
-    "latitude": 52.577776,
-    "longitude": 13.351235,
-    "stops": {
-      "S25": {
-        "latitude": 52.577776,
-        "longitude": 13.351235
-      }
-    }
-  },
-  "155": {
-    "id": "155",
-    "name": "S Altglienicke",
-    "latitude": 52.407359,
-    "longitude": 13.558798,
-    "stops": {
-      "S45": {
-        "latitude": 52.407359,
-        "longitude": 13.558798
-      },
-      "S9": {
-        "latitude": 52.407359,
-        "longitude": 13.558798
-      }
-    }
-  },
-  "147": {
-    "id": "147",
-    "name": "S Anhalter Bahnhof",
-    "latitude": 52.503564,
-    "longitude": 13.381396,
-    "stops": {
-      "S1": {
-        "latitude": 52.503564,
-        "longitude": 13.381396
-      },
-      "S2": {
-        "latitude": 52.503564,
-        "longitude": 13.381396
-      },
-      "S25": {
-        "latitude": 52.503564,
-        "longitude": 13.381396
-      },
-      "S26": {
-        "latitude": 52.503564,
-        "longitude": 13.381396
-      }
-    }
-  },
-  "50": {
-    "id": "50",
-    "name": "S Attilastr.",
-    "latitude": 52.447898,
-    "longitude": 13.360727,
-    "stops": {
-      "S2": {
-        "latitude": 52.447898,
-        "longitude": 13.360727
-      }
-    }
-  },
-  "113": {
-    "id": "113",
-    "name": "S Babelsberg",
-    "latitude": 52.391427,
-    "longitude": 13.092776,
-    "stops": {
-      "S7": {
-        "latitude": 52.391427,
-        "longitude": 13.092776
-      }
-    }
-  },
-  "101": {
-    "id": "101",
-    "name": "S Baumschulenweg",
-    "latitude": 52.467495,
-    "longitude": 13.489615,
-    "stops": {
-      "S45": {
-        "latitude": 52.467495,
-        "longitude": 13.489615
-      },
-      "S46": {
-        "latitude": 52.467495,
-        "longitude": 13.489615
-      },
-      "S47": {
-        "latitude": 52.467495,
-        "longitude": 13.489615
-      },
-      "S8": {
-        "latitude": 52.467495,
-        "longitude": 13.489615
-      },
-      "S85": {
-        "latitude": 52.467495,
-        "longitude": 13.489615
-      },
-      "S9": {
-        "latitude": 52.467495,
-        "longitude": 13.489615
-      }
-    }
-  },
-  "24": {
-    "id": "24",
-    "name": "S Bellevue",
-    "latitude": 52.519946,
-    "longitude": 13.34809,
-    "stops": {
-      "S3": {
-        "latitude": 52.519946,
-        "longitude": 13.34809
-      },
-      "S5": {
-        "latitude": 52.519946,
-        "longitude": 13.34809
-      },
-      "S7": {
-        "latitude": 52.519946,
-        "longitude": 13.34809
-      },
-      "S9": {
-        "latitude": 52.519946,
-        "longitude": 13.34809
-      }
-    }
-  },
-  "110": {
-    "id": "110",
-    "name": "S Bergfelde",
-    "latitude": 52.670081,
-    "longitude": 13.320426,
-    "stops": {
-      "S8": {
-        "latitude": 52.670081,
-        "longitude": 13.320426
-      }
-    }
-  },
-  "10": {
-    "id": "10",
-    "name": "S Bernau Bhf",
-    "latitude": 52.675428,
-    "longitude": 13.591859,
-    "stops": {
-      "S2": {
-        "latitude": 52.675428,
-        "longitude": 13.591859
-      }
-    }
-  },
-  "126": {
-    "id": "126",
-    "name": "S Bernau-Friedenstal",
-    "latitude": 52.66847,
-    "longitude": 13.564998,
-    "stops": {
-    }
-  },
-  "81": {
-    "id": "81",
-    "name": "S Betriebsbahnhof Rummelsburg",
-    "latitude": 52.493969,
-    "longitude": 13.497724,
-    "stops": {
-    }
-  },
-  "29": {
-    "id": "29",
-    "name": "S Beusselstr.",
-    "latitude": 52.534359,
-    "longitude": 13.329406,
-    "stops": {
-      "S41": {
-        "latitude": 52.534359,
-        "longitude": 13.329406
-      },
-      "S42": {
-        "latitude": 52.534359,
-        "longitude": 13.329406
-      }
-    }
-  },
-  "88": {
-    "id": "88",
-    "name": "S Biesdorf",
-    "latitude": 52.513095,
-    "longitude": 13.556379,
-    "stops": {
-      "S5": {
-        "latitude": 52.513095,
-        "longitude": 13.556379
-      }
-    }
-  },
-  "123": {
-    "id": "123",
-    "name": "S Birkenstein",
-    "latitude": 52.515685,
-    "longitude": 13.647324,
-    "stops": {
-      "S5": {
-        "latitude": 52.515685,
-        "longitude": 13.647324
-      }
-    }
-  },
-  "14": {
-    "id": "14",
-    "name": "S Birkenwerder Bhf",
-    "latitude": 52.688665,
-    "longitude": 13.288775,
-    "stops": {
-      "S1": {
-        "latitude": 52.688665,
-        "longitude": 13.288775
-      },
-      "S8": {
-        "latitude": 52.688665,
-        "longitude": 13.288775
-      }
-    }
-  },
-  "76": {
-    "id": "76",
-    "name": "S Blankenburg",
-    "latitude": 52.591376,
-    "longitude": 13.443308,
-    "stops": {
-      "S2": {
-        "latitude": 52.591376,
-        "longitude": 13.443308
-      },
-      "S8": {
-        "latitude": 52.591376,
-        "longitude": 13.443308
-      }
-    }
-  },
-  "2": {
-    "id": "2",
-    "name": "S Blankenfelde Bhf",
-    "latitude": 52.338503,
-    "longitude": 13.415406,
-    "stops": {
-      "S2": {
-        "latitude": 52.338503,
-        "longitude": 13.415406
-      }
-    }
-  },
-  "108": {
-    "id": "108",
-    "name": "S Borgsdorf",
-    "latitude": 52.715526,
-    "longitude": 13.276319,
-    "stops": {
-      "S1": {
-        "latitude": 52.715526,
-        "longitude": 13.276319
-      }
-    }
-  },
-  "70": {
-    "id": "70",
-    "name": "S Bornholmer Str.",
-    "latitude": 52.554619,
-    "longitude": 13.397673,
-    "stops": {
-      "S1": {
-        "latitude": 52.554619,
-        "longitude": 13.397673
-      },
-      "S2": {
-        "latitude": 52.554619,
-        "longitude": 13.397673
-      },
-      "S25": {
-        "latitude": 52.554619,
-        "longitude": 13.397673
-      },
-      "S26": {
-        "latitude": 52.554619,
-        "longitude": 13.397673
-      },
-      "S8": {
-        "latitude": 52.554619,
-        "longitude": 13.397673
-      },
-      "S85": {
-        "latitude": 52.554619,
-        "longitude": 13.397673
-      }
-    }
-  },
-  "140": {
-    "id": "140",
-    "name": "S Botanischer Garten",
-    "latitude": 52.448005,
-    "longitude": 13.307177,
-    "stops": {
-      "S1": {
-        "latitude": 52.448005,
-        "longitude": 13.307177
-      }
-    }
-  },
-  "75": {
-    "id": "75",
-    "name": "S Buch",
-    "latitude": 52.635818,
-    "longitude": 13.491694,
-    "stops": {
-      "S2": {
-        "latitude": 52.635818,
-        "longitude": 13.491694
-      }
-    }
-  },
-  "51": {
-    "id": "51",
-    "name": "S Buckower Chaussee",
-    "latitude": 52.410239,
-    "longitude": 13.382877,
-    "stops": {
-      "S2": {
-        "latitude": 52.410239,
-        "longitude": 13.382877
-      }
-    }
-  },
-  "18": {
-    "id": "18",
-    "name": "S Charlottenburg Bhf",
-    "latitude": 52.504175,
-    "longitude": 13.301819,
-    "stops": {
-      "S3": {
-        "latitude": 52.504175,
-        "longitude": 13.301819
-      },
-      "S5": {
-        "latitude": 52.504175,
-        "longitude": 13.301819
-      },
-      "S7": {
-        "latitude": 52.504175,
-        "longitude": 13.301819
-      },
-      "S9": {
-        "latitude": 52.504175,
-        "longitude": 13.301819
-      }
-    }
-  },
-  "64": {
-    "id": "64",
-    "name": "S Eichborndamm",
-    "latitude": 52.577688,
-    "longitude": 13.317219,
-    "stops": {
-      "S25": {
-        "latitude": 52.577688,
-        "longitude": 13.317219
-      }
-    }
-  },
-  "158": {
-    "id": "158",
-    "name": "S Eichwalde",
-    "latitude": 52.37124,
-    "longitude": 13.615279,
-    "stops": {
-      "S46": {
-        "latitude": 52.37124,
-        "longitude": 13.615279
-      },
-      "S8": {
-        "latitude": 52.37124,
-        "longitude": 13.615279
-      }
-    }
-  },
-  "9": {
-    "id": "9",
-    "name": "S Erkner Bhf",
-    "latitude": 52.427675,
-    "longitude": 13.752091,
-    "stops": {
-      "S3": {
-        "latitude": 52.427675,
-        "longitude": 13.752091
-      }
-    }
-  },
-  "138": {
-    "id": "138",
-    "name": "S Feuerbachstr.",
-    "latitude": 52.463431,
-    "longitude": 13.332339,
-    "stops": {
-      "S1": {
-        "latitude": 52.463431,
-        "longitude": 13.332339
-      }
-    }
-  },
-  "317": {
-    "id": "317",
-    "name": "S Flughafen BER–Terminal 1-2",
-    "latitude": 52.0,
-    "longitude": 13.0,
-    "stops": {
-      "S45": {
-        "latitude": 52.0,
-        "longitude": 13.0
-      },
-      "S9": {
-        "latitude": 52.0,
-        "longitude": 13.0
-      }
-    }
-  },
-  "316": {
-    "id": "316",
-    "name": "S Waßmannsdorf",
-    "latitude": 52.368474,
-    "longitude": 13.463511,
-    "stops": {
-      "S45": {
-        "latitude": 52.368474,
-        "longitude": 13.463511
-      },
-      "S9": {
-        "latitude": 52.368474,
-        "longitude": 13.463511
-      }
-    }
-  },
-  "120": {
-    "id": "120",
-    "name": "S Fredersdorf",
-    "latitude": 52.526201,
-    "longitude": 13.760479,
-    "stops": {
-      "S5": {
-        "latitude": 52.526201,
-        "longitude": 13.760479
-      }
-    }
-  },
-  "136": {
-    "id": "136",
-    "name": "S Friedenau",
-    "latitude": 52.470498,
-    "longitude": 13.341152,
-    "stops": {
-      "S1": {
-        "latitude": 52.470498,
-        "longitude": 13.341152
-      }
-    }
-  },
-  "89": {
-    "id": "89",
-    "name": "S Friedrichsfelde Ost",
-    "latitude": 52.514058,
-    "longitude": 13.519948,
-    "stops": {
-      "S5": {
-        "latitude": 52.514058,
-        "longitude": 13.519948
-      },
-      "S7": {
-        "latitude": 52.514058,
-        "longitude": 13.519948
-      },
-      "S75": {
-        "latitude": 52.514058,
-        "longitude": 13.519948
-      }
-    }
-  },
-  "98": {
-    "id": "98",
-    "name": "S Friedrichshagen",
-    "latitude": 52.457329,
-    "longitude": 13.623213,
-    "stops": {
-      "S3": {
-        "latitude": 52.457329,
-        "longitude": 13.623213
-      }
-    }
-  },
-  "160": {
-    "id": "160",
-    "name": "S Frohnau",
-    "latitude": 52.632307,
-    "longitude": 13.29044,
-    "stops": {
-      "S1": {
-        "latitude": 52.632307,
-        "longitude": 13.29044
-      }
-    }
-  },
-  "79": {
-    "id": "79",
-    "name": "S Gehrenseestr.",
-    "latitude": 52.556471,
-    "longitude": 13.524843,
-    "stops": {
-      "S75": {
-        "latitude": 52.556471,
-        "longitude": 13.524843
-      }
-    }
-  },
-  "163": {
-    "id": "163",
-    "name": "S Greifswalder Str.",
-    "latitude": 52.540109,
-    "longitude": 13.439108,
-    "stops": {
-      "S41": {
-        "latitude": 52.540109,
-        "longitude": 13.439108
-      },
-      "S42": {
-        "latitude": 52.540109,
-        "longitude": 13.439108
-      },
-      "S8": {
-        "latitude": 52.540109,
-        "longitude": 13.439108
-      },
-      "S85": {
-        "latitude": 52.540109,
-        "longitude": 13.439108
-      }
-    }
-  },
-  "13": {
-    "id": "13",
-    "name": "S Griebnitzsee Bhf",
-    "latitude": 52.394161,
-    "longitude": 13.127876,
-    "stops": {
-      "S7": {
-        "latitude": 52.394161,
-        "longitude": 13.127876
-      }
-    }
-  },
-  "146": {
-    "id": "146",
-    "name": "S Grünau",
-    "latitude": 52.412432,
-    "longitude": 13.573957,
-    "stops": {
-      "S46": {
-        "latitude": 52.412432,
-        "longitude": 13.573957
-      },
-      "S8": {
-        "latitude": 52.412432,
-        "longitude": 13.573957
-      },
-      "S85": {
-        "latitude": 52.412432,
-        "longitude": 13.573957
-      }
-    }
-  },
-  "156": {
-    "id": "156",
-    "name": "S Grünbergallee",
-    "latitude": 52.399343,
-    "longitude": 13.541956,
-    "stops": {
-      "S45": {
-        "latitude": 52.399343,
-        "longitude": 13.541956
-      },
-      "S9": {
-        "latitude": 52.399343,
-        "longitude": 13.541956
-      }
-    }
-  },
-  "42": {
-    "id": "42",
-    "name": "S Grunewald",
-    "latitude": 52.48837,
-    "longitude": 13.260926,
-    "stops": {
-      "S7": {
-        "latitude": 52.48837,
-        "longitude": 13.260926
-      }
-    }
-  },
-  "66": {
-    "id": "66",
-    "name": "S Hackescher Markt",
-    "latitude": 52.522663,
-    "longitude": 13.402462,
-    "stops": {
-      "S3": {
-        "latitude": 52.522663,
-        "longitude": 13.402462
-      },
-      "S5": {
-        "latitude": 52.522663,
-        "longitude": 13.402462
-      },
-      "S7": {
-        "latitude": 52.522663,
-        "longitude": 13.402462
-      },
-      "S9": {
-        "latitude": 52.522663,
-        "longitude": 13.402462
-      }
-    }
-  },
-  "38": {
-    "id": "38",
-    "name": "S Halensee",
-    "latitude": 52.496038,
-    "longitude": 13.290596,
-    "stops": {
-      "S41": {
-        "latitude": 52.496038,
-        "longitude": 13.290596
-      },
-      "S42": {
-        "latitude": 52.496038,
-        "longitude": 13.290596
-      },
-      "S46": {
-        "latitude": 52.496038,
-        "longitude": 13.290596
-      }
-    }
-  },
-  "36": {
-    "id": "36",
-    "name": "S Heerstr.",
-    "latitude": 52.507814,
-    "longitude": 13.259813,
-    "stops": {
-      "S3": {
-        "latitude": 52.507814,
-        "longitude": 13.259813
-      },
-      "S9": {
-        "latitude": 52.507814,
-        "longitude": 13.259813
-      }
-    }
-  },
-  "117": {
-    "id": "117",
-    "name": "S Hegermühle",
-    "latitude": 52.548574,
-    "longitude": 13.86654,
-    "stops": {
-      "S5": {
-        "latitude": 52.548574,
-        "longitude": 13.86654
-      }
-    }
-  },
-  "62": {
-    "id": "62",
-    "name": "S Heiligensee",
-    "latitude": 52.624476,
-    "longitude": 13.229361,
-    "stops": {
-      "S25": {
-        "latitude": 52.624476,
-        "longitude": 13.229361
-      }
-    }
-  },
-  "21": {
-    "id": "21",
-    "name": "S Hennigsdorf Bhf",
-    "latitude": 52.638536,
-    "longitude": 13.205695,
-    "stops": {
-      "S25": {
-        "latitude": 52.638536,
-        "longitude": 13.205695
-      }
-    }
-  },
-  "154": {
-    "id": "154",
-    "name": "S Hermsdorf",
-    "latitude": 52.617336,
-    "longitude": 13.307756,
-    "stops": {
-      "S1": {
-        "latitude": 52.617336,
-        "longitude": 13.307756
-      }
-    }
-  },
-  "97": {
-    "id": "97",
-    "name": "S Hirschgarten",
-    "latitude": 52.45795,
-    "longitude": 13.603123,
-    "stops": {
-      "S3": {
-        "latitude": 52.45795,
-        "longitude": 13.603123
-      }
-    }
-  },
-  "109": {
-    "id": "109",
-    "name": "S Hohen Neuendorf",
-    "latitude": 52.668645,
-    "longitude": 13.286992,
-    "stops": {
-      "S1": {
-        "latitude": 52.668645,
-        "longitude": 13.286992
-      },
-      "S8": {
-        "latitude": 52.668645,
-        "longitude": 13.286992
-      }
-    }
-  },
-  "8": {
-    "id": "8",
-    "name": "S Hohenschönhausen Bhf",
-    "latitude": 52.566014,
-    "longitude": 13.512471,
-    "stops": {
-      "S75": {
-        "latitude": 52.566014,
-        "longitude": 13.512471
-      }
-    }
-  },
-  "39": {
-    "id": "39",
-    "name": "S Hohenzollerndamm",
-    "latitude": 52.488671,
-    "longitude": 13.300271,
-    "stops": {
-      "S41": {
-        "latitude": 52.488671,
-        "longitude": 13.300271
-      },
-      "S42": {
-        "latitude": 52.488671,
-        "longitude": 13.300271
-      },
-      "S46": {
-        "latitude": 52.488671,
-        "longitude": 13.300271
-      }
-    }
-  },
-  "122": {
-    "id": "122",
-    "name": "S Hoppegarten",
-    "latitude": 52.518109,
-    "longitude": 13.673978,
-    "stops": {
-      "S5": {
-        "latitude": 52.518109,
-        "longitude": 13.673978
-      }
-    }
-  },
-  "128": {
-    "id": "128",
-    "name": "S Humboldthain",
-    "latitude": 52.544883,
-    "longitude": 13.379364,
-    "stops": {
-      "S1": {
-        "latitude": 52.544883,
-        "longitude": 13.379364
-      },
-      "S2": {
-        "latitude": 52.544883,
-        "longitude": 13.379364
-      },
-      "S25": {
-        "latitude": 52.544883,
-        "longitude": 13.379364
-      },
-      "S26": {
-        "latitude": 52.544883,
-        "longitude": 13.379364
-      }
-    }
-  },
-  "104": {
-    "id": "104",
-    "name": "S Johannisthal",
-    "latitude": 52.44662,
-    "longitude": 13.524071,
-    "stops": {
-      "S45": {
-        "latitude": 52.44662,
-        "longitude": 13.524071
-      },
-      "S46": {
-        "latitude": 52.44662,
-        "longitude": 13.524071
-      },
-      "S8": {
-        "latitude": 52.44662,
-        "longitude": 13.524071
-      },
-      "S85": {
-        "latitude": 52.44662,
-        "longitude": 13.524071
-      },
-      "S9": {
-        "latitude": 52.44662,
-        "longitude": 13.524071
-      }
-    }
-  },
-  "152": {
-    "id": "152",
-    "name": "S Julius-Leber-Brücke",
-    "latitude": 52.48645,
-    "longitude": 13.361028,
-    "stops": {
-      "S1": {
-        "latitude": 52.48645,
-        "longitude": 13.361028
-      }
-    }
-  },
-  "83": {
-    "id": "83",
-    "name": "S Karlshorst",
-    "latitude": 52.480538,
-    "longitude": 13.527019,
-    "stops": {
-      "S3": {
-        "latitude": 52.480538,
-        "longitude": 13.527019
-      }
-    }
-  },
-  "77": {
-    "id": "77",
-    "name": "S Karow Bhf",
-    "latitude": 52.615235,
-    "longitude": 13.469409,
-    "stops": {
-      "S2": {
-        "latitude": 52.615235,
-        "longitude": 13.469409
-      }
-    }
-  },
-  "92": {
-    "id": "92",
-    "name": "S Kaulsdorf",
-    "latitude": 52.512165,
-    "longitude": 13.590481,
-    "stops": {
-      "S5": {
-        "latitude": 52.512165,
-        "longitude": 13.590481
-      }
-    }
-  },
-  "56": {
-    "id": "56",
-    "name": "S Köllnische Heide",
-    "latitude": 52.469676,
-    "longitude": 13.46806,
-    "stops": {
-      "S45": {
-        "latitude": 52.469676,
-        "longitude": 13.46806
-      },
-      "S46": {
-        "latitude": 52.469676,
-        "longitude": 13.46806
-      },
-      "S47": {
-        "latitude": 52.469676,
-        "longitude": 13.46806
-      }
-    }
-  },
-  "19": {
-    "id": "19",
-    "name": "S Königs Wusterhausen Bhf",
-    "latitude": 52.296662,
-    "longitude": 13.631318,
-    "stops": {
-      "S46": {
-        "latitude": 52.296662,
-        "longitude": 13.631318
-      }
-    }
-  },
-  "94": {
-    "id": "94",
-    "name": "S Köpenick",
-    "latitude": 52.458653,
-    "longitude": 13.581491,
-    "stops": {
-      "S3": {
-        "latitude": 52.458653,
-        "longitude": 13.581491
-      }
-    }
-  },
-  "164": {
-    "id": "164",
-    "name": "S Landsberger Allee",
-    "latitude": 52.529316,
-    "longitude": 13.45484,
-    "stops": {
-      "S41": {
-        "latitude": 52.529316,
-        "longitude": 13.45484
-      },
-      "S42": {
-        "latitude": 52.529316,
-        "longitude": 13.45484
-      },
-      "S8": {
-        "latitude": 52.529316,
-        "longitude": 13.45484
-      },
-      "S85": {
-        "latitude": 52.529316,
-        "longitude": 13.45484
-      }
-    }
-  },
-  "48": {
-    "id": "48",
-    "name": "S Lankwitz",
-    "latitude": 52.438757,
-    "longitude": 13.342041,
-    "stops": {
-      "S25": {
-        "latitude": 52.438757,
-        "longitude": 13.342041
-      },
-      "S26": {
-        "latitude": 52.438757,
-        "longitude": 13.342041
-      }
-    }
-  },
-  "107": {
-    "id": "107",
-    "name": "S Lehnitz",
-    "latitude": 52.74118,
-    "longitude": 13.263457,
-    "stops": {
-      "S1": {
-        "latitude": 52.74118,
-        "longitude": 13.263457
-      }
-    }
-  },
-  "53": {
-    "id": "53",
-    "name": "S Lichtenrade",
-    "latitude": 52.389074,
-    "longitude": 13.395568,
-    "stops": {
-      "S2": {
-        "latitude": 52.389074,
-        "longitude": 13.395568
-      }
-    }
-  },
-  "7": {
-    "id": "7",
-    "name": "S Lichterfelde Ost Bhf",
-    "latitude": 52.429576,
-    "longitude": 13.328766,
-    "stops": {
-      "S25": {
-        "latitude": 52.429576,
-        "longitude": 13.328766
-      },
-      "S26": {
-        "latitude": 52.429576,
-        "longitude": 13.328766
-      }
-    }
-  },
-  "46": {
-    "id": "46",
-    "name": "S Lichterfelde Süd",
-    "latitude": 52.41025,
-    "longitude": 13.308587,
-    "stops": {
-      "S25": {
-        "latitude": 52.41025,
-        "longitude": 13.308587
-      },
-      "S26": {
-        "latitude": 52.41025,
-        "longitude": 13.308587
-      }
-    }
-  },
-  "139": {
-    "id": "139",
-    "name": "S Lichterfelde West",
-    "latitude": 52.443216,
-    "longitude": 13.293109,
-    "stops": {
-      "S1": {
-        "latitude": 52.443216,
-        "longitude": 13.293109
-      }
-    }
-  },
-  "114": {
-    "id": "114",
-    "name": "S Mahlow",
-    "latitude": 52.360777,
-    "longitude": 13.407878,
-    "stops": {
-      "S2": {
-        "latitude": 52.360777,
-        "longitude": 13.407878
-      }
-    }
-  },
-  "93": {
-    "id": "93",
-    "name": "S Mahlsdorf Bhf",
-    "latitude": 52.512253,
-    "longitude": 13.610598,
-    "stops": {
-      "S5": {
-        "latitude": 52.512253,
-        "longitude": 13.610598
-      }
-    }
-  },
-  "52": {
-    "id": "52",
-    "name": "S Marienfelde",
-    "latitude": 52.424278,
-    "longitude": 13.374587,
-    "stops": {
-      "S2": {
-        "latitude": 52.424278,
-        "longitude": 13.374587
-      }
-    }
-  },
-  "84": {
-    "id": "84",
-    "name": "S Marzahn",
-    "latitude": 52.543259,
-    "longitude": 13.541126,
-    "stops": {
-      "S7": {
-        "latitude": 52.543259,
-        "longitude": 13.541126
-      }
-    }
-  },
-  "86": {
-    "id": "86",
-    "name": "S Mehrower Allee",
-    "latitude": 52.557752,
-    "longitude": 13.553721,
-    "stops": {
-      "S7": {
-        "latitude": 52.557752,
-        "longitude": 13.553721
-      }
-    }
-  },
-  "31": {
-    "id": "31",
-    "name": "S Messe Nord/ICC",
-    "latitude": 52.50779,
-    "longitude": 13.283458,
-    "stops": {
-      "S41": {
-        "latitude": 52.50779,
-        "longitude": 13.283458
-      },
-      "S42": {
-        "latitude": 52.50779,
-        "longitude": 13.283458
-      },
-      "S46": {
-        "latitude": 52.50779,
-        "longitude": 13.283458
-      }
-    }
-  },
-  "34": {
-    "id": "34",
-    "name": "S Messe Süd",
-    "latitude": 52.498568,
-    "longitude": 13.270392,
-    "stops": {
-      "S3": {
-        "latitude": 52.498568,
-        "longitude": 13.270392
-      },
-      "S9": {
-        "latitude": 52.498568,
-        "longitude": 13.270392
-      }
-    }
-  },
-  "131": {
-    "id": "131",
-    "name": "S Mexikoplatz",
-    "latitude": 52.436783,
-    "longitude": 13.233258,
-    "stops": {
-      "S1": {
-        "latitude": 52.436783,
-        "longitude": 13.233258
-      }
-    }
-  },
-  "112": {
-    "id": "112",
-    "name": "S Mühlenbeck-Mönchmühle",
-    "latitude": 52.654763,
-    "longitude": 13.386172,
-    "stops": {
-      "S8": {
-        "latitude": 52.654763,
-        "longitude": 13.386172
-      }
-    }
-  },
-  "121": {
-    "id": "121",
-    "name": "S Neuenhagen",
-    "latitude": 52.52078,
-    "longitude": 13.700395,
-    "stops": {
-      "S5": {
-        "latitude": 52.52078,
-        "longitude": 13.700395
-      }
-    }
-  },
-  "133": {
-    "id": "133",
-    "name": "S Nikolassee",
-    "latitude": 52.431802,
-    "longitude": 13.194064,
-    "stops": {
-      "S1": {
-        "latitude": 52.431802,
-        "longitude": 13.194064
-      },
-      "S7": {
-        "latitude": 52.431802,
-        "longitude": 13.194064
-      }
-    }
-  },
-  "82": {
-    "id": "82",
-    "name": "S Nöldnerplatz",
-    "latitude": 52.503801,
-    "longitude": 13.485385,
-    "stops": {
-      "S5": {
-        "latitude": 52.503801,
-        "longitude": 13.485385
-      },
-      "S7": {
-        "latitude": 52.503801,
-        "longitude": 13.485385
-      },
-      "S75": {
-        "latitude": 52.503801,
-        "longitude": 13.485385
-      }
-    }
-  },
-  "149": {
-    "id": "149",
-    "name": "S Nordbahnhof",
-    "latitude": 52.532334,
-    "longitude": 13.387507,
-    "stops": {
-      "S1": {
-        "latitude": 52.532334,
-        "longitude": 13.387507
-      },
-      "S2": {
-        "latitude": 52.532334,
-        "longitude": 13.387507
-      },
-      "S25": {
-        "latitude": 52.532334,
-        "longitude": 13.387507
-      },
-      "S26": {
-        "latitude": 52.532334,
-        "longitude": 13.387507
-      }
-    }
-  },
-  "103": {
-    "id": "103",
-    "name": "S Oberspree",
-    "latitude": 52.452447,
-    "longitude": 13.538028,
-    "stops": {
-      "S47": {
-        "latitude": 52.452447,
-        "longitude": 13.538028
-      }
-    }
-  },
-  "33": {
-    "id": "33",
-    "name": "S Olympiastadion",
-    "latitude": 52.511293,
-    "longitude": 13.242806,
-    "stops": {
-      "S3": {
-        "latitude": 52.511293,
-        "longitude": 13.242806
-      },
-      "S9": {
-        "latitude": 52.511293,
-        "longitude": 13.242806
-      }
-    }
-  },
-  "20": {
-    "id": "20",
-    "name": "S Oranienburg Bhf",
-    "latitude": 52.754118,
-    "longitude": 13.24944,
-    "stops": {
-      "S1": {
-        "latitude": 52.754118,
-        "longitude": 13.24944
-      }
-    }
-  },
-  "1": {
-    "id": "1",
-    "name": "S Oranienburger Str.",
-    "latitude": 52.524724,
-    "longitude": 13.392833,
-    "stops": {
-      "S1": {
-        "latitude": 52.524724,
-        "longitude": 13.392833
-      },
-      "S2": {
-        "latitude": 52.524724,
-        "longitude": 13.392833
-      },
-      "S25": {
-        "latitude": 52.524724,
-        "longitude": 13.392833
-      },
-      "S26": {
-        "latitude": 52.524724,
-        "longitude": 13.392833
-      }
-    }
-  },
-  "47": {
-    "id": "47",
-    "name": "S Osdorfer Str.",
-    "latitude": 52.418911,
-    "longitude": 13.314214,
-    "stops": {
-      "S25": {
-        "latitude": 52.418911,
-        "longitude": 13.314214
-      },
-      "S26": {
-        "latitude": 52.418911,
-        "longitude": 13.314214
-      }
-    }
-  },
-  "5": {
-    "id": "5",
-    "name": "S Ostbahnhof",
-    "latitude": 52.510244,
-    "longitude": 13.434586,
-    "stops": {
-      "S3": {
-        "latitude": 52.510244,
-        "longitude": 13.434586
-      },
-      "S5": {
-        "latitude": 52.510244,
-        "longitude": 13.434586
-      },
-      "S7": {
-        "latitude": 52.510244,
-        "longitude": 13.434586
-      },
-      "S9": {
-        "latitude": 52.510244,
-        "longitude": 13.434586
-      }
-    }
-  },
-  "71": {
-    "id": "71",
-    "name": "S Ostkreuz Bhf",
-    "latitude": 52.503509,
-    "longitude": 13.468841,
-    "stops": {
-      "S3": {
-        "latitude": 52.503509,
-        "longitude": 13.468841
-      },
-      "S41": {
-        "latitude": 52.503509,
-        "longitude": 13.468841
-      },
-      "S42": {
-        "latitude": 52.503509,
-        "longitude": 13.468841
-      },
-      "S5": {
-        "latitude": 52.503509,
-        "longitude": 13.468841
-      },
-      "S7": {
-        "latitude": 52.503509,
-        "longitude": 13.468841
-      },
-      "S75": {
-        "latitude": 52.503509,
-        "longitude": 13.468841
-      },
-      "S8": {
-        "latitude": 52.503509,
-        "longitude": 13.468841
-      },
-      "S85": {
-        "latitude": 52.503509,
-        "longitude": 13.468841
-      }
-    }
-  },
-  "72": {
-    "id": "72",
-    "name": "S Pankow-Heinersdorf",
-    "latitude": 52.578081,
-    "longitude": 13.429448,
-    "stops": {
-      "S2": {
-        "latitude": 52.578081,
-        "longitude": 13.429448
-      },
-      "S8": {
-        "latitude": 52.578081,
-        "longitude": 13.429448
-      }
-    }
-  },
-  "119": {
-    "id": "119",
-    "name": "S Petershagen Nord",
-    "latitude": 52.528882,
-    "longitude": 13.78937,
-    "stops": {
-      "S5": {
-        "latitude": 52.528882,
-        "longitude": 13.78937
-      }
-    }
-  },
-  "35": {
-    "id": "35",
-    "name": "S Pichelsberg",
-    "latitude": 52.510181,
-    "longitude": 13.227417,
-    "stops": {
-      "S3": {
-        "latitude": 52.510181,
-        "longitude": 13.227417
-      },
-      "S9": {
-        "latitude": 52.510181,
-        "longitude": 13.227417
-      }
-    }
-  },
-  "102": {
-    "id": "102",
-    "name": "S Plänterwald",
-    "latitude": 52.478467,
-    "longitude": 13.47327,
-    "stops": {
-      "S8": {
-        "latitude": 52.478467,
-        "longitude": 13.47327
-      },
-      "S85": {
-        "latitude": 52.478467,
-        "longitude": 13.47327
-      },
-      "S9": {
-        "latitude": 52.478467,
-        "longitude": 13.47327
-      }
-    }
-  },
-  "87": {
-    "id": "87",
-    "name": "S Poelchaustr.",
-    "latitude": 52.53564,
-    "longitude": 13.53555,
-    "stops": {
-      "S7": {
-        "latitude": 52.53564,
-        "longitude": 13.53555
-      }
-    }
-  },
-  "3": {
-    "id": "3",
-    "name": "S Potsdam Hauptbahnhof",
-    "latitude": 52.391581,
-    "longitude": 13.06674,
-    "stops": {
-    }
-  },
-  "69": {
-    "id": "69",
-    "name": "S Prenzlauer Allee",
-    "latitude": 52.544757,
-    "longitude": 13.425865,
-    "stops": {
-      "S41": {
-        "latitude": 52.544757,
-        "longitude": 13.425865
-      },
-      "S42": {
-        "latitude": 52.544757,
-        "longitude": 13.425865
-      },
-      "S8": {
-        "latitude": 52.544757,
-        "longitude": 13.425865
-      },
-      "S85": {
-        "latitude": 52.544757,
-        "longitude": 13.425865
-      }
-    }
-  },
-  "44": {
-    "id": "44",
-    "name": "S Priesterweg",
-    "latitude": 52.459921,
-    "longitude": 13.356187,
-    "stops": {
-      "S2": {
-        "latitude": 52.459921,
-        "longitude": 13.356187
-      },
-      "S25": {
-        "latitude": 52.459921,
-        "longitude": 13.356187
-      },
-      "S26": {
-        "latitude": 52.459921,
-        "longitude": 13.356187
-      }
-    }
-  },
-  "99": {
-    "id": "99",
-    "name": "S Rahnsdorf",
-    "latitude": 52.451598,
-    "longitude": 13.689921,
-    "stops": {
-      "S3": {
-        "latitude": 52.451598,
-        "longitude": 13.689921
-      }
-    }
-  },
-  "85": {
-    "id": "85",
-    "name": "S Raoul-Wallenberg-Str.",
-    "latitude": 52.550735,
-    "longitude": 13.547678,
-    "stops": {
-      "S7": {
-        "latitude": 52.550735,
-        "longitude": 13.547678
-      }
-    }
-  },
-  "125": {
-    "id": "125",
-    "name": "S Röntgental",
-    "latitude": 52.648633,
-    "longitude": 13.513405,
-    "stops": {
-      "S2": {
-        "latitude": 52.648633,
-        "longitude": 13.513405
-      }
-    }
-  },
-  "80": {
-    "id": "80",
-    "name": "S Rummelsburg",
-    "latitude": 52.501235,
-    "longitude": 13.478701,
-    "stops": {
-      "S3": {
-        "latitude": 52.501235,
-        "longitude": 13.478701
-      }
-    }
-  },
-  "32": {
-    "id": "32",
-    "name": "S Savignyplatz",
-    "latitude": 52.505117,
-    "longitude": 13.319066,
-    "stops": {
-      "S3": {
-        "latitude": 52.505117,
-        "longitude": 13.319066
-      },
-      "S5": {
-        "latitude": 52.505117,
-        "longitude": 13.319066
-      },
-      "S7": {
-        "latitude": 52.505117,
-        "longitude": 13.319066
-      },
-      "S9": {
-        "latitude": 52.505117,
-        "longitude": 13.319066
-      }
-    }
-  },
-  "54": {
-    "id": "54",
-    "name": "S Schichauweg",
-    "latitude": 52.399129,
-    "longitude": 13.388959,
-    "stops": {
-      "S2": {
-        "latitude": 52.399129,
-        "longitude": 13.388959
-      }
-    }
-  },
-  "132": {
-    "id": "132",
-    "name": "S Schlachtensee",
-    "latitude": 52.440146,
-    "longitude": 13.215488,
-    "stops": {
-      "S1": {
-        "latitude": 52.440146,
-        "longitude": 13.215488
-      }
-    }
-  },
-  "134": {
-    "id": "134",
-    "name": "S Schöneberg",
-    "latitude": 52.479248,
-    "longitude": 13.351921,
-    "stops": {
-      "S1": {
-        "latitude": 52.479248,
-        "longitude": 13.351921
-      },
-      "S41": {
-        "latitude": 52.479248,
-        "longitude": 13.351921
-      },
-      "S42": {
-        "latitude": 52.479248,
-        "longitude": 13.351921
-      },
-      "S46": {
-        "latitude": 52.479248,
-        "longitude": 13.351921
-      }
-    }
-  },
-  "12": {
-    "id": "12",
-    "name": "S Schöneweide Bhf",
-    "latitude": 52.454622,
-    "longitude": 13.509517,
-    "stops": {
-      "S45": {
-        "latitude": 52.454622,
-        "longitude": 13.509517
-      },
-      "S46": {
-        "latitude": 52.454622,
-        "longitude": 13.509517
-      },
-      "S47": {
-        "latitude": 52.454622,
-        "longitude": 13.509517
-      },
-      "S8": {
-        "latitude": 52.454622,
-        "longitude": 13.509517
-      },
-      "S85": {
-        "latitude": 52.454622,
-        "longitude": 13.509517
-      },
-      "S9": {
-        "latitude": 52.454622,
-        "longitude": 13.509517
-      }
-    }
-  },
   "111": {
     "id": "111",
-    "name": "S Schönfließ",
-    "latitude": 52.664629,
-    "longitude": 13.340528,
-    "stops": {
-      "S8": {
-        "latitude": 52.664629,
-        "longitude": 13.340528
-      }
-    }
-  },
-  "60": {
-    "id": "60",
-    "name": "S Schönholz",
-    "latitude": 52.571473,
-    "longitude": 13.381121,
-    "stops": {
-      "S1": {
-        "latitude": 52.571473,
-        "longitude": 13.381121
-      },
-      "S25": {
-        "latitude": 52.571473,
-        "longitude": 13.381121
-      },
-      "S26": {
-        "latitude": 52.571473,
-        "longitude": 13.381121
-      }
-    }
-  },
-  "63": {
-    "id": "63",
-    "name": "S Schulzendorf",
-    "latitude": 52.612931,
-    "longitude": 13.246032,
-    "stops": {
-      "S25": {
-        "latitude": 52.612931,
-        "longitude": 13.246032
-      }
-    }
-  },
-  "55": {
-    "id": "55",
-    "name": "S Sonnenallee",
-    "latitude": 52.47299,
-    "longitude": 13.455632,
-    "stops": {
-      "S41": {
-        "latitude": 52.47299,
-        "longitude": 13.455632
-      },
-      "S42": {
-        "latitude": 52.47299,
-        "longitude": 13.455632
-      }
-    }
-  },
-  "16": {
-    "id": "16",
-    "name": "S Spandau Bhf",
-    "latitude": 52.534667,
-    "longitude": 13.197191,
-    "stops": {
-      "S3": {
-        "latitude": 52.534667,
-        "longitude": 13.197191
-      },
-      "S9": {
-        "latitude": 52.534667,
-        "longitude": 13.197191
-      }
-    }
-  },
-  "96": {
-    "id": "96",
-    "name": "S Spindlersfeld",
-    "latitude": 52.447135,
-    "longitude": 13.561301,
-    "stops": {
-      "S47": {
-        "latitude": 52.447135,
-        "longitude": 13.561301
-      }
-    }
-  },
-  "90": {
-    "id": "90",
-    "name": "S Springpfuhl",
-    "latitude": 52.527086,
-    "longitude": 13.536604,
-    "stops": {
-      "S7": {
-        "latitude": 52.527086,
-        "longitude": 13.536604
-      },
-      "S75": {
-        "latitude": 52.527086,
-        "longitude": 13.536604
-      }
-    }
-  },
-  "165": {
-    "id": "165",
-    "name": "S Storkower Str.",
-    "latitude": 52.52366,
-    "longitude": 13.465047,
-    "stops": {
-      "S41": {
-        "latitude": 52.52366,
-        "longitude": 13.465047
-      },
-      "S42": {
-        "latitude": 52.52366,
-        "longitude": 13.465047
-      },
-      "S8": {
-        "latitude": 52.52366,
-        "longitude": 13.465047
-      },
-      "S85": {
-        "latitude": 52.52366,
-        "longitude": 13.465047
-      }
-    }
-  },
-  "118": {
-    "id": "118",
-    "name": "S Strausberg Bhf",
-    "latitude": 52.532203,
-    "longitude": 13.833259,
-    "stops": {
-      "S5": {
-        "latitude": 52.532203,
-        "longitude": 13.833259
-      }
-    }
-  },
-  "115": {
-    "id": "115",
-    "name": "S Strausberg Nord",
-    "latitude": 52.590294,
-    "longitude": 13.908476,
-    "stops": {
-      "S5": {
-        "latitude": 52.590294,
-        "longitude": 13.908476
-      }
-    }
-  },
-  "116": {
-    "id": "116",
-    "name": "S Strausberg Stadt",
-    "latitude": 52.576571,
-    "longitude": 13.88781,
-    "stops": {
-      "S5": {
-        "latitude": 52.576571,
-        "longitude": 13.88781
-      }
-    }
-  },
-  "106": {
-    "id": "106",
-    "name": "S Stresow",
-    "latitude": 52.531988,
-    "longitude": 13.209206,
-    "stops": {
-      "S3": {
-        "latitude": 52.531988,
-        "longitude": 13.209206
-      },
-      "S9": {
-        "latitude": 52.531988,
-        "longitude": 13.209206
-      }
-    }
-  },
-  "45": {
-    "id": "45",
-    "name": "S Südende",
-    "latitude": 52.448211,
-    "longitude": 13.353647,
-    "stops": {
-      "S25": {
-        "latitude": 52.448211,
-        "longitude": 13.353647
-      },
-      "S26": {
-        "latitude": 52.448211,
-        "longitude": 13.353647
-      }
-    }
-  },
-  "142": {
-    "id": "142",
-    "name": "S Südkreuz Bhf",
-    "latitude": 52.47619,
-    "longitude": 13.365085,
-    "stops": {
-      "S2": {
-        "latitude": 52.47619,
-        "longitude": 13.365085
-      },
-      "S25": {
-        "latitude": 52.47619,
-        "longitude": 13.365085
-      },
-      "S26": {
-        "latitude": 52.47619,
-        "longitude": 13.365085
-      },
-      "S41": {
-        "latitude": 52.47619,
-        "longitude": 13.365085
-      },
-      "S42": {
-        "latitude": 52.47619,
-        "longitude": 13.365085
-      },
-      "S45": {
-        "latitude": 52.47619,
-        "longitude": 13.365085
-      },
-      "S46": {
-        "latitude": 52.47619,
-        "longitude": 13.365085
-      }
-    }
-  },
-  "130": {
-    "id": "130",
-    "name": "S Sundgauer Str.",
-    "latitude": 52.436375,
-    "longitude": 13.273898,
-    "stops": {
-      "S1": {
-        "latitude": 52.436375,
-        "longitude": 13.273898
-      }
-    }
-  },
-  "61": {
-    "id": "61",
-    "name": "S Tegel",
-    "latitude": 52.588123,
-    "longitude": 13.289879,
-    "stops": {
-      "S25": {
-        "latitude": 52.588123,
-        "longitude": 13.289879
-      }
-    }
-  },
-  "143": {
-    "id": "143",
-    "name": "S Teltow Stadt",
-    "latitude": 52.396943,
-    "longitude": 13.276604,
-    "stops": {
-      "S25": {
-        "latitude": 52.396943,
-        "longitude": 13.276604
-      },
-      "S26": {
-        "latitude": 52.396943,
-        "longitude": 13.276604
-      }
-    }
-  },
-  "25": {
-    "id": "25",
-    "name": "S Tiergarten",
-    "latitude": 52.514419,
-    "longitude": 13.336536,
-    "stops": {
-      "S3": {
-        "latitude": 52.514419,
-        "longitude": 13.336536
-      },
-      "S5": {
-        "latitude": 52.514419,
-        "longitude": 13.336536
-      },
-      "S7": {
-        "latitude": 52.514419,
-        "longitude": 13.336536
-      },
-      "S9": {
-        "latitude": 52.514419,
-        "longitude": 13.336536
-      }
-    }
-  },
-  "167": {
-    "id": "167",
-    "name": "S Treptower Park",
-    "latitude": 52.493746,
-    "longitude": 13.461502,
-    "stops": {
-      "S41": {
-        "latitude": 52.493746,
-        "longitude": 13.461502
-      },
-      "S42": {
-        "latitude": 52.493746,
-        "longitude": 13.461502
-      },
-      "S8": {
-        "latitude": 52.493746,
-        "longitude": 13.461502
-      },
-      "S85": {
-        "latitude": 52.493746,
-        "longitude": 13.461502
-      },
-      "S9": {
-        "latitude": 52.493746,
-        "longitude": 13.461502
-      }
-    }
-  },
-  "161": {
-    "id": "161",
-    "name": "S Waidmannslust",
-    "latitude": 52.60632,
-    "longitude": 13.321223,
-    "stops": {
-      "S1": {
-        "latitude": 52.60632,
-        "longitude": 13.321223
-      },
-      "S26": {
-        "latitude": 52.60632,
-        "longitude": 13.321223
-      }
-    }
-  },
-  "17": {
-    "id": "17",
-    "name": "S Wannsee Bhf",
-    "latitude": 52.421222,
-    "longitude": 13.180028,
-    "stops": {
-      "S1": {
-        "latitude": 52.421222,
-        "longitude": 13.180028
-      },
-      "S7": {
-        "latitude": 52.421222,
-        "longitude": 13.180028
-      }
-    }
-  },
-  "78": {
-    "id": "78",
-    "name": "S Wartenberg",
-    "latitude": 52.573076,
-    "longitude": 13.50379,
-    "stops": {
-      "S75": {
-        "latitude": 52.573076,
-        "longitude": 13.50379
-      }
-    }
-  },
-  "37": {
-    "id": "37",
-    "name": "S Westend",
-    "latitude": 52.517888,
-    "longitude": 13.284378,
-    "stops": {
-      "S41": {
-        "latitude": 52.517888,
-        "longitude": 13.284378
-      },
-      "S42": {
-        "latitude": 52.517888,
-        "longitude": 13.284378
-      },
-      "S46": {
-        "latitude": 52.517888,
-        "longitude": 13.284378
-      }
-    }
-  },
-  "30": {
-    "id": "30",
-    "name": "S Westkreuz",
-    "latitude": 52.501095,
-    "longitude": 13.284364,
-    "stops": {
-      "S3": {
-        "latitude": 52.501095,
-        "longitude": 13.284364
-      },
-      "S41": {
-        "latitude": 52.501095,
-        "longitude": 13.284364
-      },
-      "S42": {
-        "latitude": 52.501095,
-        "longitude": 13.284364
-      },
-      "S46": {
-        "latitude": 52.501095,
-        "longitude": 13.284364
-      },
-      "S5": {
-        "latitude": 52.501095,
-        "longitude": 13.284364
-      },
-      "S7": {
-        "latitude": 52.501095,
-        "longitude": 13.284364
-      },
-      "S9": {
-        "latitude": 52.501095,
-        "longitude": 13.284364
-      }
-    }
-  },
-  "157": {
-    "id": "157",
-    "name": "S Wildau",
-    "latitude": 52.319311,
-    "longitude": 13.63384,
-    "stops": {
-      "S46": {
-        "latitude": 52.319311,
-        "longitude": 13.63384
-      }
-    }
-  },
-  "100": {
-    "id": "100",
-    "name": "S Wilhelmshagen",
-    "latitude": 52.438536,
-    "longitude": 13.722166,
-    "stops": {
-      "S3": {
-        "latitude": 52.438536,
-        "longitude": 13.722166
-      }
-    }
-  },
-  "141": {
-    "id": "141",
-    "name": "S Wilhelmsruh",
-    "latitude": 52.581656,
-    "longitude": 13.362192,
-    "stops": {
-      "S1": {
-        "latitude": 52.581656,
-        "longitude": 13.362192
-      },
-      "S26": {
-        "latitude": 52.581656,
-        "longitude": 13.362192
-      }
-    }
-  },
-  "74": {
-    "id": "74",
-    "name": "S Wollankstr.",
-    "latitude": 52.565329,
-    "longitude": 13.392139,
-    "stops": {
-      "S1": {
-        "latitude": 52.565329,
-        "longitude": 13.392139
-      },
-      "S25": {
-        "latitude": 52.565329,
-        "longitude": 13.392139
-      },
-      "S26": {
-        "latitude": 52.565329,
-        "longitude": 13.392139
-      }
-    }
-  },
-  "95": {
-    "id": "95",
-    "name": "S Wuhlheide",
-    "latitude": 52.468668,
-    "longitude": 13.55424,
-    "stops": {
-      "S3": {
-        "latitude": 52.468668,
-        "longitude": 13.55424
-      }
-    }
-  },
-  "129": {
-    "id": "129",
-    "name": "S Zehlendorf",
-    "latitude": 52.430997,
-    "longitude": 13.258035,
-    "stops": {
-      "S1": {
-        "latitude": 52.430997,
-        "longitude": 13.258035
-      }
-    }
-  },
-  "124": {
-    "id": "124",
-    "name": "S Zepernick",
-    "latitude": 52.65986,
-    "longitude": 13.534081,
-    "stops": {
-      "S2": {
-        "latitude": 52.65986,
-        "longitude": 13.534081
-      }
-    }
-  },
-  "153": {
-    "id": "153",
-    "name": "S Zeuthen",
-    "latitude": 52.348641,
-    "longitude": 13.627388,
-    "stops": {
-      "S46": {
-        "latitude": 52.348641,
-        "longitude": 13.627388
-      },
-      "S8": {
-        "latitude": 52.348641,
-        "longitude": 13.627388
-      }
-    }
-  },
-  "6": {
-    "id": "6",
-    "name": "S+U Alexanderplatz Bhf",
-    "latitude": 52.52145,
-    "longitude": 13.411009,
-    "stops": {
-      "U2": {
-        "latitude": 52.52145,
-        "longitude": 13.411009
-      },
-      "U5": {
-        "latitude": 52.52145,
-        "longitude": 13.411009
-      },
-      "U8": {
-        "latitude": 52.52145,
-        "longitude": 13.411009
-      },
-      "S3": {
-        "latitude": 52.52145,
-        "longitude": 13.411009
-      },
-      "S5": {
-        "latitude": 52.52145,
-        "longitude": 13.411009
-      },
-      "S7": {
-        "latitude": 52.52145,
-        "longitude": 13.411009
-      },
-      "S9": {
-        "latitude": 52.52145,
-        "longitude": 13.411009
-      }
-    }
-  },
-  "26": {
-    "id": "26",
-    "name": "S+U Berlin Hauptbahnhof",
-    "latitude": 52.525147,
-    "longitude": 13.369354,
-    "stops": {
-      "U5": {
-        "latitude": 52.525147,
-        "longitude": 13.369354
-      }
-    }
-  },
-  "151": {
-    "id": "151",
-    "name": "S+U Brandenburger Tor",
-    "latitude": 52.516351,
-    "longitude": 13.38169,
-    "stops": {
-      "U5": {
-        "latitude": 52.516351,
-        "longitude": 13.38169
-      },
-      "S1": {
-        "latitude": 52.516351,
-        "longitude": 13.38169
-      },
-      "S2": {
-        "latitude": 52.516351,
-        "longitude": 13.38169
-      },
-      "S25": {
-        "latitude": 52.516351,
-        "longitude": 13.38169
-      },
-      "S26": {
-        "latitude": 52.516351,
-        "longitude": 13.38169
-      }
-    }
-  },
-  "40": {
-    "id": "40",
-    "name": "S+U Bundesplatz",
-    "latitude": 52.477687,
-    "longitude": 13.329539,
-    "stops": {
-      "S41": {
-        "latitude": 52.477687,
-        "longitude": 13.329539
-      },
-      "S42": {
-        "latitude": 52.477687,
-        "longitude": 13.329539
-      },
-      "S46": {
-        "latitude": 52.477687,
-        "longitude": 13.329539
-      }
-    }
-  },
-  "166": {
-    "id": "166",
-    "name": "S+U Frankfurter Allee",
-    "latitude": 52.515383,
-    "longitude": 13.47428,
-    "stops": {
-      "U5": {
-        "latitude": 52.515383,
-        "longitude": 13.47428
-      },
-      "S41": {
-        "latitude": 52.515383,
-        "longitude": 13.47428
-      },
-      "S42": {
-        "latitude": 52.515383,
-        "longitude": 13.47428
-      },
-      "S8": {
-        "latitude": 52.515383,
-        "longitude": 13.47428
-      },
-      "S85": {
-        "latitude": 52.515383,
-        "longitude": 13.47428
-      }
-    }
-  },
-  "22": {
-    "id": "22",
-    "name": "S+U Friedrichstr. Bhf",
-    "latitude": 52.520125,
-    "longitude": 13.386598,
-    "stops": {
-      "U6": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      },
-      "S1": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      },
-      "S2": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      },
-      "S25": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      },
-      "S26": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      },
-      "S3": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      },
-      "S5": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      },
-      "S7": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      },
-      "S9": {
-        "latitude": 52.520125,
-        "longitude": 13.386598
-      }
-    }
-  },
-  "27": {
-    "id": "27",
-    "name": "S+U Gesundbrunnen Bhf",
-    "latitude": 52.549316,
-    "longitude": 13.389883,
-    "stops": {
-      "U8": {
-        "latitude": 52.549316,
-        "longitude": 13.389883
-      },
-      "S1": {
-        "latitude": 52.549316,
-        "longitude": 13.389883
-      },
-      "S2": {
-        "latitude": 52.549316,
-        "longitude": 13.389883
-      },
-      "S25": {
-        "latitude": 52.549316,
-        "longitude": 13.389883
-      },
-      "S26": {
-        "latitude": 52.549316,
-        "longitude": 13.389883
-      },
-      "S41": {
-        "latitude": 52.549316,
-        "longitude": 13.389883
-      },
-      "S42": {
-        "latitude": 52.549316,
-        "longitude": 13.389883
-      }
-    }
-  },
-  "41": {
-    "id": "41",
-    "name": "S+U Heidelberger Platz",
-    "latitude": 52.480059,
-    "longitude": 13.311856,
-    "stops": {
-      "U3": {
-        "latitude": 52.480059,
-        "longitude": 13.311856
-      },
-      "S41": {
-        "latitude": 52.480059,
-        "longitude": 13.311856
-      },
-      "S42": {
-        "latitude": 52.480059,
-        "longitude": 13.311856
-      },
-      "S46": {
-        "latitude": 52.480059,
-        "longitude": 13.311856
-      }
-    }
-  },
-  "58": {
-    "id": "58",
-    "name": "S+U Hermannstr.",
-    "latitude": 52.46769,
-    "longitude": 13.431204,
-    "stops": {
-      "U8": {
-        "latitude": 52.46769,
-        "longitude": 13.431204
-      },
-      "S41": {
-        "latitude": 52.46769,
-        "longitude": 13.431204
-      },
-      "S42": {
-        "latitude": 52.46769,
-        "longitude": 13.431204
-      },
-      "S45": {
-        "latitude": 52.46769,
-        "longitude": 13.431204
-      },
-      "S46": {
-        "latitude": 52.46769,
-        "longitude": 13.431204
-      },
-      "S47": {
-        "latitude": 52.46769,
-        "longitude": 13.431204
-      }
-    }
-  },
-  "43": {
-    "id": "43",
-    "name": "S+U Innsbrucker Platz",
-    "latitude": 52.478176,
-    "longitude": 13.341468,
-    "stops": {
-      "U4": {
-        "latitude": 52.478176,
-        "longitude": 13.341468
-      },
-      "S41": {
-        "latitude": 52.478176,
-        "longitude": 13.341468
-      },
-      "S42": {
-        "latitude": 52.478176,
-        "longitude": 13.341468
-      },
-      "S46": {
-        "latitude": 52.478176,
-        "longitude": 13.341468
-      }
-    }
-  },
-  "67": {
-    "id": "67",
-    "name": "S+U Jannowitzbrücke",
-    "latitude": 52.514193,
-    "longitude": 13.419471,
-    "stops": {
-      "U8": {
-        "latitude": 52.514193,
-        "longitude": 13.419471
-      },
-      "S3": {
-        "latitude": 52.514193,
-        "longitude": 13.419471
-      },
-      "S5": {
-        "latitude": 52.514193,
-        "longitude": 13.419471
-      },
-      "S7": {
-        "latitude": 52.514193,
-        "longitude": 13.419471
-      },
-      "S9": {
-        "latitude": 52.514193,
-        "longitude": 13.419471
-      }
-    }
-  },
-  "28": {
-    "id": "28",
-    "name": "S+U Jungfernheide Bhf",
-    "latitude": 52.530363,
-    "longitude": 13.299325,
-    "stops": {
-      "U7": {
-        "latitude": 52.530363,
-        "longitude": 13.299325
-      },
-      "S41": {
-        "latitude": 52.530363,
-        "longitude": 13.299325
-      },
-      "S42": {
-        "latitude": 52.530363,
-        "longitude": 13.299325
-      }
-    }
-  },
-  "65": {
-    "id": "65",
-    "name": "S+U Karl-Bonhoeffer-Nervenklinik",
-    "latitude": 52.578017,
-    "longitude": 13.328994,
-    "stops": {
-      "U8": {
-        "latitude": 52.578017,
-        "longitude": 13.328994
-      },
-      "S25": {
-        "latitude": 52.578017,
-        "longitude": 13.328994
-      }
-    }
-  },
-  "4": {
-    "id": "4",
-    "name": "S+U Lichtenberg Bhf",
-    "latitude": 52.510002,
-    "longitude": 13.49649,
-    "stops": {
-      "U5": {
-        "latitude": 52.510002,
-        "longitude": 13.49649
-      },
-      "S5": {
-        "latitude": 52.510002,
-        "longitude": 13.49649
-      },
-      "S7": {
-        "latitude": 52.510002,
-        "longitude": 13.49649
-      },
-      "S75": {
-        "latitude": 52.510002,
-        "longitude": 13.49649
-      }
-    }
-  },
-  "57": {
-    "id": "57",
-    "name": "S+U Neukölln",
-    "latitude": 52.469492,
-    "longitude": 13.443156,
-    "stops": {
-      "U7": {
-        "latitude": 52.469492,
-        "longitude": 13.443156
-      },
-      "S41": {
-        "latitude": 52.469492,
-        "longitude": 13.443156
-      },
-      "S42": {
-        "latitude": 52.469492,
-        "longitude": 13.443156
-      },
-      "S45": {
-        "latitude": 52.469492,
-        "longitude": 13.443156
-      },
-      "S46": {
-        "latitude": 52.469492,
-        "longitude": 13.443156
-      },
-      "S47": {
-        "latitude": 52.469492,
-        "longitude": 13.443156
-      }
-    }
-  },
-  "73": {
-    "id": "73",
-    "name": "S+U Pankow",
-    "latitude": 52.566222,
-    "longitude": 13.410354,
-    "stops": {
-      "U2": {
-        "latitude": 52.566222,
-        "longitude": 13.410354
-      },
-      "S2": {
-        "latitude": 52.566222,
-        "longitude": 13.410354
-      },
-      "S8": {
-        "latitude": 52.566222,
-        "longitude": 13.410354
-      },
-      "S85": {
-        "latitude": 52.566222,
-        "longitude": 13.410354
-      }
-    }
-  },
-  "148": {
-    "id": "148",
-    "name": "S+U Potsdamer Platz Bhf",
-    "latitude": 52.509605,
-    "longitude": 13.376454,
-    "stops": {
-      "U2": {
-        "latitude": 52.509605,
-        "longitude": 13.376454
-      },
-      "S1": {
-        "latitude": 52.509605,
-        "longitude": 13.376454
-      },
-      "S2": {
-        "latitude": 52.509605,
-        "longitude": 13.376454
-      },
-      "S25": {
-        "latitude": 52.509605,
-        "longitude": 13.376454
-      },
-      "S26": {
-        "latitude": 52.509605,
-        "longitude": 13.376454
-      }
-    }
-  },
-  "256": {
-    "id": "256",
-    "name": "S+U Rathaus Spandau",
-    "latitude": 52.535176,
-    "longitude": 13.199857,
-    "stops": {
-      "U7": {
-        "latitude": 52.535176,
-        "longitude": 13.199857
-      }
-    }
-  },
-  "137": {
-    "id": "137",
-    "name": "S+U Rathaus Steglitz",
-    "latitude": 52.45545,
-    "longitude": 13.322332,
-    "stops": {
-      "U9": {
-        "latitude": 52.45545,
-        "longitude": 13.322332
-      },
-      "S1": {
-        "latitude": 52.45545,
-        "longitude": 13.322332
-      }
-    }
-  },
-  "68": {
-    "id": "68",
-    "name": "S+U Schönhauser Allee",
-    "latitude": 52.549274,
-    "longitude": 13.415186,
-    "stops": {
-      "U2": {
-        "latitude": 52.549274,
-        "longitude": 13.415186
-      },
-      "S41": {
-        "latitude": 52.549274,
-        "longitude": 13.415186
-      },
-      "S42": {
-        "latitude": 52.549274,
-        "longitude": 13.415186
-      },
-      "S8": {
-        "latitude": 52.549274,
-        "longitude": 13.415186
-      },
-      "S85": {
-        "latitude": 52.549274,
-        "longitude": 13.415186
-      }
-    }
-  },
-  "49": {
-    "id": "49",
-    "name": "S+U Tempelhof",
-    "latitude": 52.471027,
-    "longitude": 13.384476,
-    "stops": {
-      "U6": {
-        "latitude": 52.471027,
-        "longitude": 13.384476
-      },
-      "S41": {
-        "latitude": 52.471027,
-        "longitude": 13.384476
-      },
-      "S42": {
-        "latitude": 52.471027,
-        "longitude": 13.384476
-      },
-      "S45": {
-        "latitude": 52.471027,
-        "longitude": 13.384476
-      },
-      "S46": {
-        "latitude": 52.471027,
-        "longitude": 13.384476
-      }
-    }
-  },
-  "159": {
-    "id": "159",
-    "name": "S+U Warschauer Str.",
-    "latitude": 52.506306,
-    "longitude": 13.450761,
-    "stops": {
-      "U1": {
-        "latitude": 52.506306,
-        "longitude": 13.450761
-      },
-      "S3": {
-        "latitude": 52.506306,
-        "longitude": 13.450761
-      },
-      "S5": {
-        "latitude": 52.506306,
-        "longitude": 13.450761
-      },
-      "S7": {
-        "latitude": 52.506306,
-        "longitude": 13.450761
-      },
-      "S75": {
-        "latitude": 52.506306,
-        "longitude": 13.450761
-      },
-      "S9": {
-        "latitude": 52.506306,
-        "longitude": 13.450761
-      }
-    }
-  },
-  "127": {
-    "id": "127",
-    "name": "S+U Wedding",
-    "latitude": 52.543042,
-    "longitude": 13.367693,
-    "stops": {
-      "U6": {
-        "latitude": 52.543042,
-        "longitude": 13.367693
-      },
-      "S41": {
-        "latitude": 52.543042,
-        "longitude": 13.367693
-      },
-      "S42": {
-        "latitude": 52.543042,
-        "longitude": 13.367693
-      }
-    }
-  },
-  "23": {
-    "id": "23",
-    "name": "S+U Westhafen",
-    "latitude": 52.536218,
-    "longitude": 13.344329,
-    "stops": {
-      "U9": {
-        "latitude": 52.536218,
-        "longitude": 13.344329
-      },
-      "S41": {
-        "latitude": 52.536218,
-        "longitude": 13.344329
-      },
-      "S42": {
-        "latitude": 52.536218,
-        "longitude": 13.344329
-      }
-    }
-  },
-  "162": {
-    "id": "162",
-    "name": "S+U Wittenau",
-    "latitude": 52.597097,
-    "longitude": 13.334311,
-    "stops": {
-      "U8": {
-        "latitude": 52.597097,
-        "longitude": 13.334311
-      },
-      "S1": {
-        "latitude": 52.597097,
-        "longitude": 13.334311
-      },
-      "S26": {
-        "latitude": 52.597097,
-        "longitude": 13.334311
-      }
-    }
-  },
-  "91": {
-    "id": "91",
-    "name": "S+U Wuhletal",
-    "latitude": 52.512452,
-    "longitude": 13.575181,
-    "stops": {
-      "U5": {
-        "latitude": 52.512452,
-        "longitude": 13.575181
-      },
-      "S5": {
-        "latitude": 52.512452,
-        "longitude": 13.575181
-      }
-    }
-  },
-  "145": {
-    "id": "145",
-    "name": "S+U Yorckstr.",
-    "latitude": 52.491339,
-    "longitude": 13.372006,
-    "stops": {
-      "U7": {
-        "latitude": 52.491339,
-        "longitude": 13.372006
-      },
-      "S2": {
-        "latitude": 52.491339,
-        "longitude": 13.372006
-      },
-      "S25": {
-        "latitude": 52.491339,
-        "longitude": 13.372006
-      },
-      "S26": {
-        "latitude": 52.491339,
-        "longitude": 13.372006
-      }
-    }
-  },
-  "135": {
-    "id": "135",
-    "name": "S+U Yorckstr.",
-    "latitude": 52.492301,
-    "longitude": 13.367777,
-    "stops": {
-      "U7": {
-        "latitude": 52.492301,
-        "longitude": 13.367777
-      },
-      "S1": {
-        "latitude": 52.492301,
-        "longitude": 13.367777
-      }
-    }
-  },
-  "15": {
-    "id": "15",
-    "name": "S+U Zoologischer Garten Bhf",
-    "latitude": 52.50762,
-    "longitude": 13.332927,
-    "stops": {
-      "U2": {
-        "latitude": 52.50762,
-        "longitude": 13.332927
-      },
-      "U9": {
-        "latitude": 52.50762,
-        "longitude": 13.332927
-      },
-      "S3": {
-        "latitude": 52.50762,
-        "longitude": 13.332927
-      },
-      "S5": {
-        "latitude": 52.50762,
-        "longitude": 13.332927
-      },
-      "S7": {
-        "latitude": 52.50762,
-        "longitude": 13.332927
-      },
-      "S9": {
-        "latitude": 52.50762,
-        "longitude": 13.332927
-      }
-    }
-  },
-  "268": {
-    "id": "268",
-    "name": "U Adenauerplatz",
-    "latitude": 52.499998,
-    "longitude": 13.307175,
-    "stops": {
-      "U7": {
-        "latitude": 52.499998,
-        "longitude": 13.307175
-      }
-    }
-  },
-  "240": {
-    "id": "240",
-    "name": "U Afrikanische Str.",
-    "latitude": 52.560199,
-    "longitude": 13.334557,
-    "stops": {
-      "U6": {
-        "latitude": 52.560199,
-        "longitude": 13.334557
-      }
-    }
-  },
-  "255": {
-    "id": "255",
-    "name": "U Alt-Mariendorf",
-    "latitude": 52.439865,
-    "longitude": 13.387371,
-    "stops": {
-      "U6": {
-        "latitude": 52.439865,
-        "longitude": 13.387371
-      }
-    }
-  },
-  "234": {
-    "id": "234",
-    "name": "U Alt-Tegel",
-    "latitude": 52.589238,
-    "longitude": 13.283905,
-    "stops": {
-      "U6": {
-        "latitude": 52.589238,
-        "longitude": 13.283905
-      }
-    }
-  },
-  "251": {
-    "id": "251",
-    "name": "U Alt-Tempelhof",
-    "latitude": 52.465382,
-    "longitude": 13.38558,
-    "stops": {
-      "U6": {
-        "latitude": 52.465382,
-        "longitude": 13.38558
-      }
-    }
-  },
-  "257": {
-    "id": "257",
-    "name": "U Altstadt Spandau",
-    "latitude": 52.538755,
-    "longitude": 13.206326,
-    "stops": {
-      "U7": {
-        "latitude": 52.538755,
-        "longitude": 13.206326
-      }
-    }
-  },
-  "305": {
-    "id": "305",
-    "name": "U Amrumer Str.",
-    "latitude": 52.54237,
-    "longitude": 13.350099,
-    "stops": {
-      "U9": {
-        "latitude": 52.54237,
-        "longitude": 13.350099
-      }
-    }
-  },
-  "202": {
-    "id": "202",
-    "name": "U Augsburger Str.",
-    "latitude": 52.500386,
-    "longitude": 13.33635,
-    "stops": {
-      "U3": {
-        "latitude": 52.500386,
-        "longitude": 13.33635
-      }
-    }
-  },
-  "215": {
-    "id": "215",
-    "name": "U Bayerischer Platz",
-    "latitude": 52.489145,
-    "longitude": 13.340214,
-    "stops": {
-      "U4": {
-        "latitude": 52.489145,
-        "longitude": 13.340214
-      },
-      "U7": {
-        "latitude": 52.489145,
-        "longitude": 13.340214
-      }
-    }
-  },
-  "271": {
-    "id": "271",
-    "name": "U Berliner Str.",
-    "latitude": 52.487265,
-    "longitude": 13.330998,
-    "stops": {
-      "U7": {
-        "latitude": 52.487265,
-        "longitude": 13.330998
-      },
-      "U9": {
-        "latitude": 52.487265,
-        "longitude": 13.330998
-      }
-    }
-  },
-  "296": {
-    "id": "296",
-    "name": "U Bernauer Str.",
-    "latitude": 52.537276,
-    "longitude": 13.396665,
-    "stops": {
-      "U8": {
-        "latitude": 52.537276,
-        "longitude": 13.396665
-      }
-    }
-  },
-  "224": {
-    "id": "224",
-    "name": "U Biesdorf-Süd",
-    "latitude": 52.499662,
-    "longitude": 13.546365,
-    "stops": {
-      "U5": {
-        "latitude": 52.499662,
-        "longitude": 13.546365
-      }
-    }
-  },
-  "306": {
-    "id": "306",
-    "name": "U Birkenstr.",
-    "latitude": 52.532192,
-    "longitude": 13.341235,
-    "stops": {
-      "U9": {
-        "latitude": 52.532192,
-        "longitude": 13.341235
-      }
-    }
-  },
-  "195": {
-    "id": "195",
-    "name": "U Bismarckstr.",
-    "latitude": 52.51154,
-    "longitude": 13.305122,
-    "stops": {
-      "U2": {
-        "latitude": 52.51154,
-        "longitude": 13.305122
-      },
-      "U7": {
-        "latitude": 52.51154,
-        "longitude": 13.305122
-      }
-    }
-  },
-  "280": {
-    "id": "280",
-    "name": "U Blaschkoallee",
-    "latitude": 52.452075,
-    "longitude": 13.44914,
-    "stops": {
-      "U7": {
-        "latitude": 52.452075,
-        "longitude": 13.44914
-      }
-    }
-  },
-  "270": {
-    "id": "270",
-    "name": "U Blissestr.",
-    "latitude": 52.486328,
-    "longitude": 13.32192,
-    "stops": {
-      "U7": {
-        "latitude": 52.486328,
-        "longitude": 13.32192
-      }
-    }
-  },
-  "302": {
-    "id": "302",
-    "name": "U Boddinstr.",
-    "latitude": 52.480162,
-    "longitude": 13.425207,
-    "stops": {
-      "U8": {
-        "latitude": 52.480162,
-        "longitude": 13.425207
-      }
-    }
-  },
-  "235": {
-    "id": "235",
-    "name": "U Borsigwerke",
-    "latitude": 52.581875,
-    "longitude": 13.290619,
-    "stops": {
-      "U6": {
-        "latitude": 52.581875,
-        "longitude": 13.290619
-      }
-    }
-  },
-  "207": {
-    "id": "207",
-    "name": "U Breitenbachplatz",
-    "latitude": 52.467012,
-    "longitude": 13.308733,
-    "stops": {
-      "U3": {
-        "latitude": 52.467012,
-        "longitude": 13.308733
-      }
-    }
-  },
-  "282": {
-    "id": "282",
-    "name": "U Britz-Süd",
-    "latitude": 52.437777,
-    "longitude": 13.448097,
-    "stops": {
-      "U7": {
-        "latitude": 52.437777,
-        "longitude": 13.448097
-      }
-    }
-  },
-  "192": {
-    "id": "192",
-    "name": "U Bülowstr.",
-    "latitude": 52.49762,
-    "longitude": 13.36317,
-    "stops": {
-      "U2": {
-        "latitude": 52.49762,
-        "longitude": 13.36317
-      }
-    }
-  },
-  "233": {
-    "id": "233",
-    "name": "U Bundestag",
-    "latitude": 52.520156,
-    "longitude": 13.373086,
-    "stops": {
-      "U5": {
-        "latitude": 52.520156,
-        "longitude": 13.373086
-      }
-    }
-  },
-  "220": {
-    "id": "220",
-    "name": "U Cottbusser Platz",
-    "latitude": 52.533918,
-    "longitude": 13.59646,
-    "stops": {
-      "U5": {
-        "latitude": 52.533918,
-        "longitude": 13.59646
-      }
-    }
-  },
-  "209": {
-    "id": "209",
-    "name": "U Dahlem-Dorf",
-    "latitude": 52.457164,
-    "longitude": 13.289407,
-    "stops": {
-      "U3": {
-        "latitude": 52.457164,
-        "longitude": 13.289407
-      }
-    }
-  },
-  "194": {
-    "id": "194",
-    "name": "U Deutsche Oper",
-    "latitude": 52.511944,
-    "longitude": 13.31051,
-    "stops": {
-      "U2": {
-        "latitude": 52.511944,
-        "longitude": 13.31051
-      }
-    }
-  },
-  "182": {
-    "id": "182",
-    "name": "U Eberswalder Str.",
-    "latitude": 52.541988,
-    "longitude": 13.412139,
-    "stops": {
-      "U2": {
-        "latitude": 52.541988,
-        "longitude": 13.412139
-      }
-    }
-  },
-  "272": {
-    "id": "272",
-    "name": "U Eisenacher Str.",
-    "latitude": 52.489521,
-    "longitude": 13.350362,
-    "stops": {
-      "U7": {
-        "latitude": 52.489521,
-        "longitude": 13.350362
-      }
-    }
-  },
-  "223": {
-    "id": "223",
-    "name": "U Elsterwerdaer Platz",
-    "latitude": 52.504979,
-    "longitude": 13.560296,
-    "stops": {
-      "U5": {
-        "latitude": 52.504979,
-        "longitude": 13.560296
-      }
-    }
-  },
-  "193": {
-    "id": "193",
-    "name": "U Ernst-Reuter-Platz",
-    "latitude": 52.511784,
-    "longitude": 13.322175,
-    "stops": {
-      "U2": {
-        "latitude": 52.511784,
-        "longitude": 13.322175
-      }
-    }
-  },
-  "205": {
-    "id": "205",
-    "name": "U Fehrbelliner Platz",
-    "latitude": 52.490681,
-    "longitude": 13.315228,
-    "stops": {
-      "U3": {
-        "latitude": 52.490681,
-        "longitude": 13.315228
-      },
-      "U7": {
-        "latitude": 52.490681,
-        "longitude": 13.315228
-      }
-    }
-  },
-  "229": {
-    "id": "229",
-    "name": "U Frankfurter Tor",
-    "latitude": 52.515872,
-    "longitude": 13.453903,
-    "stops": {
-      "U5": {
-        "latitude": 52.515872,
-        "longitude": 13.453903
-      }
-    }
-  },
-  "292": {
-    "id": "292",
-    "name": "U Franz-Neumann-Platz",
-    "latitude": 52.564603,
-    "longitude": 13.363811,
-    "stops": {
-      "U8": {
-        "latitude": 52.564603,
-        "longitude": 13.363811
-      }
-    }
-  },
-  "210": {
-    "id": "210",
-    "name": "U Freie Universität",
-    "latitude": 52.451041,
-    "longitude": 13.281602,
-    "stops": {
-      "U3": {
-        "latitude": 52.451041,
-        "longitude": 13.281602
-      }
-    }
-  },
-  "310": {
-    "id": "310",
-    "name": "U Friedrich-Wilhelm-Platz",
-    "latitude": 52.472131,
-    "longitude": 13.328639,
-    "stops": {
-      "U9": {
-        "latitude": 52.472131,
-        "longitude": 13.328639
-      }
-    }
-  },
-  "226": {
-    "id": "226",
-    "name": "U Friedrichsfelde",
-    "latitude": 52.506252,
-    "longitude": 13.512845,
-    "stops": {
-      "U5": {
-        "latitude": 52.506252,
-        "longitude": 13.512845
-      }
-    }
-  },
-  "175": {
-    "id": "175",
-    "name": "U Gleisdreieck",
-    "latitude": 52.499567,
-    "longitude": 13.374084,
-    "stops": {
-      "U1": {
-        "latitude": 52.499567,
-        "longitude": 13.374084
-      },
-      "U2": {
-        "latitude": 52.499567,
-        "longitude": 13.374084
-      },
-      "U3": {
-        "latitude": 52.499567,
-        "longitude": 13.374084
-      }
-    }
-  },
-  "274": {
-    "id": "274",
-    "name": "U Gneisenaustr.",
-    "latitude": 52.491268,
-    "longitude": 13.3957,
-    "stops": {
-      "U7": {
-        "latitude": 52.491268,
-        "longitude": 13.3957
-      }
-    }
-  },
-  "170": {
-    "id": "170",
-    "name": "U Görlitzer Bahnhof",
-    "latitude": 52.499292,
-    "longitude": 13.428277,
-    "stops": {
-      "U1": {
-        "latitude": 52.499292,
-        "longitude": 13.428277
-      }
-    }
-  },
-  "279": {
-    "id": "279",
-    "name": "U Grenzallee",
-    "latitude": 52.462871,
-    "longitude": 13.444733,
-    "stops": {
-      "U7": {
-        "latitude": 52.462871,
-        "longitude": 13.444733
-      }
-    }
-  },
-  "309": {
-    "id": "309",
-    "name": "U Güntzelstr.",
-    "latitude": 52.492049,
-    "longitude": 13.330903,
-    "stops": {
-      "U9": {
-        "latitude": 52.492049,
-        "longitude": 13.330903
-      }
-    }
-  },
-  "263": {
-    "id": "263",
-    "name": "U Halemweg",
-    "latitude": 52.536571,
-    "longitude": 13.286271,
-    "stops": {
-      "U7": {
-        "latitude": 52.536571,
-        "longitude": 13.286271
-      }
-    }
-  },
-  "173": {
-    "id": "173",
-    "name": "U Hallesches Tor",
-    "latitude": 52.497812,
-    "longitude": 13.390351,
-    "stops": {
-      "U1": {
-        "latitude": 52.497812,
-        "longitude": 13.390351
-      },
-      "U3": {
-        "latitude": 52.497812,
-        "longitude": 13.390351
-      },
-      "U6": {
-        "latitude": 52.497812,
-        "longitude": 13.390351
-      }
-    }
-  },
-  "308": {
-    "id": "308",
-    "name": "U Hansaplatz",
-    "latitude": 52.517873,
-    "longitude": 13.341988,
-    "stops": {
-      "U9": {
-        "latitude": 52.517873,
-        "longitude": 13.341988
-      }
-    }
-  },
-  "259": {
-    "id": "259",
-    "name": "U Haselhorst",
-    "latitude": 52.538635,
-    "longitude": 13.233127,
-    "stops": {
-      "U7": {
-        "latitude": 52.538635,
-        "longitude": 13.233127
-      }
-    }
-  },
-  "188": {
-    "id": "188",
-    "name": "U Hausvogteiplatz",
-    "latitude": 52.513393,
-    "longitude": 13.395562,
-    "stops": {
-      "U2": {
-        "latitude": 52.513393,
-        "longitude": 13.395562
-      }
-    }
-  },
-  "299": {
-    "id": "299",
-    "name": "U Heinrich-Heine-Str.",
-    "latitude": 52.51012,
-    "longitude": 13.415704,
-    "stops": {
-      "U8": {
-        "latitude": 52.51012,
-        "longitude": 13.415704
-      }
-    }
-  },
-  "219": {
-    "id": "219",
-    "name": "U Hellersdorf",
-    "latitude": 52.536737,
-    "longitude": 13.606564,
-    "stops": {
-      "U5": {
-        "latitude": 52.536737,
-        "longitude": 13.606564
-      }
-    }
-  },
-  "276": {
-    "id": "276",
-    "name": "U Hermannplatz",
-    "latitude": 52.486364,
-    "longitude": 13.424162,
-    "stops": {
-      "U7": {
-        "latitude": 52.486364,
-        "longitude": 13.424162
-      },
-      "U8": {
-        "latitude": 52.486364,
-        "longitude": 13.424162
-      }
-    }
-  },
-  "204": {
-    "id": "204",
-    "name": "U Hohenzollernplatz",
-    "latitude": 52.494188,
-    "longitude": 13.324858,
-    "stops": {
-      "U3": {
-        "latitude": 52.494188,
-        "longitude": 13.324858
-      }
-    }
-  },
-  "236": {
-    "id": "236",
-    "name": "U Holzhauser Str.",
-    "latitude": 52.575658,
-    "longitude": 13.296031,
-    "stops": {
-      "U6": {
-        "latitude": 52.575658,
-        "longitude": 13.296031
-      }
-    }
-  },
-  "217": {
-    "id": "217",
-    "name": "U Hönow",
-    "latitude": 52.538482,
-    "longitude": 13.633161,
-    "stops": {
-      "U5": {
-        "latitude": 52.538482,
-        "longitude": 13.633161
-      }
-    }
-  },
-  "264": {
-    "id": "264",
-    "name": "U Jakob-Kaiser-Platz",
-    "latitude": 52.536186,
-    "longitude": 13.293646,
-    "stops": {
-      "U7": {
-        "latitude": 52.536186,
-        "longitude": 13.293646
-      }
-    }
-  },
-  "283": {
-    "id": "283",
-    "name": "U Johannisthaler Chaussee",
-    "latitude": 52.42928,
-    "longitude": 13.453239,
-    "stops": {
-      "U7": {
-        "latitude": 52.42928,
-        "longitude": 13.453239
-      }
-    }
-  },
-  "197": {
-    "id": "197",
-    "name": "U Kaiserdamm",
-    "latitude": 52.510113,
-    "longitude": 13.283103,
-    "stops": {
-      "U2": {
-        "latitude": 52.510113,
-        "longitude": 13.283103
-      }
-    }
-  },
-  "252": {
-    "id": "252",
-    "name": "U Kaiserin-Augusta-Str.",
-    "latitude": 52.459982,
-    "longitude": 13.384567,
-    "stops": {
-      "U6": {
-        "latitude": 52.459982,
-        "longitude": 13.384567
-      }
-    }
-  },
-  "278": {
-    "id": "278",
-    "name": "U Karl-Marx-Str.",
-    "latitude": 52.476514,
-    "longitude": 13.439167,
-    "stops": {
-      "U7": {
-        "latitude": 52.476514,
-        "longitude": 13.439167
-      }
-    }
-  },
-  "222": {
-    "id": "222",
-    "name": "U Kaulsdorf-Nord",
-    "latitude": 52.520904,
-    "longitude": 13.588849,
-    "stops": {
-      "U5": {
-        "latitude": 52.520904,
-        "longitude": 13.588849
-      }
-    }
-  },
-  "221": {
-    "id": "221",
-    "name": "U Kienberg",
-    "latitude": 52.528538,
-    "longitude": 13.590471,
-    "stops": {
-      "U5": {
-        "latitude": 52.528538,
-        "longitude": 13.590471
-      }
-    }
-  },
-  "273": {
-    "id": "273",
-    "name": "U Kleistpark",
-    "latitude": 52.490297,
-    "longitude": 13.360266,
-    "stops": {
-      "U7": {
-        "latitude": 52.490297,
-        "longitude": 13.360266
-      }
-    }
-  },
-  "185": {
-    "id": "185",
-    "name": "U Klosterstr.",
-    "latitude": 52.517186,
-    "longitude": 13.412317,
-    "stops": {
-      "U2": {
-        "latitude": 52.517186,
-        "longitude": 13.412317
-      }
-    }
-  },
-  "247": {
-    "id": "247",
-    "name": "U Kochstr./Checkpoint Charlie",
-    "latitude": 52.506032,
-    "longitude": 13.390528,
-    "stops": {
-      "U6": {
-        "latitude": 52.506032,
-        "longitude": 13.390528
-      }
-    }
-  },
-  "269": {
-    "id": "269",
-    "name": "U Konstanzer Str.",
-    "latitude": 52.494524,
-    "longitude": 13.309008,
-    "stops": {
-      "U7": {
-        "latitude": 52.494524,
-        "longitude": 13.309008
-      }
-    }
-  },
-  "171": {
-    "id": "171",
-    "name": "U Kottbusser Tor",
-    "latitude": 52.499051,
-    "longitude": 13.418395,
-    "stops": {
-      "U1": {
-        "latitude": 52.499051,
-        "longitude": 13.418395
-      },
-      "U3": {
-        "latitude": 52.499051,
-        "longitude": 13.418395
-      },
-      "U8": {
-        "latitude": 52.499051,
-        "longitude": 13.418395
-      }
-    }
-  },
-  "213": {
-    "id": "213",
-    "name": "U Krumme Lanke",
-    "latitude": 52.443589,
-    "longitude": 13.241477,
-    "stops": {
-      "U3": {
-        "latitude": 52.443589,
-        "longitude": 13.241477
-      }
-    }
-  },
-  "179": {
-    "id": "179",
-    "name": "U Kurfürstendamm",
-    "latitude": 52.504056,
-    "longitude": 13.332587,
-    "stops": {
-      "U1": {
-        "latitude": 52.504056,
-        "longitude": 13.332587
-      },
-      "U9": {
-        "latitude": 52.504056,
-        "longitude": 13.332587
-      }
-    }
-  },
-  "176": {
-    "id": "176",
-    "name": "U Kurfürstenstr.",
-    "latitude": 52.500152,
-    "longitude": 13.361504,
-    "stops": {
-      "U1": {
-        "latitude": 52.500152,
-        "longitude": 13.361504
-      },
-      "U3": {
-        "latitude": 52.500152,
-        "longitude": 13.361504
-      }
-    }
-  },
-  "239": {
-    "id": "239",
-    "name": "U Kurt-Schumacher-Platz",
-    "latitude": 52.563206,
-    "longitude": 13.327032,
-    "stops": {
-      "U6": {
-        "latitude": 52.563206,
-        "longitude": 13.327032
-      }
-    }
-  },
-  "303": {
-    "id": "303",
-    "name": "U Leinestr.",
-    "latitude": 52.473426,
-    "longitude": 13.428058,
-    "stops": {
-      "U8": {
-        "latitude": 52.473426,
-        "longitude": 13.428058
-      }
-    }
-  },
-  "243": {
-    "id": "243",
-    "name": "U Leopoldplatz",
-    "latitude": 52.546389,
-    "longitude": 13.359121,
-    "stops": {
-      "U6": {
-        "latitude": 52.546389,
-        "longitude": 13.359121
-      },
-      "U9": {
-        "latitude": 52.546389,
-        "longitude": 13.359121
-      }
-    }
-  },
-  "289": {
-    "id": "289",
-    "name": "U Lindauer Allee",
-    "latitude": 52.575354,
-    "longitude": 13.33911,
-    "stops": {
-      "U8": {
-        "latitude": 52.575354,
-        "longitude": 13.33911
-      }
-    }
-  },
-  "284": {
-    "id": "284",
-    "name": "U Lipschitzallee",
-    "latitude": 52.424611,
-    "longitude": 13.462666,
-    "stops": {
-      "U7": {
-        "latitude": 52.424611,
-        "longitude": 13.462666
-      }
-    }
-  },
-  "218": {
-    "id": "218",
-    "name": "U Louis-Lewin-Str.",
-    "latitude": 52.539037,
-    "longitude": 13.618307,
-    "stops": {
-      "U5": {
-        "latitude": 52.539037,
-        "longitude": 13.618307
-      }
-    }
-  },
-  "227": {
-    "id": "227",
-    "name": "U Magdalenenstr.",
-    "latitude": 52.512532,
-    "longitude": 13.486997,
-    "stops": {
-      "U5": {
-        "latitude": 52.512532,
-        "longitude": 13.486997
-      }
-    }
-  },
-  "186": {
-    "id": "186",
-    "name": "U Märkisches Museum",
-    "latitude": 52.512387,
-    "longitude": 13.410151,
-    "stops": {
-      "U2": {
-        "latitude": 52.512387,
-        "longitude": 13.410151
-      }
-    }
-  },
-  "248": {
-    "id": "248",
-    "name": "U Mehringdamm",
-    "latitude": 52.494625,
-    "longitude": 13.388864,
-    "stops": {
-      "U6": {
-        "latitude": 52.494625,
-        "longitude": 13.388864
-      },
-      "U7": {
-        "latitude": 52.494625,
-        "longitude": 13.388864
-      }
-    }
-  },
-  "191": {
-    "id": "191",
-    "name": "U Mendelssohn-Bartholdy-Park",
-    "latitude": 52.503806,
-    "longitude": 13.374862,
-    "stops": {
-      "U2": {
-        "latitude": 52.503806,
-        "longitude": 13.374862
-      }
-    }
-  },
-  "265": {
-    "id": "265",
-    "name": "U Mierendorffplatz",
-    "latitude": 52.526226,
-    "longitude": 13.30479,
-    "stops": {
-      "U7": {
-        "latitude": 52.526226,
-        "longitude": 13.30479
-      }
-    }
-  },
-  "174": {
-    "id": "174",
-    "name": "U Möckernbrücke",
-    "latitude": 52.499129,
-    "longitude": 13.382661,
-    "stops": {
-      "U1": {
-        "latitude": 52.499129,
-        "longitude": 13.382661
-      },
-      "U3": {
-        "latitude": 52.499129,
-        "longitude": 13.382661
-      },
-      "U7": {
-        "latitude": 52.499129,
-        "longitude": 13.382661
-      }
-    }
-  },
-  "190": {
-    "id": "190",
-    "name": "U Mohrenstr.",
-    "latitude": 52.511816,
-    "longitude": 13.38511,
-    "stops": {
-      "U2": {
-        "latitude": 52.511816,
-        "longitude": 13.38511
-      }
-    }
-  },
-  "300": {
-    "id": "300",
-    "name": "U Moritzplatz",
-    "latitude": 52.503676,
-    "longitude": 13.410615,
-    "stops": {
-      "U8": {
-        "latitude": 52.503676,
-        "longitude": 13.410615
-      }
-    }
-  },
-  "314": {
-    "id": "314",
-    "name": "U Museumsinsel",
-    "latitude": 52.517402,
-    "longitude": 13.39825,
-    "stops": {
-    }
-  },
-  "246": {
-    "id": "246",
-    "name": "U Naturkundemuseum",
-    "latitude": 52.531269,
-    "longitude": 13.382101,
-    "stops": {
-      "U6": {
-        "latitude": 52.531269,
-        "longitude": 13.382101
-      }
-    }
-  },
-  "304": {
-    "id": "304",
-    "name": "U Nauener Platz",
-    "latitude": 52.551666,
-    "longitude": 13.367384,
-    "stops": {
-      "U9": {
-        "latitude": 52.551666,
-        "longitude": 13.367384
-      }
-    }
-  },
-  "199": {
-    "id": "199",
-    "name": "U Neu-Westend",
-    "latitude": 52.516281,
-    "longitude": 13.259258,
-    "stops": {
-      "U2": {
-        "latitude": 52.516281,
-        "longitude": 13.259258
-      }
-    }
-  },
-  "177": {
-    "id": "177",
-    "name": "U Nollendorfplatz",
-    "latitude": 52.499966,
-    "longitude": 13.354616,
-    "stops": {
-      "U1": {
-        "latitude": 52.499966,
-        "longitude": 13.354616
-      },
-      "U3": {
-        "latitude": 52.499966,
-        "longitude": 13.354616
-      },
-      "U4": {
-        "latitude": 52.499966,
-        "longitude": 13.354616
-      }
-    }
-  },
-  "200": {
-    "id": "200",
-    "name": "U Olympia-Stadion",
-    "latitude": 52.51689,
-    "longitude": 13.250817,
-    "stops": {
-      "U2": {
-        "latitude": 52.51689,
-        "longitude": 13.250817
-      }
-    }
-  },
-  "212": {
-    "id": "212",
-    "name": "U Onkel Toms Hütte",
-    "latitude": 52.449928,
-    "longitude": 13.253036,
-    "stops": {
-    }
-  },
-  "168": {
-    "id": "168",
-    "name": "U Oranienburger Tor",
-    "latitude": 52.524409,
-    "longitude": 13.387608,
-    "stops": {
-      "U6": {
-        "latitude": 52.524409,
-        "longitude": 13.387608
+    "name": "Heumarkt",
+    "latitude": 50.93576,
+    "longitude": 6.96046,
+    "stops": {
+      "1": {
+        "latitude": 50.93576,
+        "longitude": 6.96046
+      },
+      "5": {
+        "latitude": 50.93576,
+        "longitude": 6.96046
+      },
+      "7": {
+        "latitude": 50.93576,
+        "longitude": 6.96046
+      },
+      "9": {
+        "latitude": 50.93576,
+        "longitude": 6.96046
       }
     }
   },
   "211": {
     "id": "211",
-    "name": "U Oskar-Helene-Heim",
-    "latitude": 52.450412,
-    "longitude": 13.268979,
+    "name": "Neumarkt",
+    "latitude": 50.93576,
+    "longitude": 6.94811,
     "stops": {
-      "U3": {
-        "latitude": 52.450412,
-        "longitude": 13.268979
-      }
-    }
-  },
-  "293": {
-    "id": "293",
-    "name": "U Osloer Str.",
-    "latitude": 52.557098,
-    "longitude": 13.373196,
-    "stops": {
-      "U8": {
-        "latitude": 52.557098,
-        "longitude": 13.373196
+      "1": {
+        "latitude": 50.93576,
+        "longitude": 6.94811
       },
-      "U9": {
-        "latitude": 52.557098,
-        "longitude": 13.373196
-      }
-    }
-  },
-  "237": {
-    "id": "237",
-    "name": "U Otisstr.",
-    "latitude": 52.570991,
-    "longitude": 13.30285,
-    "stops": {
-      "U6": {
-        "latitude": 52.570991,
-        "longitude": 13.30285
-      }
-    }
-  },
-  "294": {
-    "id": "294",
-    "name": "U Pankstr.",
-    "latitude": 52.55224,
-    "longitude": 13.381422,
-    "stops": {
-      "U8": {
-        "latitude": 52.55224,
-        "longitude": 13.381422
-      }
-    }
-  },
-  "290": {
-    "id": "290",
-    "name": "U Paracelsus-Bad",
-    "latitude": 52.574106,
-    "longitude": 13.349019,
-    "stops": {
-      "U8": {
-        "latitude": 52.574106,
-        "longitude": 13.349019
-      }
-    }
-  },
-  "250": {
-    "id": "250",
-    "name": "U Paradestr.",
-    "latitude": 52.478191,
-    "longitude": 13.386172,
-    "stops": {
-      "U6": {
-        "latitude": 52.478191,
-        "longitude": 13.386172
-      }
-    }
-  },
-  "281": {
-    "id": "281",
-    "name": "U Parchimer Allee",
-    "latitude": 52.444778,
-    "longitude": 13.449536,
-    "stops": {
-      "U7": {
-        "latitude": 52.444778,
-        "longitude": 13.449536
-      }
-    }
-  },
-  "260": {
-    "id": "260",
-    "name": "U Paulsternstr.",
-    "latitude": 52.537931,
-    "longitude": 13.247534,
-    "stops": {
-      "U7": {
-        "latitude": 52.537931,
-        "longitude": 13.247534
-      }
-    }
-  },
-  "249": {
-    "id": "249",
-    "name": "U Platz der Luftbrücke",
-    "latitude": 52.485948,
-    "longitude": 13.385808,
-    "stops": {
-      "U6": {
-        "latitude": 52.485948,
-        "longitude": 13.385808
-      }
-    }
-  },
-  "208": {
-    "id": "208",
-    "name": "U Podbielskiallee",
-    "latitude": 52.464067,
-    "longitude": 13.29548,
-    "stops": {
-    }
-  },
-  "172": {
-    "id": "172",
-    "name": "U Prinzenstr.",
-    "latitude": 52.498406,
-    "longitude": 13.405401,
-    "stops": {
-      "U1": {
-        "latitude": 52.498406,
-        "longitude": 13.405401
+      "3": {
+        "latitude": 50.93576,
+        "longitude": 6.94811
       },
-      "U3": {
-        "latitude": 52.498406,
-        "longitude": 13.405401
-      }
-    }
-  },
-  "277": {
-    "id": "277",
-    "name": "U Rathaus Neukölln",
-    "latitude": 52.481765,
-    "longitude": 13.433958,
-    "stops": {
-      "U7": {
-        "latitude": 52.481765,
-        "longitude": 13.433958
-      }
-    }
-  },
-  "288": {
-    "id": "288",
-    "name": "U Rathaus Reinickendorf",
-    "latitude": 52.588381,
-    "longitude": 13.325626,
-    "stops": {
-      "U8": {
-        "latitude": 52.588381,
-        "longitude": 13.325626
-      }
-    }
-  },
-  "216": {
-    "id": "216",
-    "name": "U Rathaus Schöneberg",
-    "latitude": 52.483032,
-    "longitude": 13.341946,
-    "stops": {
-      "U4": {
-        "latitude": 52.483032,
-        "longitude": 13.341946
-      }
-    }
-  },
-  "241": {
-    "id": "241",
-    "name": "U Rehberge",
-    "latitude": 52.556593,
-    "longitude": 13.34099,
-    "stops": {
-      "U6": {
-        "latitude": 52.556593,
-        "longitude": 13.34099
-      }
-    }
-  },
-  "244": {
-    "id": "244",
-    "name": "U Reinickendorfer Str.",
-    "latitude": 52.540046,
-    "longitude": 13.370176,
-    "stops": {
-      "U6": {
-        "latitude": 52.540046,
-        "longitude": 13.370176
-      }
-    }
-  },
-  "291": {
-    "id": "291",
-    "name": "U Residenzstr.",
-    "latitude": 52.571106,
-    "longitude": 13.360435,
-    "stops": {
-      "U8": {
-        "latitude": 52.571106,
-        "longitude": 13.360435
-      }
-    }
-  },
-  "266": {
-    "id": "266",
-    "name": "U Richard-Wagner-Platz",
-    "latitude": 52.516645,
-    "longitude": 13.306512,
-    "stops": {
-      "U7": {
-        "latitude": 52.516645,
-        "longitude": 13.306512
-      }
-    }
-  },
-  "261": {
-    "id": "261",
-    "name": "U Rohrdamm",
-    "latitude": 52.536926,
-    "longitude": 13.262347,
-    "stops": {
-      "U7": {
-        "latitude": 52.536926,
-        "longitude": 13.262347
-      }
-    }
-  },
-  "184": {
-    "id": "184",
-    "name": "U Rosa-Luxemburg-Platz",
-    "latitude": 52.527701,
-    "longitude": 13.410374,
-    "stops": {
-      "U2": {
-        "latitude": 52.527701,
-        "longitude": 13.410374
-      }
-    }
-  },
-  "297": {
-    "id": "297",
-    "name": "U Rosenthaler Platz",
-    "latitude": 52.53038,
-    "longitude": 13.400626,
-    "stops": {
-      "U8": {
-        "latitude": 52.53038,
-        "longitude": 13.400626
-      }
-    }
-  },
-  "313": {
-    "id": "313",
-    "name": "U Rotes Rathaus",
-    "latitude": 52.518802,
-    "longitude": 13.407888,
-    "stops": {
-      "U5": {
-        "latitude": 52.518802,
-        "longitude": 13.407888
-      }
-    }
-  },
-  "206": {
-    "id": "206",
-    "name": "U Rüdesheimer Platz",
-    "latitude": 52.473373,
-    "longitude": 13.314366,
-    "stops": {
-      "U3": {
-        "latitude": 52.473373,
-        "longitude": 13.314366
-      }
-    }
-  },
-  "287": {
-    "id": "287",
-    "name": "U Rudow",
-    "latitude": 52.416279,
-    "longitude": 13.495085,
-    "stops": {
-    }
-  },
-  "201": {
-    "id": "201",
-    "name": "U Ruhleben",
-    "latitude": 52.525702,
-    "longitude": 13.241328,
-    "stops": {
-      "U2": {
-        "latitude": 52.525702,
-        "longitude": 13.241328
-      }
-    }
-  },
-  "228": {
-    "id": "228",
-    "name": "U Samariterstr.",
-    "latitude": 52.514787,
-    "longitude": 13.464537,
-    "stops": {
-      "U5": {
-        "latitude": 52.514787,
-        "longitude": 13.464537
-      }
-    }
-  },
-  "238": {
-    "id": "238",
-    "name": "U Scharnweberstr.",
-    "latitude": 52.56677,
-    "longitude": 13.312586,
-    "stops": {
-      "U6": {
-        "latitude": 52.56677,
-        "longitude": 13.312586
-      }
-    }
-  },
-  "232": {
-    "id": "232",
-    "name": "U Schillingstr.",
-    "latitude": 52.520931,
-    "longitude": 13.420841,
-    "stops": {
-      "U5": {
-        "latitude": 52.520931,
-        "longitude": 13.420841
-      }
-    }
-  },
-  "169": {
-    "id": "169",
-    "name": "U Schlesisches Tor",
-    "latitude": 52.500747,
-    "longitude": 13.441051,
-    "stops": {
-      "U1": {
-        "latitude": 52.500747,
-        "longitude": 13.441051
-      }
-    }
-  },
-  "312": {
-    "id": "312",
-    "name": "U Schloßstr.",
-    "latitude": 52.460629,
-    "longitude": 13.324477,
-    "stops": {
-      "U9": {
-        "latitude": 52.460629,
-        "longitude": 13.324477
-      }
-    }
-  },
-  "301": {
-    "id": "301",
-    "name": "U Schönleinstr.",
-    "latitude": 52.493448,
-    "longitude": 13.421725,
-    "stops": {
-      "U8": {
-        "latitude": 52.493448,
-        "longitude": 13.421725
-      }
-    }
-  },
-  "245": {
-    "id": "245",
-    "name": "U Schwartzkopffstr.",
-    "latitude": 52.535449,
-    "longitude": 13.376863,
-    "stops": {
-      "U6": {
-        "latitude": 52.535449,
-        "longitude": 13.376863
-      }
-    }
-  },
-  "242": {
-    "id": "242",
-    "name": "U Seestr.",
-    "latitude": 52.549731,
-    "longitude": 13.353007,
-    "stops": {
-      "U6": {
-        "latitude": 52.549731,
-        "longitude": 13.353007
-      }
-    }
-  },
-  "183": {
-    "id": "183",
-    "name": "U Senefelderplatz",
-    "latitude": 52.532443,
-    "longitude": 13.412596,
-    "stops": {
-      "U2": {
-        "latitude": 52.532443,
-        "longitude": 13.412596
-      }
-    }
-  },
-  "262": {
-    "id": "262",
-    "name": "U Siemensdamm",
-    "latitude": 52.536699,
-    "longitude": 13.27271,
-    "stops": {
-      "U7": {
-        "latitude": 52.536699,
-        "longitude": 13.27271
-      }
-    }
-  },
-  "196": {
-    "id": "196",
-    "name": "U Sophie-Charlotte-Platz",
-    "latitude": 52.510895,
-    "longitude": 13.29582,
-    "stops": {
-      "U2": {
-        "latitude": 52.510895,
-        "longitude": 13.29582
-      }
-    }
-  },
-  "203": {
-    "id": "203",
-    "name": "U Spichernstr.",
-    "latitude": 52.496901,
-    "longitude": 13.331995,
-    "stops": {
-      "U3": {
-        "latitude": 52.496901,
-        "longitude": 13.331995
+      "4": {
+        "latitude": 50.93576,
+        "longitude": 6.94811
       },
-      "U9": {
-        "latitude": 52.496901,
-        "longitude": 13.331995
-      }
-    }
-  },
-  "187": {
-    "id": "187",
-    "name": "U Spittelmarkt",
-    "latitude": 52.511348,
-    "longitude": 13.403697,
-    "stops": {
-      "U2": {
-        "latitude": 52.511348,
-        "longitude": 13.403697
-      }
-    }
-  },
-  "189": {
-    "id": "189",
-    "name": "U Stadtmitte",
-    "latitude": 52.512199,
-    "longitude": 13.390543,
-    "stops": {
-      "U2": {
-        "latitude": 52.512199,
-        "longitude": 13.390543
+      "7": {
+        "latitude": 50.93576,
+        "longitude": 6.94811
       },
-      "U6": {
-        "latitude": 52.512199,
-        "longitude": 13.390543
-      }
-    }
-  },
-  "231": {
-    "id": "231",
-    "name": "U Strausberger Platz",
-    "latitude": 52.518144,
-    "longitude": 13.431554,
-    "stops": {
-      "U5": {
-        "latitude": 52.518144,
-        "longitude": 13.431554
-      }
-    }
-  },
-  "275": {
-    "id": "275",
-    "name": "U Südstern",
-    "latitude": 52.489216,
-    "longitude": 13.407672,
-    "stops": {
-      "U7": {
-        "latitude": 52.489216,
-        "longitude": 13.407672
-      }
-    }
-  },
-  "198": {
-    "id": "198",
-    "name": "U Theodor-Heuss-Platz",
-    "latitude": 52.50992,
-    "longitude": 13.272617,
-    "stops": {
-      "U2": {
-        "latitude": 52.50992,
-        "longitude": 13.272617
-      }
-    }
-  },
-  "225": {
-    "id": "225",
-    "name": "U Tierpark",
-    "latitude": 52.49776,
-    "longitude": 13.523072,
-    "stops": {
-      "U5": {
-        "latitude": 52.49776,
-        "longitude": 13.523072
-      }
-    }
-  },
-  "307": {
-    "id": "307",
-    "name": "U Turmstr.",
-    "latitude": 52.526136,
-    "longitude": 13.341178,
-    "stops": {
-      "U9": {
-        "latitude": 52.526136,
-        "longitude": 13.341178
-      }
-    }
-  },
-  "180": {
-    "id": "180",
-    "name": "U Uhlandstr.",
-    "latitude": 52.502832,
-    "longitude": 13.32693,
-    "stops": {
-      "U1": {
-        "latitude": 52.502832,
-        "longitude": 13.32693
-      }
-    }
-  },
-  "253": {
-    "id": "253",
-    "name": "U Ullsteinstr.",
-    "latitude": 52.453741,
-    "longitude": 13.384397,
-    "stops": {
-      "U6": {
-        "latitude": 52.453741,
-        "longitude": 13.384397
-      }
-    }
-  },
-  "315": {
-    "id": "315",
-    "name": "U Unter den Linden",
-    "latitude": 52.51704,
-    "longitude": 13.389059,
-    "stops": {
-      "U5": {
-        "latitude": 52.51704,
-        "longitude": 13.389059
+      "9": {
+        "latitude": 50.93576,
+        "longitude": 6.94811
       },
-      "U6": {
-        "latitude": 52.51704,
-        "longitude": 13.389059
-      }
-    }
-  },
-  "214": {
-    "id": "214",
-    "name": "U Viktoria-Luise-Platz",
-    "latitude": 52.496288,
-    "longitude": 13.34338,
-    "stops": {
-      "U4": {
-        "latitude": 52.496288,
-        "longitude": 13.34338
-      }
-    }
-  },
-  "181": {
-    "id": "181",
-    "name": "U Vinetastr.",
-    "latitude": 52.559182,
-    "longitude": 13.413159,
-    "stops": {
-      "U2": {
-        "latitude": 52.559182,
-        "longitude": 13.413159
-      }
-    }
-  },
-  "295": {
-    "id": "295",
-    "name": "U Voltastr.",
-    "latitude": 52.542101,
-    "longitude": 13.392932,
-    "stops": {
-      "U8": {
-        "latitude": 52.542101,
-        "longitude": 13.392932
+      "16": {
+        "latitude": 50.93576,
+        "longitude": 6.94811
+      },
+      "18": {
+        "latitude": 50.93576,
+        "longitude": 6.94811
       }
     }
   },
   "311": {
     "id": "311",
-    "name": "U Walther-Schreiber-Platz",
-    "latitude": 52.466103,
-    "longitude": 13.328178,
+    "name": "Poststr.",
+    "latitude": 50.93169,
+    "longitude": 6.95008,
     "stops": {
-      "U9": {
-        "latitude": 52.466103,
-        "longitude": 13.328178
-      }
-    }
-  },
-  "230": {
-    "id": "230",
-    "name": "U Weberwiese",
-    "latitude": 52.516804,
-    "longitude": 13.444683,
-    "stops": {
-      "U5": {
-        "latitude": 52.516804,
-        "longitude": 13.444683
-      }
-    }
-  },
-  "298": {
-    "id": "298",
-    "name": "U Weinmeisterstr.",
-    "latitude": 52.525435,
-    "longitude": 13.404988,
-    "stops": {
-      "U8": {
-        "latitude": 52.525435,
-        "longitude": 13.404988
-      }
-    }
-  },
-  "254": {
-    "id": "254",
-    "name": "U Westphalweg",
-    "latitude": 52.446268,
-    "longitude": 13.385619,
-    "stops": {
-    }
-  },
-  "267": {
-    "id": "267",
-    "name": "U Wilmersdorfer Str.",
-    "latitude": 52.506353,
-    "longitude": 13.306655,
-    "stops": {
-      "U7": {
-        "latitude": 52.506353,
-        "longitude": 13.306655
-      }
-    }
-  },
-  "178": {
-    "id": "178",
-    "name": "U Wittenbergplatz",
-    "latitude": 52.501927,
-    "longitude": 13.343056,
-    "stops": {
-      "U1": {
-        "latitude": 52.501927,
-        "longitude": 13.343056
+      "3": {
+        "latitude": 50.93169,
+        "longitude": 6.95008
       },
-      "U2": {
-        "latitude": 52.501927,
-        "longitude": 13.343056
+      "4": {
+        "latitude": 50.93169,
+        "longitude": 6.95008
       },
-      "U3": {
-        "latitude": 52.501927,
-        "longitude": 13.343056
+      "16": {
+        "latitude": 50.93169,
+        "longitude": 6.95008
+      },
+      "18": {
+        "latitude": 50.93169,
+        "longitude": 6.95008
       }
     }
   },
-  "285": {
-    "id": "285",
-    "name": "U Wutzkyallee",
-    "latitude": 52.423277,
-    "longitude": 13.474655,
+  "411": {
+    "id": "411",
+    "name": "Mauritiuskirche",
+    "latitude": 50.93469,
+    "longitude": 6.94507,
     "stops": {
-      "U7": {
-        "latitude": 52.423277,
-        "longitude": 13.474655
+      "9": {
+        "latitude": 50.93469,
+        "longitude": 6.94507
       }
     }
   },
-  "258": {
-    "id": "258",
-    "name": "U Zitadelle",
-    "latitude": 52.537627,
-    "longitude": 13.217515,
+  "611": {
+    "id": "611",
+    "name": "Rathaus",
+    "latitude": 50.93793,
+    "longitude": 6.95956,
     "stops": {
-      "U7": {
-        "latitude": 52.537627,
-        "longitude": 13.217515
+      "5": {
+        "latitude": 50.93793,
+        "longitude": 6.95956
       }
     }
   },
-  "286": {
-    "id": "286",
-    "name": "U Zwickauer Damm",
-    "latitude": 52.423252,
-    "longitude": 13.483727,
+  "711": {
+    "id": "711",
+    "name": "Appellhofplatz",
+    "latitude": 50.93992,
+    "longitude": 6.95054,
     "stops": {
-      "U7": {
-        "latitude": 52.423252,
-        "longitude": 13.483727
+      "3": {
+        "latitude": 50.93992,
+        "longitude": 6.95054
+      },
+      "4": {
+        "latitude": 50.93992,
+        "longitude": 6.95054
+      },
+      "5": {
+        "latitude": 50.93992,
+        "longitude": 6.95054
+      },
+      "16": {
+        "latitude": 50.93992,
+        "longitude": 6.95054
+      },
+      "18": {
+        "latitude": 50.93992,
+        "longitude": 6.95054
+      }
+    }
+  },
+  "911": {
+    "id": "911",
+    "name": "Breslauer Platz/Hbf",
+    "latitude": 50.94447,
+    "longitude": 6.95866,
+    "stops": {
+      "16": {
+        "latitude": 50.94447,
+        "longitude": 6.95866
+      },
+      "18": {
+        "latitude": 50.94447,
+        "longitude": 6.95866
+      }
+    }
+  },
+  "1111": {
+    "id": "1111",
+    "name": "Severinstr.",
+    "latitude": 50.92923,
+    "longitude": 6.95747,
+    "stops": {
+      "3": {
+        "latitude": 50.92923,
+        "longitude": 6.95747
+      },
+      "4": {
+        "latitude": 50.92923,
+        "longitude": 6.95747
+      },
+      "17": {
+        "latitude": 50.92923,
+        "longitude": 6.95747
+      }
+    }
+  },
+  "1711": {
+    "id": "1711",
+    "name": "Ubierring",
+    "latitude": 50.92232,
+    "longitude": 6.96517,
+    "stops": {
+      "15": {
+        "latitude": 50.92232,
+        "longitude": 6.96517
+      },
+      "16": {
+        "latitude": 50.92232,
+        "longitude": 6.96517
+      }
+    }
+  },
+  "1811": {
+    "id": "1811",
+    "name": "Chlodwigplatz",
+    "latitude": 50.92122,
+    "longitude": 6.96026,
+    "stops": {
+      "15": {
+        "latitude": 50.92122,
+        "longitude": 6.96026
+      },
+      "16": {
+        "latitude": 50.92122,
+        "longitude": 6.96026
+      },
+      "17": {
+        "latitude": 50.92122,
+        "longitude": 6.96026
+      }
+    }
+  },
+  "1911": {
+    "id": "1911",
+    "name": "Ulrepforte",
+    "latitude": 50.92432,
+    "longitude": 6.95144,
+    "stops": {
+      "15": {
+        "latitude": 50.92432,
+        "longitude": 6.95144
+      },
+      "16": {
+        "latitude": 50.92432,
+        "longitude": 6.95144
+      }
+    }
+  },
+  "2011": {
+    "id": "2011",
+    "name": "Bonner Wall",
+    "latitude": 50.91641,
+    "longitude": 6.96103,
+    "stops": {
+      "17": {
+        "latitude": 50.91641,
+        "longitude": 6.96103
+      }
+    }
+  },
+  "2111": {
+    "id": "2111",
+    "name": "Eifelplatz",
+    "latitude": 50.92357,
+    "longitude": 6.94389,
+    "stops": {
+      "12": {
+        "latitude": 50.92357,
+        "longitude": 6.94389
+      }
+    }
+  },
+  "2211": {
+    "id": "2211",
+    "name": "Eifelstr.",
+    "latitude": 50.92684,
+    "longitude": 6.94545,
+    "stops": {
+      "12": {
+        "latitude": 50.92684,
+        "longitude": 6.94545
+      },
+      "15": {
+        "latitude": 50.92684,
+        "longitude": 6.94545
+      },
+      "16": {
+        "latitude": 50.92684,
+        "longitude": 6.94545
+      }
+    }
+  },
+  "2311": {
+    "id": "2311",
+    "name": "Barbarossaplatz",
+    "latitude": 50.92914,
+    "longitude": 6.94341,
+    "stops": {
+      "12": {
+        "latitude": 50.92914,
+        "longitude": 6.94341
+      },
+      "15": {
+        "latitude": 50.92914,
+        "longitude": 6.94341
+      },
+      "16": {
+        "latitude": 50.92914,
+        "longitude": 6.94341
+      },
+      "18": {
+        "latitude": 50.92914,
+        "longitude": 6.94341
+      }
+    }
+  },
+  "2411": {
+    "id": "2411",
+    "name": "Zülpicher Platz",
+    "latitude": 50.93175,
+    "longitude": 6.9405,
+    "stops": {
+      "9": {
+        "latitude": 50.93175,
+        "longitude": 6.9405
+      },
+      "12": {
+        "latitude": 50.93175,
+        "longitude": 6.9405
+      },
+      "15": {
+        "latitude": 50.93175,
+        "longitude": 6.9405
+      }
+    }
+  },
+  "2611": {
+    "id": "2611",
+    "name": "Eifelwall/Stadtarchiv",
+    "latitude": 50.92487,
+    "longitude": 6.93718,
+    "stops": {
+      "18": {
+        "latitude": 50.92487,
+        "longitude": 6.93718
+      }
+    }
+  },
+  "2711": {
+    "id": "2711",
+    "name": "Rudolfplatz",
+    "latitude": 50.93586,
+    "longitude": 6.94048,
+    "stops": {
+      "1": {
+        "latitude": 50.93586,
+        "longitude": 6.94048
+      },
+      "7": {
+        "latitude": 50.93586,
+        "longitude": 6.94048
+      },
+      "12": {
+        "latitude": 50.93586,
+        "longitude": 6.94048
+      },
+      "15": {
+        "latitude": 50.93586,
+        "longitude": 6.94048
+      }
+    }
+  },
+  "2811": {
+    "id": "2811",
+    "name": "Moltkestr.",
+    "latitude": 50.93557,
+    "longitude": 6.93229,
+    "stops": {
+      "1": {
+        "latitude": 50.93557,
+        "longitude": 6.93229
+      },
+      "7": {
+        "latitude": 50.93557,
+        "longitude": 6.93229
+      }
+    }
+  },
+  "3011": {
+    "id": "3011",
+    "name": "Friesenplatz",
+    "latitude": 50.94053,
+    "longitude": 6.93983,
+    "stops": {
+      "3": {
+        "latitude": 50.94053,
+        "longitude": 6.93983
+      },
+      "4": {
+        "latitude": 50.94053,
+        "longitude": 6.93983
+      },
+      "5": {
+        "latitude": 50.94053,
+        "longitude": 6.93983
+      },
+      "12": {
+        "latitude": 50.94053,
+        "longitude": 6.93983
+      },
+      "15": {
+        "latitude": 50.94053,
+        "longitude": 6.93983
+      }
+    }
+  },
+  "3211": {
+    "id": "3211",
+    "name": "Christophstr./Mediapark",
+    "latitude": 50.94506,
+    "longitude": 6.94292,
+    "stops": {
+      "12": {
+        "latitude": 50.94506,
+        "longitude": 6.94292
+      },
+      "15": {
+        "latitude": 50.94506,
+        "longitude": 6.94292
+      }
+    }
+  },
+  "3411": {
+    "id": "3411",
+    "name": "Reichenspergerplatz",
+    "latitude": 50.95441,
+    "longitude": 6.9653,
+    "stops": {
+      "16": {
+        "latitude": 50.95441,
+        "longitude": 6.9653
+      },
+      "18": {
+        "latitude": 50.95441,
+        "longitude": 6.9653
+      }
+    }
+  },
+  "3511": {
+    "id": "3511",
+    "name": "Ebertplatz",
+    "latitude": 50.95101,
+    "longitude": 6.95954,
+    "stops": {
+      "12": {
+        "latitude": 50.95101,
+        "longitude": 6.95954
+      },
+      "15": {
+        "latitude": 50.95101,
+        "longitude": 6.95954
+      },
+      "16": {
+        "latitude": 50.95101,
+        "longitude": 6.95954
+      },
+      "18": {
+        "latitude": 50.95101,
+        "longitude": 6.95954
+      }
+    }
+  },
+  "3611": {
+    "id": "3611",
+    "name": "Hansaring",
+    "latitude": 50.94871,
+    "longitude": 6.95155,
+    "stops": {
+      "12": {
+        "latitude": 50.94871,
+        "longitude": 6.95155
+      },
+      "15": {
+        "latitude": 50.94871,
+        "longitude": 6.95155
+      }
+    }
+  },
+  "3911": {
+    "id": "3911",
+    "name": "Deutzer Freiheit",
+    "latitude": 50.93805,
+    "longitude": 6.97142,
+    "stops": {
+      "1": {
+        "latitude": 50.93805,
+        "longitude": 6.97142
+      },
+      "7": {
+        "latitude": 50.93805,
+        "longitude": 6.97142
+      },
+      "9": {
+        "latitude": 50.93805,
+        "longitude": 6.97142
+      }
+    }
+  },
+  "4011": {
+    "id": "4011",
+    "name": "Suevenstr.",
+    "latitude": 50.93287,
+    "longitude": 6.97649,
+    "stops": {
+      "3": {
+        "latitude": 50.93287,
+        "longitude": 6.97649
+      },
+      "4": {
+        "latitude": 50.93287,
+        "longitude": 6.97649
+      }
+    }
+  },
+  "4211": {
+    "id": "4211",
+    "name": "Koelnmesse",
+    "latitude": 50.94358,
+    "longitude": 6.98227,
+    "stops": {
+      "3": {
+        "latitude": 50.94358,
+        "longitude": 6.98227
+      },
+      "4": {
+        "latitude": 50.94358,
+        "longitude": 6.98227
+      }
+    }
+  },
+  "4411": {
+    "id": "4411",
+    "name": "Deutz Technische Hochschule",
+    "latitude": 50.93659,
+    "longitude": 6.98593,
+    "stops": {
+      "1": {
+        "latitude": 50.93659,
+        "longitude": 6.98593
+      },
+      "9": {
+        "latitude": 50.93659,
+        "longitude": 6.98593
+      }
+    }
+  },
+  "4511": {
+    "id": "4511",
+    "name": "Severinsbrücke",
+    "latitude": 50.93057,
+    "longitude": 6.97236,
+    "stops": {
+      "7": {
+        "latitude": 50.93057,
+        "longitude": 6.97236
+      }
+    }
+  },
+  "4611": {
+    "id": "4611",
+    "name": "Drehbrücke",
+    "latitude": 50.92864,
+    "longitude": 6.97469,
+    "stops": {
+      "7": {
+        "latitude": 50.92864,
+        "longitude": 6.97469
+      }
+    }
+  },
+  "4711": {
+    "id": "4711",
+    "name": "Poller Kirchweg",
+    "latitude": 50.924,
+    "longitude": 6.97967,
+    "stops": {
+      "7": {
+        "latitude": 50.924,
+        "longitude": 6.97967
+      }
+    }
+  },
+  "4911": {
+    "id": "4911",
+    "name": "Bf Deutz/LANXESS arena",
+    "latitude": 50.93922,
+    "longitude": 6.97858,
+    "stops": {
+      "3": {
+        "latitude": 50.93922,
+        "longitude": 6.97858
+      },
+      "4": {
+        "latitude": 50.93922,
+        "longitude": 6.97858
+      }
+    }
+  },
+  "5211": {
+    "id": "5211",
+    "name": "Pohligstr.",
+    "latitude": 50.91668,
+    "longitude": 6.94158,
+    "stops": {
+      "12": {
+        "latitude": 50.91668,
+        "longitude": 6.94158
+      }
+    }
+  },
+  "5311": {
+    "id": "5311",
+    "name": "Herthastr.",
+    "latitude": 50.91322,
+    "longitude": 6.94087,
+    "stops": {
+      "12": {
+        "latitude": 50.91322,
+        "longitude": 6.94087
+      }
+    }
+  },
+  "5411": {
+    "id": "5411",
+    "name": "Gottesweg",
+    "latitude": 50.91022,
+    "longitude": 6.94154,
+    "stops": {
+      "12": {
+        "latitude": 50.91022,
+        "longitude": 6.94154
+      }
+    }
+  },
+  "5611": {
+    "id": "5611",
+    "name": "Zollstockgürtel",
+    "latitude": 50.90577,
+    "longitude": 6.94206,
+    "stops": {
+      "12": {
+        "latitude": 50.90577,
+        "longitude": 6.94206
+      }
+    }
+  },
+  "5711": {
+    "id": "5711",
+    "name": "Zollstock Südfriedhof",
+    "latitude": 50.90097,
+    "longitude": 6.94408,
+    "stops": {
+      "12": {
+        "latitude": 50.90097,
+        "longitude": 6.94408
+      }
+    }
+  },
+  "6511": {
+    "id": "6511",
+    "name": "Schönhauser Str.",
+    "latitude": 50.91455,
+    "longitude": 6.9718,
+    "stops": {
+      "16": {
+        "latitude": 50.91455,
+        "longitude": 6.9718
+      },
+      "17": {
+        "latitude": 50.91455,
+        "longitude": 6.9718
+      }
+    }
+  },
+  "7611": {
+    "id": "7611",
+    "name": "Bayenthalgürtel",
+    "latitude": 50.90659,
+    "longitude": 6.9781,
+    "stops": {
+      "16": {
+        "latitude": 50.90659,
+        "longitude": 6.9781
+      },
+      "17": {
+        "latitude": 50.90659,
+        "longitude": 6.9781
+      }
+    }
+  },
+  "10611": {
+    "id": "10611",
+    "name": "Rodenkirchen Bf",
+    "latitude": 50.89097,
+    "longitude": 6.99008,
+    "stops": {
+      "16": {
+        "latitude": 50.89097,
+        "longitude": 6.99008
+      },
+      "17": {
+        "latitude": 50.89097,
+        "longitude": 6.99008
+      }
+    }
+  },
+  "10711": {
+    "id": "10711",
+    "name": "Siegstr.",
+    "latitude": 50.88301,
+    "longitude": 6.99488,
+    "stops": {
+      "16": {
+        "latitude": 50.88301,
+        "longitude": 6.99488
+      },
+      "17": {
+        "latitude": 50.88301,
+        "longitude": 6.99488
+      }
+    }
+  },
+  "10811": {
+    "id": "10811",
+    "name": "Michaelshoven",
+    "latitude": 50.87613,
+    "longitude": 6.99903,
+    "stops": {
+      "16": {
+        "latitude": 50.87613,
+        "longitude": 6.99903
+      },
+      "17": {
+        "latitude": 50.87613,
+        "longitude": 6.99903
+      }
+    }
+  },
+  "12411": {
+    "id": "12411",
+    "name": "Sürth Bf",
+    "latitude": 50.8643,
+    "longitude": 7.0036,
+    "stops": {
+      "16": {
+        "latitude": 50.8643,
+        "longitude": 7.0036
+      },
+      "17": {
+        "latitude": 50.8643,
+        "longitude": 7.0036
+      }
+    }
+  },
+  "13411": {
+    "id": "13411",
+    "name": "Godorf Bf",
+    "latitude": 50.84739,
+    "longitude": 6.97855,
+    "stops": {
+      "16": {
+        "latitude": 50.84739,
+        "longitude": 6.97855
+      }
+    }
+  },
+  "14211": {
+    "id": "14211",
+    "name": "Mohnweg",
+    "latitude": 50.93795,
+    "longitude": 6.85551,
+    "stops": {
+      "1": {
+        "latitude": 50.93795,
+        "longitude": 6.85551
+      }
+    }
+  },
+  "14311": {
+    "id": "14311",
+    "name": "Universitätsstr.",
+    "latitude": 50.93665,
+    "longitude": 6.92427,
+    "stops": {
+      "1": {
+        "latitude": 50.93665,
+        "longitude": 6.92427
+      },
+      "7": {
+        "latitude": 50.93665,
+        "longitude": 6.92427
+      }
+    }
+  },
+  "14411": {
+    "id": "14411",
+    "name": "Melaten",
+    "latitude": 50.93673,
+    "longitude": 6.91705,
+    "stops": {
+      "1": {
+        "latitude": 50.93673,
+        "longitude": 6.91705
+      },
+      "7": {
+        "latitude": 50.93673,
+        "longitude": 6.91705
+      }
+    }
+  },
+  "15011": {
+    "id": "15011",
+    "name": "Weißhausstr.",
+    "latitude": 50.92172,
+    "longitude": 6.93379,
+    "stops": {
+      "18": {
+        "latitude": 50.92172,
+        "longitude": 6.93379
+      }
+    }
+  },
+  "15111": {
+    "id": "15111",
+    "name": "Arnulfstr.",
+    "latitude": 50.91853,
+    "longitude": 6.93052,
+    "stops": {
+      "18": {
+        "latitude": 50.91853,
+        "longitude": 6.93052
+      }
+    }
+  },
+  "15211": {
+    "id": "15211",
+    "name": "Sülzburgstr.",
+    "latitude": 50.91543,
+    "longitude": 6.92727,
+    "stops": {
+      "18": {
+        "latitude": 50.91543,
+        "longitude": 6.92727
+      }
+    }
+  },
+  "15311": {
+    "id": "15311",
+    "name": "Universität",
+    "latitude": 50.92599,
+    "longitude": 6.9312,
+    "stops": {
+      "9": {
+        "latitude": 50.92599,
+        "longitude": 6.9312
+      }
+    }
+  },
+  "15411": {
+    "id": "15411",
+    "name": "Weyertal",
+    "latitude": 50.92395,
+    "longitude": 6.9267,
+    "stops": {
+      "9": {
+        "latitude": 50.92395,
+        "longitude": 6.9267
+      }
+    }
+  },
+  "15511": {
+    "id": "15511",
+    "name": "Lindenburg",
+    "latitude": 50.92237,
+    "longitude": 6.92199,
+    "stops": {
+      "9": {
+        "latitude": 50.92237,
+        "longitude": 6.92199
+      }
+    }
+  },
+  "16011": {
+    "id": "16011",
+    "name": "Sülzgürtel",
+    "latitude": 50.91194,
+    "longitude": 6.92362,
+    "stops": {
+      "13": {
+        "latitude": 50.91194,
+        "longitude": 6.92362
+      },
+      "18": {
+        "latitude": 50.91194,
+        "longitude": 6.92362
+      }
+    }
+  },
+  "16211": {
+    "id": "16211",
+    "name": "Berrenrather Str./Gürtel",
+    "latitude": 50.91487,
+    "longitude": 6.92009,
+    "stops": {
+      "13": {
+        "latitude": 50.91487,
+        "longitude": 6.92009
+      }
+    }
+  },
+  "16311": {
+    "id": "16311",
+    "name": "Euskirchener Str.",
+    "latitude": 50.9166,
+    "longitude": 6.91758,
+    "stops": {
+      "13": {
+        "latitude": 50.9166,
+        "longitude": 6.91758
+      }
+    }
+  },
+  "16411": {
+    "id": "16411",
+    "name": "Zülpicher Str./Gürtel",
+    "latitude": 50.92008,
+    "longitude": 6.91548,
+    "stops": {
+      "9": {
+        "latitude": 50.92008,
+        "longitude": 6.91548
+      },
+      "13": {
+        "latitude": 50.92008,
+        "longitude": 6.91548
+      }
+    }
+  },
+  "16511": {
+    "id": "16511",
+    "name": "Mommsenstr.",
+    "latitude": 50.91923,
+    "longitude": 6.91047,
+    "stops": {
+      "9": {
+        "latitude": 50.91923,
+        "longitude": 6.91047
+      }
+    }
+  },
+  "16611": {
+    "id": "16611",
+    "name": "Sülz Hermeskeiler Platz",
+    "latitude": 50.91731,
+    "longitude": 6.90753,
+    "stops": {
+      "9": {
+        "latitude": 50.91731,
+        "longitude": 6.90753
+      }
+    }
+  },
+  "16711": {
+    "id": "16711",
+    "name": "Klettenbergpark",
+    "latitude": 50.9083,
+    "longitude": 6.91981,
+    "stops": {
+      "18": {
+        "latitude": 50.9083,
+        "longitude": 6.91981
+      }
+    }
+  },
+  "16911": {
+    "id": "16911",
+    "name": "Wüllnerstr.",
+    "latitude": 50.93106,
+    "longitude": 6.90805,
+    "stops": {
+      "7": {
+        "latitude": 50.93106,
+        "longitude": 6.90805
+      },
+      "13": {
+        "latitude": 50.93106,
+        "longitude": 6.90805
+      }
+    }
+  },
+  "17011": {
+    "id": "17011",
+    "name": "Dürener Str./Gürtel",
+    "latitude": 50.92874,
+    "longitude": 6.90857,
+    "stops": {
+      "7": {
+        "latitude": 50.92874,
+        "longitude": 6.90857
+      },
+      "13": {
+        "latitude": 50.92874,
+        "longitude": 6.90857
+      }
+    }
+  },
+  "17211": {
+    "id": "17211",
+    "name": "Brahmsstr.",
+    "latitude": 50.92595,
+    "longitude": 6.89818,
+    "stops": {
+      "7": {
+        "latitude": 50.92595,
+        "longitude": 6.89818
+      }
+    }
+  },
+  "17311": {
+    "id": "17311",
+    "name": "Gleueler Str./Gürtel",
+    "latitude": 50.92442,
+    "longitude": 6.91173,
+    "stops": {
+      "13": {
+        "latitude": 50.92442,
+        "longitude": 6.91173
+      }
+    }
+  },
+  "17811": {
+    "id": "17811",
+    "name": "Aachener Str./Gürtel",
+    "latitude": 50.93703,
+    "longitude": 6.90769,
+    "stops": {
+      "1": {
+        "latitude": 50.93703,
+        "longitude": 6.90769
+      },
+      "7": {
+        "latitude": 50.93703,
+        "longitude": 6.90769
+      },
+      "13": {
+        "latitude": 50.93703,
+        "longitude": 6.90769
+      }
+    }
+  },
+  "17911": {
+    "id": "17911",
+    "name": "Maarweg",
+    "latitude": 50.9372,
+    "longitude": 6.89982,
+    "stops": {
+      "1": {
+        "latitude": 50.9372,
+        "longitude": 6.89982
+      }
+    }
+  },
+  "18011": {
+    "id": "18011",
+    "name": "Clarenbachstift",
+    "latitude": 50.93729,
+    "longitude": 6.8948,
+    "stops": {
+      "1": {
+        "latitude": 50.93729,
+        "longitude": 6.8948
+      }
+    }
+  },
+  "18111": {
+    "id": "18111",
+    "name": "Eupener Str.",
+    "latitude": 50.93743,
+    "longitude": 6.88997,
+    "stops": {
+      "1": {
+        "latitude": 50.93743,
+        "longitude": 6.88997
+      }
+    }
+  },
+  "18211": {
+    "id": "18211",
+    "name": "Melatengürtel",
+    "latitude": 50.93936,
+    "longitude": 6.91056,
+    "stops": {
+      "13": {
+        "latitude": 50.93936,
+        "longitude": 6.91056
+      }
+    }
+  },
+  "18611": {
+    "id": "18611",
+    "name": "Alter Militärring",
+    "latitude": 50.93769,
+    "longitude": 6.88187,
+    "stops": {
+      "1": {
+        "latitude": 50.93769,
+        "longitude": 6.88187
+      }
+    }
+  },
+  "18711": {
+    "id": "18711",
+    "name": "RheinEnergieSTADION",
+    "latitude": 50.93759,
+    "longitude": 6.87501,
+    "stops": {
+      "1": {
+        "latitude": 50.93759,
+        "longitude": 6.87501
+      }
+    }
+  },
+  "20011": {
+    "id": "20011",
+    "name": "Junkersdorf",
+    "latitude": 50.93765,
+    "longitude": 6.86921,
+    "stops": {
+      "1": {
+        "latitude": 50.93765,
+        "longitude": 6.86921
+      }
+    }
+  },
+  "22811": {
+    "id": "22811",
+    "name": "Rosenhügel",
+    "latitude": 50.87395,
+    "longitude": 7.05995,
+    "stops": {
+      "7": {
+        "latitude": 50.87395,
+        "longitude": 7.05995
+      }
+    }
+  },
+  "23411": {
+    "id": "23411",
+    "name": "Stüttgenhof",
+    "latitude": 50.92008,
+    "longitude": 6.87753,
+    "stops": {
+      "7": {
+        "latitude": 50.92008,
+        "longitude": 6.87753
+      }
+    }
+  },
+  "23511": {
+    "id": "23511",
+    "name": "Marsdorf",
+    "latitude": 50.91764,
+    "longitude": 6.85913,
+    "stops": {
+      "7": {
+        "latitude": 50.91764,
+        "longitude": 6.85913
+      }
+    }
+  },
+  "23611": {
+    "id": "23611",
+    "name": "Piusstr.",
+    "latitude": 50.9458,
+    "longitude": 6.92628,
+    "stops": {
+      "3": {
+        "latitude": 50.9458,
+        "longitude": 6.92628
+      },
+      "4": {
+        "latitude": 50.9458,
+        "longitude": 6.92628
+      }
+    }
+  },
+  "23711": {
+    "id": "23711",
+    "name": "Körnerstr.",
+    "latitude": 50.94806,
+    "longitude": 6.92085,
+    "stops": {
+      "3": {
+        "latitude": 50.94806,
+        "longitude": 6.92085
+      },
+      "4": {
+        "latitude": 50.94806,
+        "longitude": 6.92085
+      }
+    }
+  },
+  "23811": {
+    "id": "23811",
+    "name": "Gutenbergstr.",
+    "latitude": 50.95023,
+    "longitude": 6.92866,
+    "stops": {
+      "5": {
+        "latitude": 50.95023,
+        "longitude": 6.92866
+      }
+    }
+  },
+  "23911": {
+    "id": "23911",
+    "name": "Liebigstr.",
+    "latitude": 50.95174,
+    "longitude": 6.9252,
+    "stops": {
+      "5": {
+        "latitude": 50.95174,
+        "longitude": 6.9252
+      }
+    }
+  },
+  "24111": {
+    "id": "24111",
+    "name": "Weiden Römergrab",
+    "latitude": 50.93833,
+    "longitude": 6.82908,
+    "stops": {
+      "1": {
+        "latitude": 50.93833,
+        "longitude": 6.82908
+      }
+    }
+  },
+  "24211": {
+    "id": "24211",
+    "name": "Schaffrathsgasse",
+    "latitude": 50.97144,
+    "longitude": 6.87013,
+    "stops": {
+      "3": {
+        "latitude": 50.97144,
+        "longitude": 6.87013
+      }
+    }
+  },
+  "24511": {
+    "id": "24511",
+    "name": "Subbelrather Str./Gürtel",
+    "latitude": 50.95469,
+    "longitude": 6.92128,
+    "stops": {
+      "5": {
+        "latitude": 50.95469,
+        "longitude": 6.92128
+      },
+      "13": {
+        "latitude": 50.95469,
+        "longitude": 6.92128
+      }
+    }
+  },
+  "24611": {
+    "id": "24611",
+    "name": "Nußbaumerstr.",
+    "latitude": 50.95678,
+    "longitude": 6.92337,
+    "stops": {
+      "5": {
+        "latitude": 50.95678,
+        "longitude": 6.92337
+      },
+      "13": {
+        "latitude": 50.95678,
+        "longitude": 6.92337
+      }
+    }
+  },
+  "24711": {
+    "id": "24711",
+    "name": "Lenauplatz",
+    "latitude": 50.95864,
+    "longitude": 6.91831,
+    "stops": {
+      "5": {
+        "latitude": 50.95864,
+        "longitude": 6.91831
+      }
+    }
+  },
+  "24911": {
+    "id": "24911",
+    "name": "Iltisstr.",
+    "latitude": 50.96469,
+    "longitude": 6.91264,
+    "stops": {
+      "5": {
+        "latitude": 50.96469,
+        "longitude": 6.91264
+      }
+    }
+  },
+  "25111": {
+    "id": "25111",
+    "name": "Venloer Str./Gürtel",
+    "latitude": 50.94998,
+    "longitude": 6.91654,
+    "stops": {
+      "3": {
+        "latitude": 50.94998,
+        "longitude": 6.91654
+      },
+      "4": {
+        "latitude": 50.94998,
+        "longitude": 6.91654
+      },
+      "13": {
+        "latitude": 50.94998,
+        "longitude": 6.91654
+      }
+    }
+  },
+  "25411": {
+    "id": "25411",
+    "name": "Weinsbergstr./Gürtel",
+    "latitude": 50.9448,
+    "longitude": 6.91278,
+    "stops": {
+      "13": {
+        "latitude": 50.9448,
+        "longitude": 6.91278
+      }
+    }
+  },
+  "25511": {
+    "id": "25511",
+    "name": "Leyendeckerstr.",
+    "latitude": 50.95446,
+    "longitude": 6.90974,
+    "stops": {
+      "3": {
+        "latitude": 50.95446,
+        "longitude": 6.90974
+      },
+      "4": {
+        "latitude": 50.95446,
+        "longitude": 6.90974
+      }
+    }
+  },
+  "26111": {
+    "id": "26111",
+    "name": "Weiden Zentrum",
+    "latitude": 50.93817,
+    "longitude": 6.83562,
+    "stops": {
+      "1": {
+        "latitude": 50.93817,
+        "longitude": 6.83562
+      }
+    }
+  },
+  "26211": {
+    "id": "26211",
+    "name": "Rochusplatz",
+    "latitude": 50.95658,
+    "longitude": 6.90337,
+    "stops": {
+      "3": {
+        "latitude": 50.95658,
+        "longitude": 6.90337
+      },
+      "4": {
+        "latitude": 50.95658,
+        "longitude": 6.90337
+      }
+    }
+  },
+  "26411": {
+    "id": "26411",
+    "name": "Akazienweg",
+    "latitude": 50.96031,
+    "longitude": 6.89459,
+    "stops": {
+      "3": {
+        "latitude": 50.96031,
+        "longitude": 6.89459
+      },
+      "4": {
+        "latitude": 50.96031,
+        "longitude": 6.89459
+      }
+    }
+  },
+  "27211": {
+    "id": "27211",
+    "name": "Rektor-Klein-Str.",
+    "latitude": 50.97348,
+    "longitude": 6.90476,
+    "stops": {
+      "5": {
+        "latitude": 50.97348,
+        "longitude": 6.90476
+      }
+    }
+  },
+  "27311": {
+    "id": "27311",
+    "name": "Margaretastr.",
+    "latitude": 50.96831,
+    "longitude": 6.9055,
+    "stops": {
+      "5": {
+        "latitude": 50.96831,
+        "longitude": 6.9055
+      }
+    }
+  },
+  "27411": {
+    "id": "27411",
+    "name": "Alter Flughafen Butzweilerhof",
+    "latitude": 50.97748,
+    "longitude": 6.89862,
+    "stops": {
+      "5": {
+        "latitude": 50.97748,
+        "longitude": 6.89862
+      }
+    }
+  },
+  "28211": {
+    "id": "28211",
+    "name": "Wolffsohnstr.",
+    "latitude": 50.96502,
+    "longitude": 6.88479,
+    "stops": {
+      "3": {
+        "latitude": 50.96502,
+        "longitude": 6.88479
+      },
+      "4": {
+        "latitude": 50.96502,
+        "longitude": 6.88479
+      }
+    }
+  },
+  "28311": {
+    "id": "28311",
+    "name": "Westfriedhof",
+    "latitude": 50.96733,
+    "longitude": 6.87877,
+    "stops": {
+      "3": {
+        "latitude": 50.96733,
+        "longitude": 6.87877
+      },
+      "4": {
+        "latitude": 50.96733,
+        "longitude": 6.87877
+      }
+    }
+  },
+  "29111": {
+    "id": "29111",
+    "name": "Bocklemünd",
+    "latitude": 50.9692,
+    "longitude": 6.87335,
+    "stops": {
+      "3": {
+        "latitude": 50.9692,
+        "longitude": 6.87335
+      },
+      "4": {
+        "latitude": 50.9692,
+        "longitude": 6.87335
+      }
+    }
+  },
+  "29811": {
+    "id": "29811",
+    "name": "Ollenhauerring",
+    "latitude": 50.97568,
+    "longitude": 6.87112,
+    "stops": {
+      "3": {
+        "latitude": 50.97568,
+        "longitude": 6.87112
+      }
+    }
+  },
+  "30311": {
+    "id": "30311",
+    "name": "Neusser Str./Gürtel",
+    "latitude": 50.97256,
+    "longitude": 6.95134,
+    "stops": {
+      "12": {
+        "latitude": 50.97256,
+        "longitude": 6.95134
+      },
+      "13": {
+        "latitude": 50.97256,
+        "longitude": 6.95134
+      },
+      "15": {
+        "latitude": 50.97256,
+        "longitude": 6.95134
+      }
+    }
+  },
+  "30411": {
+    "id": "30411",
+    "name": "Florastr.",
+    "latitude": 50.96479,
+    "longitude": 6.9537,
+    "stops": {
+      "12": {
+        "latitude": 50.96479,
+        "longitude": 6.9537
+      },
+      "15": {
+        "latitude": 50.96479,
+        "longitude": 6.9537
+      }
+    }
+  },
+  "30511": {
+    "id": "30511",
+    "name": "Lohsestr.",
+    "latitude": 50.95851,
+    "longitude": 6.95513,
+    "stops": {
+      "12": {
+        "latitude": 50.95851,
+        "longitude": 6.95513
+      },
+      "15": {
+        "latitude": 50.95851,
+        "longitude": 6.95513
+      }
+    }
+  },
+  "31311": {
+    "id": "31311",
+    "name": "Zoo/Flora",
+    "latitude": 50.95803,
+    "longitude": 6.97461,
+    "stops": {
+      "18": {
+        "latitude": 50.95803,
+        "longitude": 6.97461
+      }
+    }
+  },
+  "31411": {
+    "id": "31411",
+    "name": "Boltensternstr.",
+    "latitude": 50.96243,
+    "longitude": 6.98108,
+    "stops": {
+      "18": {
+        "latitude": 50.96243,
+        "longitude": 6.98108
+      }
+    }
+  },
+  "31511": {
+    "id": "31511",
+    "name": "Slabystr.",
+    "latitude": 50.96611,
+    "longitude": 6.98785,
+    "stops": {
+      "13": {
+        "latitude": 50.96611,
+        "longitude": 6.98785
+      },
+      "18": {
+        "latitude": 50.96611,
+        "longitude": 6.98785
+      }
+    }
+  },
+  "31611": {
+    "id": "31611",
+    "name": "Kinderkrankenhaus",
+    "latitude": 50.96357,
+    "longitude": 6.96857,
+    "stops": {
+      "16": {
+        "latitude": 50.96357,
+        "longitude": 6.96857
+      }
+    }
+  },
+  "31711": {
+    "id": "31711",
+    "name": "Amsterdamer Str./Gürtel",
+    "latitude": 50.97085,
+    "longitude": 6.96956,
+    "stops": {
+      "13": {
+        "latitude": 50.97085,
+        "longitude": 6.96956
+      },
+      "16": {
+        "latitude": 50.97085,
+        "longitude": 6.96956
+      }
+    }
+  },
+  "32511": {
+    "id": "32511",
+    "name": "Geldernstr./Parkgürtel",
+    "latitude": 50.96842,
+    "longitude": 6.94084,
+    "stops": {
+      "13": {
+        "latitude": 50.96842,
+        "longitude": 6.94084
+      }
+    }
+  },
+  "32611": {
+    "id": "32611",
+    "name": "Escher Str.",
+    "latitude": 50.9648,
+    "longitude": 6.93404,
+    "stops": {
+      "13": {
+        "latitude": 50.9648,
+        "longitude": 6.93404
+      }
+    }
+  },
+  "33611": {
+    "id": "33611",
+    "name": "Mollwitzstr.",
+    "latitude": 50.97839,
+    "longitude": 6.94879,
+    "stops": {
+      "12": {
+        "latitude": 50.97839,
+        "longitude": 6.94879
+      },
+      "15": {
+        "latitude": 50.97839,
+        "longitude": 6.94879
+      }
+    }
+  },
+  "33711": {
+    "id": "33711",
+    "name": "Scheibenstr.",
+    "latitude": 50.98589,
+    "longitude": 6.94624,
+    "stops": {
+      "12": {
+        "latitude": 50.98589,
+        "longitude": 6.94624
+      },
+      "15": {
+        "latitude": 50.98589,
+        "longitude": 6.94624
+      }
+    }
+  },
+  "34211": {
+    "id": "34211",
+    "name": "Niehl Nord",
+    "latitude": 50.99576,
+    "longitude": 6.95534,
+    "stops": {
+      "12": {
+        "latitude": 50.99576,
+        "longitude": 6.95534
+      }
+    }
+  },
+  "34311": {
+    "id": "34311",
+    "name": "Niehl Sebastianstr.",
+    "latitude": 50.98512,
+    "longitude": 6.96157,
+    "stops": {
+      "16": {
+        "latitude": 50.98512,
+        "longitude": 6.96157
+      }
+    }
+  },
+  "35511": {
+    "id": "35511",
+    "name": "Meerfeldstr.",
+    "latitude": 50.99508,
+    "longitude": 6.92114,
+    "stops": {
+      "15": {
+        "latitude": 50.99508,
+        "longitude": 6.92114
+      }
+    }
+  },
+  "35611": {
+    "id": "35611",
+    "name": "Longericher Str.",
+    "latitude": 50.99611,
+    "longitude": 6.91461,
+    "stops": {
+      "15": {
+        "latitude": 50.99611,
+        "longitude": 6.91461
+      }
+    }
+  },
+  "35711": {
+    "id": "35711",
+    "name": "Longerich Friedhof",
+    "latitude": 50.99608,
+    "longitude": 6.91181,
+    "stops": {
+      "15": {
+        "latitude": 50.99608,
+        "longitude": 6.91181
+      }
+    }
+  },
+  "36211": {
+    "id": "36211",
+    "name": "Wilhelm-Sollmann-Str.",
+    "latitude": 50.99214,
+    "longitude": 6.94103,
+    "stops": {
+      "12": {
+        "latitude": 50.99214,
+        "longitude": 6.94103
+      },
+      "15": {
+        "latitude": 50.99214,
+        "longitude": 6.94103
+      }
+    }
+  },
+  "36311": {
+    "id": "36311",
+    "name": "Altonaer Platz",
+    "latitude": 50.99384,
+    "longitude": 6.93367,
+    "stops": {
+      "15": {
+        "latitude": 50.99384,
+        "longitude": 6.93367
+      }
+    }
+  },
+  "36411": {
+    "id": "36411",
+    "name": "Herforder Str.",
+    "latitude": 50.9947,
+    "longitude": 6.92489,
+    "stops": {
+      "15": {
+        "latitude": 50.9947,
+        "longitude": 6.92489
+      }
+    }
+  },
+  "36711": {
+    "id": "36711",
+    "name": "Geestemünder Str.",
+    "latitude": 51.00229,
+    "longitude": 6.95536,
+    "stops": {
+      "12": {
+        "latitude": 51.00229,
+        "longitude": 6.95536
+      }
+    }
+  },
+  "36811": {
+    "id": "36811",
+    "name": "Fordwerke Süd",
+    "latitude": 51.00608,
+    "longitude": 6.95544,
+    "stops": {
+      "12": {
+        "latitude": 51.00608,
+        "longitude": 6.95544
+      }
+    }
+  },
+  "36911": {
+    "id": "36911",
+    "name": "Fordwerke Mitte",
+    "latitude": 51.01208,
+    "longitude": 6.95545,
+    "stops": {
+      "12": {
+        "latitude": 51.01208,
+        "longitude": 6.95545
+      }
+    }
+  },
+  "37011": {
+    "id": "37011",
+    "name": "Fordwerke Nord",
+    "latitude": 51.01816,
+    "longitude": 6.95548,
+    "stops": {
+      "12": {
+        "latitude": 51.01816,
+        "longitude": 6.95548
+      }
+    }
+  },
+  "38411": {
+    "id": "38411",
+    "name": "Heimersdorf",
+    "latitude": 51.01208,
+    "longitude": 6.90672,
+    "stops": {
+      "15": {
+        "latitude": 51.01208,
+        "longitude": 6.90672
+      }
+    }
+  },
+  "38511": {
+    "id": "38511",
+    "name": "Chorweiler",
+    "latitude": 51.02095,
+    "longitude": 6.89812,
+    "stops": {
+      "15": {
+        "latitude": 51.02095,
+        "longitude": 6.89812
+      }
+    }
+  },
+  "41611": {
+    "id": "41611",
+    "name": "Merkenich Mitte",
+    "latitude": 51.02441,
+    "longitude": 6.95316,
+    "stops": {
+      "12": {
+        "latitude": 51.02441,
+        "longitude": 6.95316
+      }
+    }
+  },
+  "41711": {
+    "id": "41711",
+    "name": "Merkenich",
+    "latitude": 51.02828,
+    "longitude": 6.94794,
+    "stops": {
+      "12": {
+        "latitude": 51.02828,
+        "longitude": 6.94794
+      }
+    }
+  },
+  "43811": {
+    "id": "43811",
+    "name": "Poll Salmstr.",
+    "latitude": 50.9161,
+    "longitude": 6.99318,
+    "stops": {
+      "7": {
+        "latitude": 50.9161,
+        "longitude": 6.99318
+      }
+    }
+  },
+  "43911": {
+    "id": "43911",
+    "name": "Poll Baumschulenweg",
+    "latitude": 50.91494,
+    "longitude": 6.99982,
+    "stops": {
+      "7": {
+        "latitude": 50.91494,
+        "longitude": 6.99982
+      }
+    }
+  },
+  "44411": {
+    "id": "44411",
+    "name": "Raiffeisenstr.",
+    "latitude": 50.91992,
+    "longitude": 6.98606,
+    "stops": {
+      "7": {
+        "latitude": 50.91992,
+        "longitude": 6.98606
+      }
+    }
+  },
+  "44911": {
+    "id": "44911",
+    "name": "Westhoven Kölner Str.",
+    "latitude": 50.90644,
+    "longitude": 7.01516,
+    "stops": {
+      "7": {
+        "latitude": 50.90644,
+        "longitude": 7.01516
+      }
+    }
+  },
+  "45011": {
+    "id": "45011",
+    "name": "Westhoven Berliner Str.",
+    "latitude": 50.90108,
+    "longitude": 7.02631,
+    "stops": {
+      "7": {
+        "latitude": 50.90108,
+        "longitude": 7.02631
+      }
+    }
+  },
+  "45111": {
+    "id": "45111",
+    "name": "Ensen Gilgaustr.",
+    "latitude": 50.89959,
+    "longitude": 7.03078,
+    "stops": {
+      "7": {
+        "latitude": 50.89959,
+        "longitude": 7.03078
+      }
+    }
+  },
+  "45211": {
+    "id": "45211",
+    "name": "Ensen Kloster",
+    "latitude": 50.89696,
+    "longitude": 7.04756,
+    "stops": {
+      "7": {
+        "latitude": 50.89696,
+        "longitude": 7.04756
+      }
+    }
+  },
+  "46611": {
+    "id": "46611",
+    "name": "Porz Steinstr.",
+    "latitude": 50.89189,
+    "longitude": 7.05606,
+    "stops": {
+      "7": {
+        "latitude": 50.89189,
+        "longitude": 7.05606
+      }
+    }
+  },
+  "46711": {
+    "id": "46711",
+    "name": "Porz Markt",
+    "latitude": 50.88463,
+    "longitude": 7.05915,
+    "stops": {
+      "7": {
+        "latitude": 50.88463,
+        "longitude": 7.05915
+      }
+    }
+  },
+  "48611": {
+    "id": "48611",
+    "name": "Zündorf",
+    "latitude": 50.8659,
+    "longitude": 7.04872,
+    "stops": {
+      "7": {
+        "latitude": 50.8659,
+        "longitude": 7.04872
+      }
+    }
+  },
+  "51211": {
+    "id": "51211",
+    "name": "Kalk Post",
+    "latitude": 50.93756,
+    "longitude": 6.99896,
+    "stops": {
+      "1": {
+        "latitude": 50.93756,
+        "longitude": 6.99896
+      },
+      "9": {
+        "latitude": 50.93756,
+        "longitude": 6.99896
+      }
+    }
+  },
+  "51311": {
+    "id": "51311",
+    "name": "Kalk Kapelle",
+    "latitude": 50.93892,
+    "longitude": 7.00883,
+    "stops": {
+      "1": {
+        "latitude": 50.93892,
+        "longitude": 7.00883
+      },
+      "9": {
+        "latitude": 50.93892,
+        "longitude": 7.00883
+      }
+    }
+  },
+  "51711": {
+    "id": "51711",
+    "name": "Fuldaer Str.",
+    "latitude": 50.94161,
+    "longitude": 7.02316,
+    "stops": {
+      "1": {
+        "latitude": 50.94161,
+        "longitude": 7.02316
+      }
+    }
+  },
+  "51811": {
+    "id": "51811",
+    "name": "Sportpark Höhenberg",
+    "latitude": 50.94175,
+    "longitude": 7.02973,
+    "stops": {
+      "1": {
+        "latitude": 50.94175,
+        "longitude": 7.02973
+      }
+    }
+  },
+  "52111": {
+    "id": "52111",
+    "name": "Vingst",
+    "latitude": 50.9327,
+    "longitude": 7.02226,
+    "stops": {
+      "9": {
+        "latitude": 50.9327,
+        "longitude": 7.02226
+      }
+    }
+  },
+  "53311": {
+    "id": "53311",
+    "name": "Ostheim",
+    "latitude": 50.92916,
+    "longitude": 7.0424,
+    "stops": {
+      "9": {
+        "latitude": 50.92916,
+        "longitude": 7.0424
+      }
+    }
+  },
+  "53411": {
+    "id": "53411",
+    "name": "Autobahn",
+    "latitude": 50.92704,
+    "longitude": 7.05427,
+    "stops": {
+      "9": {
+        "latitude": 50.92704,
+        "longitude": 7.05427
+      }
+    }
+  },
+  "53911": {
+    "id": "53911",
+    "name": "Kalker Friedhof",
+    "latitude": 50.94277,
+    "longitude": 7.0431,
+    "stops": {
+      "1": {
+        "latitude": 50.94277,
+        "longitude": 7.0431
+      }
+    }
+  },
+  "54011": {
+    "id": "54011",
+    "name": "Merheim",
+    "latitude": 50.94393,
+    "longitude": 7.04767,
+    "stops": {
+      "1": {
+        "latitude": 50.94393,
+        "longitude": 7.04767
+      }
+    }
+  },
+  "54611": {
+    "id": "54611",
+    "name": "Flehbachstr.",
+    "latitude": 50.94783,
+    "longitude": 7.07361,
+    "stops": {
+      "1": {
+        "latitude": 50.94783,
+        "longitude": 7.07361
+      }
+    }
+  },
+  "54711": {
+    "id": "54711",
+    "name": "Brück Mauspfad",
+    "latitude": 50.94884,
+    "longitude": 7.0786,
+    "stops": {
+      "1": {
+        "latitude": 50.94884,
+        "longitude": 7.0786
+      }
+    }
+  },
+  "55311": {
+    "id": "55311",
+    "name": "Steinweg",
+    "latitude": 50.9237,
+    "longitude": 7.06657,
+    "stops": {
+      "9": {
+        "latitude": 50.9237,
+        "longitude": 7.06657
+      }
+    }
+  },
+  "55411": {
+    "id": "55411",
+    "name": "Porzer Str.",
+    "latitude": 50.9217,
+    "longitude": 7.07477,
+    "stops": {
+      "9": {
+        "latitude": 50.9217,
+        "longitude": 7.07477
+      }
+    }
+  },
+  "55511": {
+    "id": "55511",
+    "name": "Röttgensweg",
+    "latitude": 50.92029,
+    "longitude": 7.09024,
+    "stops": {
+      "9": {
+        "latitude": 50.92029,
+        "longitude": 7.09024
+      }
+    }
+  },
+  "55611": {
+    "id": "55611",
+    "name": "Rath/Heumar",
+    "latitude": 50.92045,
+    "longitude": 7.08067,
+    "stops": {
+      "9": {
+        "latitude": 50.92045,
+        "longitude": 7.08067
+      }
+    }
+  },
+  "55711": {
+    "id": "55711",
+    "name": "Königsforst",
+    "latitude": 50.91984,
+    "longitude": 7.09644,
+    "stops": {
+      "9": {
+        "latitude": 50.91984,
+        "longitude": 7.09644
+      }
+    }
+  },
+  "56711": {
+    "id": "56711",
+    "name": "Stegerwaldsiedlung",
+    "latitude": 50.94859,
+    "longitude": 6.9934,
+    "stops": {
+      "3": {
+        "latitude": 50.94859,
+        "longitude": 6.9934
+      },
+      "4": {
+        "latitude": 50.94859,
+        "longitude": 6.9934
+      }
+    }
+  },
+  "56811": {
+    "id": "56811",
+    "name": "Grünstr.",
+    "latitude": 50.95589,
+    "longitude": 7.00053,
+    "stops": {
+      "4": {
+        "latitude": 50.95589,
+        "longitude": 7.00053
+      }
+    }
+  },
+  "56911": {
+    "id": "56911",
+    "name": "Buchforst Waldecker Str.",
+    "latitude": 50.95096,
+    "longitude": 7.0048,
+    "stops": {
+      "3": {
+        "latitude": 50.95096,
+        "longitude": 7.0048
+      }
+    }
+  },
+  "57011": {
+    "id": "57011",
+    "name": "Mülheim Wiener Platz",
+    "latitude": 50.96152,
+    "longitude": 7.00517,
+    "stops": {
+      "4": {
+        "latitude": 50.96152,
+        "longitude": 7.00517
+      },
+      "13": {
+        "latitude": 50.96152,
+        "longitude": 7.00517
+      },
+      "18": {
+        "latitude": 50.96152,
+        "longitude": 7.00517
+      }
+    }
+  },
+  "57211": {
+    "id": "57211",
+    "name": "Bf Mülheim",
+    "latitude": 50.95693,
+    "longitude": 7.01286,
+    "stops": {
+      "13": {
+        "latitude": 50.95693,
+        "longitude": 7.01286
+      },
+      "18": {
+        "latitude": 50.95693,
+        "longitude": 7.01286
+      }
+    }
+  },
+  "57711": {
+    "id": "57711",
+    "name": "Buchheim Frankfurter Str.",
+    "latitude": 50.95339,
+    "longitude": 7.01502,
+    "stops": {
+      "3": {
+        "latitude": 50.95339,
+        "longitude": 7.01502
+      }
+    }
+  },
+  "57811": {
+    "id": "57811",
+    "name": "Buchheim Herler Str.",
+    "latitude": 50.95808,
+    "longitude": 7.02535,
+    "stops": {
+      "3": {
+        "latitude": 50.95808,
+        "longitude": 7.02535
+      },
+      "13": {
+        "latitude": 50.95808,
+        "longitude": 7.02535
+      },
+      "18": {
+        "latitude": 50.95808,
+        "longitude": 7.02535
+      }
+    }
+  },
+  "57911": {
+    "id": "57911",
+    "name": "Wichheimer Str.",
+    "latitude": 50.96127,
+    "longitude": 7.031,
+    "stops": {
+      "3": {
+        "latitude": 50.96127,
+        "longitude": 7.031
+      },
+      "13": {
+        "latitude": 50.96127,
+        "longitude": 7.031
+      },
+      "18": {
+        "latitude": 50.96127,
+        "longitude": 7.031
+      }
+    }
+  },
+  "58311": {
+    "id": "58311",
+    "name": "Holweide Vischeringstr.",
+    "latitude": 50.96692,
+    "longitude": 7.03916,
+    "stops": {
+      "3": {
+        "latitude": 50.96692,
+        "longitude": 7.03916
+      },
+      "13": {
+        "latitude": 50.96692,
+        "longitude": 7.03916
+      },
+      "18": {
+        "latitude": 50.96692,
+        "longitude": 7.03916
+      }
+    }
+  },
+  "58411": {
+    "id": "58411",
+    "name": "Maria-Himmelfahrt-Str.",
+    "latitude": 50.96787,
+    "longitude": 7.04494,
+    "stops": {
+      "3": {
+        "latitude": 50.96787,
+        "longitude": 7.04494
+      },
+      "18": {
+        "latitude": 50.96787,
+        "longitude": 7.04494
+      }
+    }
+  },
+  "58511": {
+    "id": "58511",
+    "name": "Neufelder Str.",
+    "latitude": 50.96945,
+    "longitude": 7.05517,
+    "stops": {
+      "3": {
+        "latitude": 50.96945,
+        "longitude": 7.05517
+      },
+      "18": {
+        "latitude": 50.96945,
+        "longitude": 7.05517
+      }
+    }
+  },
+  "59411": {
+    "id": "59411",
+    "name": "Dellbrück Mauspfad",
+    "latitude": 50.97179,
+    "longitude": 7.06457,
+    "stops": {
+      "3": {
+        "latitude": 50.97179,
+        "longitude": 7.06457
+      },
+      "18": {
+        "latitude": 50.97179,
+        "longitude": 7.06457
+      }
+    }
+  },
+  "59511": {
+    "id": "59511",
+    "name": "Dellbrück Hauptstr.",
+    "latitude": 50.97461,
+    "longitude": 7.07458,
+    "stops": {
+      "3": {
+        "latitude": 50.97461,
+        "longitude": 7.07458
+      },
+      "18": {
+        "latitude": 50.97461,
+        "longitude": 7.07458
+      }
+    }
+  },
+  "59611": {
+    "id": "59611",
+    "name": "Thielenbruch",
+    "latitude": 50.97808,
+    "longitude": 7.08598,
+    "stops": {
+      "3": {
+        "latitude": 50.97808,
+        "longitude": 7.08598
+      },
+      "18": {
+        "latitude": 50.97808,
+        "longitude": 7.08598
+      }
+    }
+  },
+  "60611": {
+    "id": "60611",
+    "name": "Im Weidenbruch",
+    "latitude": 50.98078,
+    "longitude": 7.02286,
+    "stops": {
+      "4": {
+        "latitude": 50.98078,
+        "longitude": 7.02286
+      }
+    }
+  },
+  "60711": {
+    "id": "60711",
+    "name": "Am Emberg",
+    "latitude": 50.98948,
+    "longitude": 7.03032,
+    "stops": {
+      "4": {
+        "latitude": 50.98948,
+        "longitude": 7.03032
+      }
+    }
+  },
+  "60811": {
+    "id": "60811",
+    "name": "Leuchterstr.",
+    "latitude": 50.99607,
+    "longitude": 7.0374,
+    "stops": {
+      "4": {
+        "latitude": 50.99607,
+        "longitude": 7.0374
+      }
+    }
+  },
+  "60911": {
+    "id": "60911",
+    "name": "Odenthaler Str.",
+    "latitude": 51.00096,
+    "longitude": 7.04191,
+    "stops": {
+      "4": {
+        "latitude": 51.00096,
+        "longitude": 7.04191
+      }
+    }
+  },
+  "62811": {
+    "id": "62811",
+    "name": "Bornheim Rathaus",
+    "latitude": 50.75729,
+    "longitude": 7.00195,
+    "stops": {
+      "18": {
+        "latitude": 50.75729,
+        "longitude": 7.00195
+      }
+    }
+  },
+  "63111": {
+    "id": "63111",
+    "name": "Keupstr.",
+    "latitude": 50.96629,
+    "longitude": 7.00687,
+    "stops": {
+      "4": {
+        "latitude": 50.96629,
+        "longitude": 7.00687
+      }
+    }
+  },
+  "63211": {
+    "id": "63211",
+    "name": "Von-Sparr-Str.",
+    "latitude": 50.97058,
+    "longitude": 7.01154,
+    "stops": {
+      "4": {
+        "latitude": 50.97058,
+        "longitude": 7.01154
+      }
+    }
+  },
+  "63311": {
+    "id": "63311",
+    "name": "Mülheim Berliner Str.",
+    "latitude": 50.97496,
+    "longitude": 7.01481,
+    "stops": {
+      "4": {
+        "latitude": 50.97496,
+        "longitude": 7.01481
+      }
+    }
+  },
+  "65511": {
+    "id": "65511",
+    "name": "Im Hoppenkamp",
+    "latitude": 50.9632,
+    "longitude": 7.15658,
+    "stops": {
+      "1": {
+        "latitude": 50.9632,
+        "longitude": 7.15658
+      }
+    }
+  },
+  "66311": {
+    "id": "66311",
+    "name": "Schlebusch",
+    "latitude": 51.01877,
+    "longitude": 7.04455,
+    "stops": {
+      "4": {
+        "latitude": 51.01877,
+        "longitude": 7.04455
+      }
+    }
+  },
+  "66511": {
+    "id": "66511",
+    "name": "Bensberg",
+    "latitude": 50.96347,
+    "longitude": 7.16196,
+    "stops": {
+      "1": {
+        "latitude": 50.96347,
+        "longitude": 7.16196
+      }
+    }
+  },
+  "66611": {
+    "id": "66611",
+    "name": "Kölner Str.",
+    "latitude": 50.96267,
+    "longitude": 7.14931,
+    "stops": {
+      "1": {
+        "latitude": 50.96267,
+        "longitude": 7.14931
+      }
+    }
+  },
+  "66711": {
+    "id": "66711",
+    "name": "Neuenweg",
+    "latitude": 50.96325,
+    "longitude": 7.14249,
+    "stops": {
+      "1": {
+        "latitude": 50.96325,
+        "longitude": 7.14249
+      }
+    }
+  },
+  "66811": {
+    "id": "66811",
+    "name": "Lustheide",
+    "latitude": 50.95197,
+    "longitude": 7.1052,
+    "stops": {
+      "1": {
+        "latitude": 50.95197,
+        "longitude": 7.1052
+      }
+    }
+  },
+  "66911": {
+    "id": "66911",
+    "name": "Refrath",
+    "latitude": 50.95397,
+    "longitude": 7.11665,
+    "stops": {
+      "1": {
+        "latitude": 50.95397,
+        "longitude": 7.11665
+      }
+    }
+  },
+  "67011": {
+    "id": "67011",
+    "name": "Kippekausen",
+    "latitude": 50.95663,
+    "longitude": 7.12959,
+    "stops": {
+      "1": {
+        "latitude": 50.95663,
+        "longitude": 7.12959
+      }
+    }
+  },
+  "67111": {
+    "id": "67111",
+    "name": "Frankenforst",
+    "latitude": 50.96076,
+    "longitude": 7.13673,
+    "stops": {
+      "1": {
+        "latitude": 50.96076,
+        "longitude": 7.13673
+      }
+    }
+  },
+  "67211": {
+    "id": "67211",
+    "name": "Roisdorf West",
+    "latitude": 50.75391,
+    "longitude": 7.00797,
+    "stops": {
+      "18": {
+        "latitude": 50.75391,
+        "longitude": 7.00797
+      }
+    }
+  },
+  "67311": {
+    "id": "67311",
+    "name": "Bornheim",
+    "latitude": 50.76131,
+    "longitude": 6.98935,
+    "stops": {
+      "18": {
+        "latitude": 50.76131,
+        "longitude": 6.98935
+      }
+    }
+  },
+  "67411": {
+    "id": "67411",
+    "name": "Dersdorf",
+    "latitude": 50.76478,
+    "longitude": 6.96913,
+    "stops": {
+      "18": {
+        "latitude": 50.76478,
+        "longitude": 6.96913
+      }
+    }
+  },
+  "67511": {
+    "id": "67511",
+    "name": "Waldorf",
+    "latitude": 50.76826,
+    "longitude": 6.95082,
+    "stops": {
+      "18": {
+        "latitude": 50.76826,
+        "longitude": 6.95082
+      }
+    }
+  },
+  "67611": {
+    "id": "67611",
+    "name": "Merten",
+    "latitude": 50.7799,
+    "longitude": 6.93321,
+    "stops": {
+      "18": {
+        "latitude": 50.7799,
+        "longitude": 6.93321
+      }
+    }
+  },
+  "67711": {
+    "id": "67711",
+    "name": "Walberberg",
+    "latitude": 50.79443,
+    "longitude": 6.92076,
+    "stops": {
+      "18": {
+        "latitude": 50.79443,
+        "longitude": 6.92076
+      }
+    }
+  },
+  "67811": {
+    "id": "67811",
+    "name": "Hersel",
+    "latitude": 50.7702,
+    "longitude": 7.04268,
+    "stops": {
+      "16": {
+        "latitude": 50.7702,
+        "longitude": 7.04268
+      }
+    }
+  },
+  "67911": {
+    "id": "67911",
+    "name": "Uedorf",
+    "latitude": 50.7823,
+    "longitude": 7.03105,
+    "stops": {
+      "16": {
+        "latitude": 50.7823,
+        "longitude": 7.03105
+      }
+    }
+  },
+  "68011": {
+    "id": "68011",
+    "name": "Widdig",
+    "latitude": 50.79191,
+    "longitude": 7.02194,
+    "stops": {
+      "16": {
+        "latitude": 50.79191,
+        "longitude": 7.02194
+      }
+    }
+  },
+  "68111": {
+    "id": "68111",
+    "name": "Alfter / Alanus Hochschule",
+    "latitude": 50.7439,
+    "longitude": 7.01669,
+    "stops": {
+      "18": {
+        "latitude": 50.7439,
+        "longitude": 7.01669
+      }
+    }
+  },
+  "70211": {
+    "id": "70211",
+    "name": "Weiden West",
+    "latitude": 50.94016,
+    "longitude": 6.81605,
+    "stops": {
+      "1": {
+        "latitude": 50.94016,
+        "longitude": 6.81605
+      }
+    }
+  },
+  "70811": {
+    "id": "70811",
+    "name": "Frechen-Benzelrath",
+    "latitude": 50.90436,
+    "longitude": 6.79765,
+    "stops": {
+      "7": {
+        "latitude": 50.90436,
+        "longitude": 6.79765
+      }
+    }
+  },
+  "70911": {
+    "id": "70911",
+    "name": "Mühlengasse",
+    "latitude": 50.90815,
+    "longitude": 6.80176,
+    "stops": {
+      "7": {
+        "latitude": 50.90815,
+        "longitude": 6.80176
+      }
+    }
+  },
+  "71011": {
+    "id": "71011",
+    "name": "Frechen Rathaus",
+    "latitude": 50.90945,
+    "longitude": 6.80631,
+    "stops": {
+      "7": {
+        "latitude": 50.90945,
+        "longitude": 6.80631
+      }
+    }
+  },
+  "71111": {
+    "id": "71111",
+    "name": "Frechen Kirche",
+    "latitude": 50.9101,
+    "longitude": 6.81615,
+    "stops": {
+      "7": {
+        "latitude": 50.9101,
+        "longitude": 6.81615
+      }
+    }
+  },
+  "71211": {
+    "id": "71211",
+    "name": "Frechen Bf",
+    "latitude": 50.91147,
+    "longitude": 6.82243,
+    "stops": {
+      "7": {
+        "latitude": 50.91147,
+        "longitude": 6.82243
+      }
+    }
+  },
+  "71311": {
+    "id": "71311",
+    "name": "Haus Vorst",
+    "latitude": 50.91574,
+    "longitude": 6.84892,
+    "stops": {
+      "7": {
+        "latitude": 50.91574,
+        "longitude": 6.84892
+      }
+    }
+  },
+  "73011": {
+    "id": "73011",
+    "name": "Efferen",
+    "latitude": 50.89464,
+    "longitude": 6.90426,
+    "stops": {
+      "18": {
+        "latitude": 50.89464,
+        "longitude": 6.90426
+      }
+    }
+  },
+  "73111": {
+    "id": "73111",
+    "name": "Fischenich",
+    "latitude": 50.86495,
+    "longitude": 6.89758,
+    "stops": {
+      "18": {
+        "latitude": 50.86495,
+        "longitude": 6.89758
+      }
+    }
+  },
+  "73211": {
+    "id": "73211",
+    "name": "Kiebitzweg",
+    "latitude": 50.88861,
+    "longitude": 6.89772,
+    "stops": {
+      "18": {
+        "latitude": 50.88861,
+        "longitude": 6.89772
+      }
+    }
+  },
+  "73311": {
+    "id": "73311",
+    "name": "Hürth-Hermülheim",
+    "latitude": 50.88054,
+    "longitude": 6.89473,
+    "stops": {
+      "18": {
+        "latitude": 50.88054,
+        "longitude": 6.89473
+      }
+    }
+  },
+  "73411": {
+    "id": "73411",
+    "name": "Brühl Nord",
+    "latitude": 50.83511,
+    "longitude": 6.9018,
+    "stops": {
+      "18": {
+        "latitude": 50.83511,
+        "longitude": 6.9018
+      }
+    }
+  },
+  "73511": {
+    "id": "73511",
+    "name": "Brühl Mitte",
+    "latitude": 50.82939,
+    "longitude": 6.89918,
+    "stops": {
+      "18": {
+        "latitude": 50.82939,
+        "longitude": 6.89918
+      }
+    }
+  },
+  "73611": {
+    "id": "73611",
+    "name": "Brühl Süd",
+    "latitude": 50.82251,
+    "longitude": 6.89843,
+    "stops": {
+      "18": {
+        "latitude": 50.82251,
+        "longitude": 6.89843
+      }
+    }
+  },
+  "73711": {
+    "id": "73711",
+    "name": "Badorf",
+    "latitude": 50.81373,
+    "longitude": 6.9002,
+    "stops": {
+      "18": {
+        "latitude": 50.81373,
+        "longitude": 6.9002
+      }
+    }
+  },
+  "73811": {
+    "id": "73811",
+    "name": "Brühl Vochem",
+    "latitude": 50.84428,
+    "longitude": 6.9012,
+    "stops": {
+      "18": {
+        "latitude": 50.84428,
+        "longitude": 6.9012
+      }
+    }
+  },
+  "73911": {
+    "id": "73911",
+    "name": "Schwadorf",
+    "latitude": 50.80135,
+    "longitude": 6.91366,
+    "stops": {
+      "18": {
+        "latitude": 50.80135,
+        "longitude": 6.91366
+      }
+    }
+  },
+  "74011": {
+    "id": "74011",
+    "name": "Wesseling Süd",
+    "latitude": 50.81224,
+    "longitude": 6.99931,
+    "stops": {
+      "16": {
+        "latitude": 50.81224,
+        "longitude": 6.99931
+      }
+    }
+  },
+  "74111": {
+    "id": "74111",
+    "name": "Wesseling",
+    "latitude": 50.82303,
+    "longitude": 6.97927,
+    "stops": {
+      "16": {
+        "latitude": 50.82303,
+        "longitude": 6.97927
+      }
+    }
+  },
+  "74211": {
+    "id": "74211",
+    "name": "Wesseling Nord",
+    "latitude": 50.83206,
+    "longitude": 6.97092,
+    "stops": {
+      "16": {
+        "latitude": 50.83206,
+        "longitude": 6.97092
+      }
+    }
+  },
+  "74311": {
+    "id": "74311",
+    "name": "Urfeld",
+    "latitude": 50.80366,
+    "longitude": 7.01069,
+    "stops": {
+      "16": {
+        "latitude": 50.80366,
+        "longitude": 7.01069
+      }
+    }
+  },
+  "75211": {
+    "id": "75211",
+    "name": "Dom/Hbf",
+    "latitude": 50.94182,
+    "longitude": 6.95763,
+    "stops": {
+      "5": {
+        "latitude": 50.94182,
+        "longitude": 6.95763
+      },
+      "16": {
+        "latitude": 50.94182,
+        "longitude": 6.95763
+      },
+      "18": {
+        "latitude": 50.94182,
+        "longitude": 6.95763
+      }
+    }
+  },
+  "80211": {
+    "id": "80211",
+    "name": "Bf Deutz/Messe",
+    "latitude": 50.93963,
+    "longitude": 6.97841,
+    "stops": {
+      "1": {
+        "latitude": 50.93963,
+        "longitude": 6.97841
+      },
+      "9": {
+        "latitude": 50.93963,
+        "longitude": 6.97841
+      }
+    }
+  },
+  "81811": {
+    "id": "81811",
+    "name": "Nesselrodestr.",
+    "latitude": 50.97732,
+    "longitude": 6.96889,
+    "stops": {
+      "16": {
+        "latitude": 50.97732,
+        "longitude": 6.96889
+      }
+    }
+  },
+  "83011": {
+    "id": "83011",
+    "name": "Bahnstr.",
+    "latitude": 50.9381,
+    "longitude": 6.84563,
+    "stops": {
+      "1": {
+        "latitude": 50.9381,
+        "longitude": 6.84563
+      }
+    }
+  },
+  "86511": {
+    "id": "86511",
+    "name": "Dasselstr./Bf Süd",
+    "latitude": 50.92842,
+    "longitude": 6.93609,
+    "stops": {
+      "9": {
+        "latitude": 50.92842,
+        "longitude": 6.93609
+      }
+    }
+  },
+  "86711": {
+    "id": "86711",
+    "name": "Hans-Böckler-Platz/Bf West",
+    "latitude": 50.9432,
+    "longitude": 6.93366,
+    "stops": {
+      "3": {
+        "latitude": 50.9432,
+        "longitude": 6.93366
+      },
+      "4": {
+        "latitude": 50.9432,
+        "longitude": 6.93366
+      },
+      "5": {
+        "latitude": 50.9432,
+        "longitude": 6.93366
+      }
+    }
+  },
+  "89411": {
+    "id": "89411",
+    "name": "Kartäuserhof",
+    "latitude": 50.92518,
+    "longitude": 6.95856,
+    "stops": {
+      "17": {
+        "latitude": 50.92518,
+        "longitude": 6.95856
+      }
+    }
+  },
+  "89711": {
+    "id": "89711",
+    "name": "Heinrich-Lübke-Ufer",
+    "latitude": 50.89996,
+    "longitude": 6.98483,
+    "stops": {
+      "16": {
+        "latitude": 50.89996,
+        "longitude": 6.98483
+      },
+      "17": {
+        "latitude": 50.89996,
+        "longitude": 6.98483
+      }
+    }
+  },
+  "90311": {
+    "id": "90311",
+    "name": "Sparkasse Am Butzweilerhof",
+    "latitude": 50.98459,
+    "longitude": 6.88866,
+    "stops": {
+      "5": {
+        "latitude": 50.98459,
+        "longitude": 6.88866
+      }
+    }
+  },
+  "94011": {
+    "id": "94011",
+    "name": "Görlinger-Zentrum",
+    "latitude": 50.98058,
+    "longitude": 6.87009,
+    "stops": {
+      "3": {
+        "latitude": 50.98058,
+        "longitude": 6.87009
+      }
+    }
+  },
+  "97611": {
+    "id": "97611",
+    "name": "IKEA Am Butzweilerhof",
+    "latitude": 50.98178,
+    "longitude": 6.89459,
+    "stops": {
+      "5": {
+        "latitude": 50.98178,
+        "longitude": 6.89459
       }
     }
   }
