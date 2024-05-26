@@ -2,131 +2,91 @@
   "U1":{
     "id": "U1",
     "name": "U1",
-    "color": "#55f200"
+    "color": "#c52b1e"
   },
   "U2":{
     "id": "U2",
     "name": "U2",
-    "color": "#e75313"
+    "color": "#00ab4f"
   },
   "U3":{
     "id": "U3",
     "name": "U3",
-    "color": "#00ff66"
+    "color": "#345aaf"
   },
   "U4":{
     "id": "U4",
     "name": "U4",
-    "color": "#ffd502"
+    "color": "#fc5cac"
   },
   "U5":{
     "id": "U5",
     "name": "U5",
-    "color": "#805233"
+    "color": "#0c7d3e"
   },
   "U6":{
     "id": "U6",
     "name": "U6",
-    "color": "#6d61f2"
+    "color": "#0082ca"
   },
   "U7":{
     "id": "U7",
     "name": "U7",
-    "color": "#33ccff"
+    "color": "#f19e2d"
   },
   "U8":{
     "id": "U8",
     "name": "U8",
-    "color": "#005b98"
+    "color": "#ca7fbe"
   },
   "U9":{
     "id": "U9",
     "name": "U9",
-    "color": "#ff7300"
+    "color": "#ffd939"
   },
   "S1":{
     "id": "S1",
     "name": "S1",
-    "color": "#da6ba3"
+    "color": "#009edd"
   },
   "S2":{
     "id": "S2",
     "name": "S2",
-    "color": "#00b300"
-  },
-  "S25":{
-    "id": "S25",
-    "name": "S25",
-    "color": "#00b300"
-  },
-  "S26":{
-    "id": "S26",
-    "name": "S26",
-    "color": "#00b300"
+    "color": "#ff2e17"
   },
   "S3":{
     "id": "S3",
     "name": "S3",
-    "color": "#6ECEB2"
+    "color": "#00b098"
   },
-  "S3":{
-    "id": "S3",
-    "name": "S3",
-    "color": "#6ECEB2"
-  },
-  "S41":{
-    "id": "S41",
-    "name": "S41",
-    "color": "#ad5837"
-  },
-  "S42":{
-    "id": "S42",
-    "name": "S42",
-    "color": "#cb6318"
-  },
-  "S45":{
-    "id": "S45",
-    "name": "S45",
-    "color": "#cd9c53"
-  },
-  "S46":{
-    "id": "S46",
-    "name": "S46",
-    "color": "#cd9c53"
-  },
-  "S47":{
-    "id": "S47",
-    "name": "S47",
-    "color": "#cd9c53"
+  "S4":{
+    "id": "S4",
+    "name": "S4",
+    "color": "#ffc734"
   },
   "S5":{
     "id": "S5",
     "name": "S5",
-    "color": "#eb7405"
+    "color": "#95542a"
+  },
+  "S6":{
+    "id": "S6",
+    "name": "S6",
+    "color": "#ff7322"
   },
   "S7":{
     "id": "S7",
     "name": "S7",
-    "color": "#6d61f2"
-  },
-  "S75":{
-    "id": "S75",
-    "name": "S75",
-    "color": "#6d61f2"
+    "color": "#214d36"
   },
   "S8":{
     "id": "S8",
     "name": "S8",
-    "color": "#55f200"
-  },
-  "S85":{
-    "id": "S85",
-    "name": "S85",
-    "color": "#55f200"
+    "color": "#88c946"
   },
   "S9":{
     "id": "S9",
     "name": "S9",
-    "color": "#992746"
+    "color": "#872996"
   }
 }
