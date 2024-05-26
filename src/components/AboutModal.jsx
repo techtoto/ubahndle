@@ -28,31 +28,31 @@ const AboutModal = (props) => {
                       <Icon name="check" fitted />
                     </Label>
                   }
-                  <TrainLabel id='U1' size='small' />
+                  <TrainLabel id='U6' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='U9' size='small' />
+                  <TrainLabel id='S4' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='S41' size='small' />
+                  <TrainLabel id='S7' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </Segment>
 
-        <p><TrainLabel id='U1' size='small' /> { t('about.examples.correct') }</p>
+        <p><TrainLabel id='U6' size='small' /> { t('about.examples.correct') }</p>
 
         <Segment basic>
           <Grid centered columns={3} className='game-grid'>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='S25' size='small' />
+                  <TrainLabel id='S2' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -67,7 +67,7 @@ const AboutModal = (props) => {
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='S45' size='small' />
+                  <TrainLabel id='U9' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
@@ -80,12 +80,12 @@ const AboutModal = (props) => {
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='S41' size='small' />
+                  <TrainLabel id='S9' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='U3' size='small' />
+                  <TrainLabel id='U4' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -95,13 +95,13 @@ const AboutModal = (props) => {
                       <Icon name="x" fitted />
                     </Label>
                   }
-                  <TrainLabel id='S9' size='small' />
+                  <TrainLabel id='U7' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </Segment>
-        <p><TrainLabel id='S9' size='small' /> { t('about.examples.absent') }</p>
+        <p><TrainLabel id='U7' size='small' /> { t('about.examples.absent') }</p>
 
         <Trans i18nKey="about.explanation">
           <p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to

@@ -91,7 +91,7 @@ const Keyboard = (props) => {
         </Grid.Row>
         <Grid.Row>
         {
-          ["S1", "S2", "S25"].map((routeId) => {
+          ["S1", "S2", "S3"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -107,7 +107,7 @@ const Keyboard = (props) => {
         </Grid.Row>
         <Grid.Row>
         {
-          ["S26", "S3", "S41"].map((routeId) => {
+          ["S4", "S5", "S6"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -123,7 +123,7 @@ const Keyboard = (props) => {
         </Grid.Row>
         <Grid.Row>
         {
-          ["S42", "S45", "S46"].map((routeId) => {
+          ["S7", "S8", "S9"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -137,58 +137,12 @@ const Keyboard = (props) => {
           })
         }
         </Grid.Row>
-        <Grid.Row>
-        {
-          ["S47", "S5", "S7"].map((routeId) => {
-            return (
-              <Key
-                id={routeId}
-                key={routeId}
-                onClick={onChar}
-                isCorrect={correctRoutes.includes(routeId)}
-                isPresent={presentRoutes.includes(routeId)}
-                isAbsent={absentRoutes.includes(routeId)}
-              />
-            )
-          })
-        }
-        </Grid.Row>
-        <Grid.Row>
-        {
-          ["S75", "S8", "S85"].map((routeId) => {
-            return (
-              <Key
-                id={routeId}
-                key={routeId}
-                onClick={onChar}
-                isCorrect={correctRoutes.includes(routeId)}
-                isPresent={presentRoutes.includes(routeId)}
-                isAbsent={absentRoutes.includes(routeId)}
-              />
-            )
-          })
-        }
-        </Grid.Row>
-        <Grid.Row columns={3}>
+        <Grid.Row columns={2}>
           <Grid.Column className='key' stretched>
             <Button onClick={handleEnter}>
               Enter
             </Button>
           </Grid.Column>
-        {
-          ["S9"].map((routeId) => {
-            return (
-              <Key
-                id={routeId}
-                key={routeId}
-                onClick={onChar}
-                isCorrect={correctRoutes.includes(routeId)}
-                isPresent={presentRoutes.includes(routeId)}
-                isAbsent={absentRoutes.includes(routeId)}
-              />
-            )
-          })
-        }
           <Grid.Column className='key' stretched>
             <Button onClick={handleDelete}>
               Delete
