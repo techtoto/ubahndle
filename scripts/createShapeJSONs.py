@@ -2,7 +2,7 @@
 import json, csv, glob, os
 stations = []
 
-with open("./scripts/data/stations-kvb.csv", newline="") as csvfile:
+with open("./scripts/data/stations.csv", newline="") as csvfile:
     reader = csv.reader(csvfile)
 
     for line in reader:
