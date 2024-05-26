@@ -17,8 +17,8 @@ const linesWithMultipleRoutes = {
 const MapFrame = (props) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(13.391114);
-  const [lat, setLat] = useState(52.510074);
+  const [lng, setLng] = useState(8.6835449);
+  const [lat, setLat] = useState(50.1180118);
   const [zoom, setZoom] = useState(10.08);
   const solution = todaysSolution();
 
