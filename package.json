@@ -3,30 +3,19 @@
   "version": "0.1.1",
   "homepage": "https://ubahndle.hangzhi.de",
   "private": true,
+  "type": "module",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "gh-pages": "^4.0.0",
     "i18next": "^21.8.2",
     "i18next-browser-languagedetector": "^6.1.4",
     "mapbox-gl": "^2.7.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.16.9",
-    "react-scripts": "^5.0.0",
-    "sass": "^1.49.0",
-    "semantic-ui-react": "^2.1.1",
-    "web-vitals": "^2.1.0"
+    "semantic-ui-react": "^2.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postinstall": "semantic-ui-css-patch"
+    "dev": "vite",
+    "build": "vite build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +36,8 @@
     ]
   },
   "devDependencies": {
-    "@semantic-ui-react/css-patch": "^1.0.0"
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "sass": "^1.77.4",
+    "vite": "^5.2.12"
   }
 }
