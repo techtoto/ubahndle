@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import mapboxgl from 'mapbox-gl';
+import mapboxgl from 'maplibre-gl';
 
 import { todaysTrip, todaysSolution } from '../utils/answerValidations';
 
@@ -109,7 +109,7 @@ const MapFrame = (props) => {
     if (map.current) return; // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/hangzhi/cleyegz8s000901lnagev3c2b?optimize=true',
+      style: 'https://tiles.versatiles.org/assets/styles/colorful.json',
       center: [lng, lat],
       minZoom: 1,
       zoom: zoom,

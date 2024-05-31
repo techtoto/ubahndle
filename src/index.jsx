@@ -1,5 +1,5 @@
 import React from 'react';
-import 'mapbox-gl/dist/mapbox-gl.css';
+import 'maplibre-gl/dist/maplibre-gl.css';
 import './index.css';
 import App from './App';
 
