@@ -39,5 +39,6 @@
     "@vitejs/plugin-react-swc": "^3.7.0",
     "sass": "^1.77.4",
     "vite": "^5.2.12"
-  }
+  },
+  "packageManager": "pnpm@9.1.4"
 }
