@@ -112,13 +112,13 @@ const AboutModal = (props) => {
         <Header as='h4'>{ t('about.about.title') }</Header>
         <p>
           <Trans i18nKey="about.about.subwaydle">
-            This game is forked from the original <a href="https://www.subwaydle.com" target="_blank">Subwaydle</a> game based on the NYC Subway system.
+            This game is forked from the <a href="https://ubahndle.hangzhi.de/">Berlin version</a>, which is a fork of the original <a href="https://www.subwaydle.com" target="_blank">Subwaydle</a> game based on the NYC Subway system.
           </Trans>
         </p>
 
         <p>
           <Trans i18nKey="about.about.around_the_world">
-            Subwaydles around the world: <a href="https://www.subwaydle.com" target="_blank">New York</a>, <a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a>, <a href="https://london.subwaydle.com" target="_blank">London</a>.
+            Subwaydles around the world: <a href="https://www.subwaydle.com" target="_blank">New York</a>, <a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a>, <a href="https://london.subwaydle.com" target="_blank">London</a>, <a href="https://ubahndle.hangzhi.de/">Berlin</a>.
           </Trans>
         </p>
 
@@ -132,15 +132,23 @@ const AboutModal = (props) => {
 
         <p>
           <Trans i18nKey="about.about.created">
-            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Berlin rapid transit system by <a href="https://www.hangzhi.de" target="_blank">Hangzhi Yu</a>
+            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Berlin rapid transit system by <a href="https://www.github.com/techtoto" target="_blank">techtoto</a>.
           </Trans>
         </p>
 
-          <p><a href="https://github.com/Hnagzhi/subwaydle-berlin" target="_blank">Source code</a>.</p>
+        <p>
+          <Trans i18nKey="about.about.sourcecode">
+            <a href="https://github.com/techtoto/ubahndle-frankfurt" target="_blank">Source code</a>.
+          </Trans>
+        </p>
 
-          <p>Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.</p>
+        <p>
+          <Trans i18nKey="about.about.geo">
+            Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.
+          </Trans>
+        </p>
 
-          <p>{ t("about.about.other_projects")} <a href="https://www.theweekendest.com" target="_blank">The Weekendest</a> and <a href="https://www.goodservice.io" target="_blank">goodservice.io</a>.</p>
+        <p>{ t("about.about.other_projects")} <a href="https://www.theweekendest.com" target="_blank">The Weekendest</a> and <a href="https://www.goodservice.io" target="_blank">goodservice.io</a>.</p>
       </Modal.Content>
     </Modal>
   );
