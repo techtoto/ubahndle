@@ -9,11 +9,6 @@ import shapes from "../data/shapes.json";
 
 import './MapFrame.scss';
 
-mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
-
-const linesWithMultipleRoutes = {
-}
-
 const MapFrame = (props) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
@@ -54,14 +49,6 @@ const MapFrame = (props) => {
     const route = routes[line.route];
     let shape;
     let internalRoute = line.route;
-
-    if (linesWithMultipleRoutes[line.route]) {
-      internalRoute = Array.from(Array(linesWithMultipleRoutes[line.route]).keys()).map((i) => {
-        return `${line.route}-${i + 1}`;  
-      }).find((potentialInternalRoute) => {
-        return stations[line.begin].stops[potentialInternalRoute] && stations[line.end].stops[potentialInternalRoute];
-      });
-    }
 
     const beginCoord = [stations[line.begin].stops[internalRoute].latitude, stations[line.begin].stops[internalRoute].longitude];
     const endCoord = [stations[line.end].stops[internalRoute].latitude, stations[line.end].stops[internalRoute].longitude];
@@ -188,26 +175,7 @@ const MapFrame = (props) => {
           "text-color": '#ffffff',
         },
       });
-
-      // FIXME: LngLatBounds has coordinates swapped?
-
-//      const bounds = coordinates.reduce((bounds, coord) => {
-//        return bounds.extend(coord);
-//      }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
-//
-//      if (!bounds.isEmpty()) {
-//        map.current.fitBounds(bounds, {
-//          padding: {
-//            top: 50,
-//            right: 20,
-//            left: 20,
-//            bottom: 50,
-//          },
-//        });
-//      }
     });
-
-
   });
 
   useEffect(() => {
