@@ -105,10 +105,12 @@ const MapFrame = (props) => {
     map.current.dragRotate.disable();
     map.current.touchZoomRotate.disableRotation();
 
-    map.current.on('load', () => {
+    map.current.on('load', async () => {
       map.current.resize();
       const trip = todaysTrip();
       const solution = todaysSolution();
+      const image = await map.current.loadImage("ic--twotone-circle.png");
+      map.current.addImage("custom-marker", image.data);
       let coordinates = [];
       [
         {
@@ -160,19 +162,19 @@ const MapFrame = (props) => {
         "layout": {
           "text-field": ['get', 'name'],
           "text-size": 12,
-          "text-font": ['Lato Bold', "Open Sans Bold","Arial Unicode MS Bold"],
+          "text-font": ["noto_sans_regular"],
           "text-optional": false,
           "text-justify": "auto",
           'text-allow-overlap': false,
           "text-padding": 1,
           "text-variable-anchor": ["bottom-right", "top-right", "bottom-left", "top-left", "right", "left", "bottom"],
           "text-radial-offset": 0.5,
-          "icon-image": "dot-11",
-          "icon-size": 8/13,
+          "icon-image": "custom-marker",
+          "icon-size": 4/13,
           "icon-allow-overlap": true,
         },
         "paint": {
-          "text-color": '#ffffff',
+          "text-color": '#000000',
         },
       });
     });
