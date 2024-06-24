@@ -1,8 +1,13 @@
+body.dark {
+  background-color: #1b1c1d;
+}
+
 .ui.segment.app-wrapper {
   max-width: 500px;
-  margin: auto!important;
+  margin: auto !important;
+  transform-origin: top center;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 0; 
 
   .header-wrapper {
     margin-bottom: 0;
@@ -17,6 +22,18 @@
 
   .game-grid-wrapper {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .ui.segment.app-wrapper {
+    scale: 1.2;
+  }
+}
+
+@media (min-height: 1100px) {
+  .ui.segment.app-wrapper {
+    scale: 1.5;
   }
 }
 

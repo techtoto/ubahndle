@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import mapboxgl from 'maplibre-gl';
 
 import { todaysTrip, todaysSolution } from '../utils/answerValidations';
 
@@ -8,11 +8,6 @@ import routes from "../data/routes.json";
 import shapes from "../data/shapes.json";
 
 import './MapFrame.scss';
-
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
-
-const linesWithMultipleRoutes = {
-}
 
 const MapFrame = (props) => {
   const mapContainer = useRef(null);
@@ -54,14 +49,6 @@ const MapFrame = (props) => {
     const route = routes[line.route];
     let shape;
     let internalRoute = line.route;
-
-    if (linesWithMultipleRoutes[line.route]) {
-      internalRoute = Array.from(Array(linesWithMultipleRoutes[line.route]).keys()).map((i) => {
-        return `${line.route}-${i + 1}`;  
-      }).find((potentialInternalRoute) => {
-        return stations[line.begin].stops[potentialInternalRoute] && stations[line.end].stops[potentialInternalRoute];
-      });
-    }
 
     const beginCoord = [stations[line.begin].stops[internalRoute].latitude, stations[line.begin].stops[internalRoute].longitude];
     const endCoord = [stations[line.end].stops[internalRoute].latitude, stations[line.end].stops[internalRoute].longitude];
@@ -109,7 +96,7 @@ const MapFrame = (props) => {
     if (map.current) return; // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/hangzhi/cleyegz8s000901lnagev3c2b?optimize=true',
+      style: 'https://tiles.versatiles.org/assets/styles/colorful.json',
       center: [lng, lat],
       minZoom: 1,
       zoom: zoom,
@@ -118,10 +105,12 @@ const MapFrame = (props) => {
     map.current.dragRotate.disable();
     map.current.touchZoomRotate.disableRotation();
 
-    map.current.on('load', () => {
+    map.current.on('load', async () => {
       map.current.resize();
       const trip = todaysTrip();
       const solution = todaysSolution();
+      const image = await map.current.loadImage("ic--twotone-circle.png");
+      map.current.addImage("custom-marker", image.data);
       let coordinates = [];
       [
         {
@@ -173,41 +162,22 @@ const MapFrame = (props) => {
         "layout": {
           "text-field": ['get', 'name'],
           "text-size": 12,
-          "text-font": ['Lato Bold', "Open Sans Bold","Arial Unicode MS Bold"],
+          "text-font": ["noto_sans_regular"],
           "text-optional": false,
           "text-justify": "auto",
           'text-allow-overlap': false,
           "text-padding": 1,
           "text-variable-anchor": ["bottom-right", "top-right", "bottom-left", "top-left", "right", "left", "bottom"],
           "text-radial-offset": 0.5,
-          "icon-image": "dot-11",
-          "icon-size": 8/13,
+          "icon-image": "custom-marker",
+          "icon-size": 4/13,
           "icon-allow-overlap": true,
         },
         "paint": {
-          "text-color": '#ffffff',
+          "text-color": '#000000',
         },
       });
-
-      // FIXME: LngLatBounds has coordinates swapped?
-
-//      const bounds = coordinates.reduce((bounds, coord) => {
-//        return bounds.extend(coord);
-//      }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
-//
-//      if (!bounds.isEmpty()) {
-//        map.current.fitBounds(bounds, {
-//          padding: {
-//            top: 50,
-//            right: 20,
-//            left: 20,
-//            bottom: 50,
-//          },
-//        });
-//      }
     });
-
-
   });
 
   useEffect(() => {

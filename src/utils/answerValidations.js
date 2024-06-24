@@ -3,7 +3,6 @@ import solutions from './../data/solutions.json';
 
 const GAME_EPOCH = new Date('May 23, 2022 00:00:00').valueOf();
 
-const today = new Date();
 const now = Date.now();
 
 

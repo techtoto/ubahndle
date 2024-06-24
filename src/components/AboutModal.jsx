@@ -4,12 +4,14 @@ import { useTranslation, Trans } from 'react-i18next';
 import TrainLabel from './TrainLabel';
 import { loadSettings } from '../utils/settings';
 
+import './AboutModal.scss';
+
 const AboutModal = (props) => {
-  const { open, handleClose } = props;
+  const { open, handleClose, isDarkMode } = props;
   const { t, i18n } = useTranslation();
   const settings = loadSettings();
   return (
-    <Modal closeIcon open={open} onClose={handleClose} size='tiny'>
+    <Modal closeIcon open={open} onClose={handleClose} size='tiny' className={isDarkMode ? 'about-modal dark' : 'about-modal'}>
       <Modal.Header>{ t('about.title') }</Modal.Header>
       <Modal.Content scrolling>
         <Trans i18nKey="about.intro">
@@ -19,7 +21,7 @@ const AboutModal = (props) => {
         </Trans>
         <Header as='h4'>{ t('about.examples.title') }</Header>
         <Segment basic>
-          <Grid centered columns={3} className='game-grid'>
+          <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder className='correct'>
@@ -48,7 +50,7 @@ const AboutModal = (props) => {
         <p><TrainLabel id='U1' size='small' /> { t('about.examples.correct') }</p>
 
         <Segment basic>
-          <Grid centered columns={3} className='game-grid'>
+          <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
@@ -76,7 +78,7 @@ const AboutModal = (props) => {
         <p><TrainLabel id='U8' size='small' /> { t('about.examples.present') }</p>
 
         <Segment basic>
-          <Grid centered columns={3} className='game-grid'>
+          <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
@@ -136,11 +138,19 @@ const AboutModal = (props) => {
           </Trans>
         </p>
 
-          <p><a href="https://github.com/Hnagzhi/subwaydle-berlin" target="_blank">Source code</a>.</p>
+        <p>
+          <Trans i18nKey="about.about.sourcecode">
+            <a href="https://github.com/Hnagzhi/subwaydle-berlin" target="_blank">Source code</a>.
+          </Trans>
+        </p>
 
-          <p>Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.</p>
+        <p>
+          <Trans i18nKey="about.about.geo">
+            Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.
+          </Trans>
+        </p>
 
-          <p>{ t("about.about.other_projects")} <a href="https://www.theweekendest.com" target="_blank">The Weekendest</a> and <a href="https://www.goodservice.io" target="_blank">goodservice.io</a>.</p>
+        <p>{ t("about.about.other_projects")} <a href="https://www.theweekendest.com" target="_blank">The Weekendest</a> and <a href="https://www.goodservice.io" target="_blank">goodservice.io</a>.</p>
       </Modal.Content>
     </Modal>
   );

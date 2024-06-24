@@ -29,7 +29,8 @@ i18n
             display: {
               title: "Display",
               show_badges: "Show answer status badges",
-              show_badges_hint: "Having trouble seeing the difference in the colours? Turn on status badges!"
+              show_badges_hint: "Having trouble seeing the difference in the colours? Turn on status badges!",
+              darkMode: "Dark Mode",
             }
           },
           statistics: {
@@ -64,6 +65,8 @@ i18n
               around_the_world: "Subwaydles around the world: <1>New York</1>, <3>Hong Kong</3>, <5>London</5>.",
               inspirations: "Inspired by <1>Wordle</1>, its <3>open-source clone</3>, <5>Nerdle</5>, and <7>New York Transit Museum</7> Trivia Nights.",
               created: "Created by <1>Sunny Ng</1> and adapted to the Berlin rapid transit system by <3>Hangzhi Yu</3>.",
+              sourcecode: "<0>Source code</0>.",
+              geo: "Geolocation data © <1>OpenStreetMap contributors</1>.",
               other_projects: "Check out Sunny Ng's other NYC Subway related projects:"
             }
           }
@@ -81,7 +84,8 @@ i18n
             display: {
               title: "Anzeige",
               show_badges: "Status-Indikatoren anzeigen",
-              show_badges_hint: "Probleme, die Farbkodierung der Lösungen zu sehen? Status-Indikatoren können helfen."
+              show_badges_hint: "Probleme, die Farbkodierung der Lösungen zu sehen? Status-Indikatoren können helfen.",
+              darkMode: "Dunkler Modus",
             }
           },
           statistics: {
@@ -116,6 +120,8 @@ i18n
               around_the_world: "Subwaydles auf der ganzen Welt: <1>New York</1>, <3>Hong Kong</3>, <5>London</5>.",
               inspirations: "Inspiriert von <1>Wordle</1>, dem <3>Open-Source-Klon</3>, <5>Nerdle</5>, und <7>New York Transit Museum</7> Trivia Nights.",
               created: "Konzipiert und programmiert von <1>Sunny Ng</1> und an das Berliner ÖPNV-System angepasst von <3>Hangzhi Yu</3>.",
+              sourcecode: "<0>Quellcode</0>.",
+              geo: "Geodaten © <1>OpenStreetMap Contributors</1>.",
               other_projects: "Schaut gerne bei Sunny Ng's anderen New-York-Subway-basierten Projekten vorbei:"
             }
           }
