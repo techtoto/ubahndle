@@ -188,7 +188,7 @@ const App = () => {
   return (
     <Segment basic className='app-wrapper' inverted={isDarkMode}>
       <Segment clearing basic className='header-wrapper' inverted={isDarkMode}>
-        <Header floated='left'>Ubahndle</Header>
+        <Header floated='left'>Stadtbahndle</Header>
         <Icon className='float-right' inverted={isDarkMode} name='cog' size='large' link onClick={handleSettingsOpen} />
         <Icon className='float-right' inverted={isDarkMode} name='chart bar' size='large' link onClick={handleStatsOpen} />
         <Icon className='float-right' inverted={isDarkMode} name='question circle outline' size='large' link onClick={handleAboutOpen} />

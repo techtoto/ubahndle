@@ -43,7 +43,7 @@ i18n
           },
           solution: {
             win_message: "Brilliant! You completed today's journey!",
-            lose_message: "Oh no, looks like you got lost in Berlin...",
+            lose_message: "Oh no, looks like you got lost in Cologne...",
             title: "Today's Journey",
             direction: "from {{origin}} to {{destination}}",
             share: "Share",
@@ -51,8 +51,7 @@ i18n
           },
           about: {
             title: "How to Play",
-            intro: "<p>Guess the <strong>UBAHNDLE</strong> in 6 tries.</p><p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p><p>You need to guess a specific set of three trains that can make the trip.</p>",
-            explanation: "<p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p><p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (i.e. no S3 line express trains).</p>",
+            intro: "<p>Guess the <strong>Stadtbahndle</strong> in 6 tries.</p><p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p><p>You need to guess a specific set of three trains that can make the trip.</p>",
             examples: {
               title: "Examples",
               correct: "is in the correct position of the trip.",
@@ -61,12 +60,12 @@ i18n
             },
             about: {
               title: "About",
-              subwaydle: "This game is forked from the original <1>Subwaydle</1> game based on the NYC Subway system",
-              around_the_world: "Subwaydles around the world: <1>New York</1>, <3>Hong Kong</3>, <5>London</5>.",
-              inspirations: "Inspired by <1>Wordle</1>, its <3>open-source clone</3>, <5>Nerdle</5>, and <7>New York Transit Museum</7> Trivia Nights.",
-              created: "Created by <1>Sunny Ng</1> and adapted to the Berlin rapid transit system by <3>Hangzhi Yu</3>.",
-              other_projects: "Check out Sunny Ng's other NYC Subway related projects:"
+              around_the_world: "Subwaydles around the world:",
+              geo: "Geolocation data © <1>OpenStreetMap contributors</1>.",
             }
+          },
+          city: {
+            cologne: "Cologne"
           }
         }
       },
@@ -96,7 +95,7 @@ i18n
           },
           solution: {
             win_message: "Großartig! Du hast die heutige Fahrt geschafft!",
-            lose_message: "Oh nein, du hast dich wohl in Berlin verfahren...",
+            lose_message: "Oh nein, du hast dich wohl in Köln verfahren...",
             title: "Heutiger Fahrtverlauf",
             direction: "von {{origin}} nach {{destination}}",
             share: "Teilen",
@@ -104,8 +103,8 @@ i18n
           },
           about: {
             title: "Spielanleitung",
-            intro: "<p>Errate das <strong>UBAHNDLE</strong> mit 6 Versuchen.</p><p>Jeder Versuch muss eine <strong>gültige Fahrt mit exakt drei verschiedenen S- und U-Bahn-Linien</strong> sein.</p><p>Dabei müssen <strong>gültige Umstiege</strong> verwendet werden, d.h. solche, die auf der offiziellen VBB-Karte für Berlin als solche (auch mit Laufdistanz, z.B. S Charlottenburg/U Wilmersdorfer Straße) gekennzeichnet sind.</p><p>Dein Ziel ist es, die exakt korrekte Kombination an Linien für die tägliche Fahrt zu finden.</p>",
-            explanation: "<p>In den meisten Fällen ist es möglich, <strong>mit mehreren unterschiedlichen Fahrtverläufen</strong> die Strecke zwischen den beiden Stationen zu fahren. Dein Ziel ist es aber, <strong>den einen richtigen Fahrtverlauf</strong> zu finden, der die Lösung auf das Tagesrätsel darstellt. Diese Lösung <strong>muss nicht</strong> die schnellste Verbindung sein - in den allermeisten Fällen ist sie das gerade nicht.</p><p>Der Verlauf jeder Linie entspricht denen an einem regulären, störungsfreien Tag unter der Woche. Aktuelle Bauarbeiten, HVZ-Verstärker oder Abweichungen im Nachtverkehr werden nicht berücksichtigt.</p>",
+            intro: "<p>Errate das <strong>Stadtbahndle</strong> mit 6 Versuchen.</p><p>Jeder Versuch muss eine <strong>gültige Fahrt mit exakt drei verschiedenen Stadtbahn-Linien</strong> sein.</p><p>Dein Ziel ist es, die exakt korrekte Kombination an Linien für die tägliche Fahrt zu finden.</p>",
+            explanation: "<p>In den meisten Fällen ist es möglich, <strong>mit mehreren unterschiedlichen Fahrtverläufen</strong> die Strecke zwischen den beiden Stationen zu fahren. Dein Ziel ist es aber, <strong>den einen richtigen Fahrtverlauf</strong> zu finden, der die Lösung auf das Tagesrätsel darstellt. Diese Lösung <strong>muss nicht</strong> die schnellste Verbindung sein - in den allermeisten Fällen ist sie das gerade nicht.</p><p>Der Verlauf jeder Linie entspricht denen an einem regulären, störungsfreien Tag unter der Woche. Aktuelle Bauarbeiten oder Abweichungen im Nachtverkehr werden nicht berücksichtigt. Auch die provisiorischen Linien 14 und 19 und die Trennung der Linien 13 und 18 werden zurzeit nicht berücksichtigt.</p>",
             examples: {
               title: "Beispiele",
               correct: "ist in der korrekten Position im Fahrtverlauf.",
@@ -114,12 +113,18 @@ i18n
             },
             about: {
               title: "Über das Spiel",
-              subwaydle: "Dieses Spiel wurde von dem originalen <1>Subwaydle</1> für das New Yorker U-Bahn-System geforkt.",
-              around_the_world: "Subwaydles auf der ganzen Welt: <1>New York</1>, <3>Hong Kong</3>, <5>London</5>.",
-              inspirations: "Inspiriert von <1>Wordle</1>, dem <3>Open-Source-Klon</3>, <5>Nerdle</5>, und <7>New York Transit Museum</7> Trivia Nights.",
-              created: "Konzipiert und programmiert von <1>Sunny Ng</1> und an das Berliner ÖPNV-System angepasst von <3>Hangzhi Yu</3>.",
-              other_projects: "Schaut gerne bei Sunny Ng's anderen New-York-Subway-basierten Projekten vorbei:"
+              subwaydle: "Dieses Spiel wurde von der <1>Berliner Version</1> des originalen New Yorker <3>Subwaydle</3> geforkt.",
+              around_the_world: "Subwaydles auf der ganzen Welt:",
+              inspirations: "Inspiriert von <1>Wordle</1>, <3>Nerdle</3> und <5>New York Transit Museum</5> Trivia Nights.",
+              created: "Konzipiert und programmiert von <1>Sunny Ng</1> und an das Kölner ÖPNV-System angepasst von <3>Marie</3>.",
+              geo: "Geodaten © <1>OpenStreetMap Contributors</1>.",
+              source_code: "<0>Quellcode</0> lizensiert unter der <2>GNU Affero General Public License Version 3.0</2>.",
+              kvb_open_data_notice: "Vielen Dank an die <1>KVB</1> für ihren <3>Open Data Service</3>!",
+              versatiles: "Vielen Dank an <1>Versatiles</1> für das Hosten der Kartenkacheln."
             }
+          },
+          city: {
+            cologne: "Köln"
           }
         }
       },

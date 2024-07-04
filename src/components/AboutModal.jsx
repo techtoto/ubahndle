@@ -15,7 +15,7 @@ const AboutModal = (props) => {
       <Modal.Header>{ t('about.title') }</Modal.Header>
       <Modal.Content scrolling>
         <Trans i18nKey="about.intro">
-          <p>Guess the <strong>UBAHNDLE</strong> in 6 tries.</p>
+          <p>Guess the <strong>Stadtbahndle</strong> in 6 tries.</p>
           <p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p>
           <p>You need to guess a specific set of three trains that can make the trip.</p>
         </Trans>
@@ -30,24 +30,25 @@ const AboutModal = (props) => {
                       <Icon name="check" fitted />
                     </Label>
                   }
-                  <TrainLabel id='1' size='small' />
-                </Segment>
-              </Grid.Column>
-              <Grid.Column>
-                <Segment placeholder>
                   <TrainLabel id='16' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='17' size='small' />
+                  <TrainLabel id='15' size='small' />
+                </Segment>
+              </Grid.Column>
+              <Grid.Column>
+                <Segment placeholder>
+                  <TrainLabel id='1' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </Segment>
 
-        <p><TrainLabel id='3' size='small' /> { t('about.examples.correct') }</p>
+        <p><TrainLabel id='16' size='small' /> { t('about.examples.correct') }</p>
+        <hr />
 
         <Segment basic>
           <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
@@ -64,18 +65,19 @@ const AboutModal = (props) => {
                       <Icon name="arrows alternate horizontal" fitted />
                     </Label>
                   }
-                  <TrainLabel id='7' size='small' />
+                  <TrainLabel id='13' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='13' size='small' />
+                  <TrainLabel id='5' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </Segment>
-        <p><TrainLabel id='9' size='small' /> { t('about.examples.present') }</p>
+        <p><TrainLabel id='13' size='small' /> { t('about.examples.present') }</p>
+        <hr />
 
         <Segment basic>
           <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
@@ -97,52 +99,79 @@ const AboutModal = (props) => {
                       <Icon name="x" fitted />
                     </Label>
                   }
-                  <TrainLabel id='9' size='small' />
+                  <TrainLabel id='18' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </Segment>
-        <p><TrainLabel id='9' size='small' /> { t('about.examples.absent') }</p>
+        <p><TrainLabel id='18' size='small' /> { t('about.examples.absent') }</p>
 
         <Trans i18nKey="about.explanation">
           <p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to
           find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p>
-          <p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (i.e. no S3 line express trains).</p>
+          <p>
+            Routing for each train line is based on <strong>weekday off-peak schedule</strong>.
+            Current construction work or deviations in night traffic are not taken into account. The provisional lines 14 and 19, as well as the separation of lines 13 and 18, are also currently not taken into account.
+          </p>
         </Trans>
 
         <Header as='h4'>{ t('about.about.title') }</Header>
         <p>
           <Trans i18nKey="about.about.subwaydle">
-            This game is forked from the original <a href="https://www.subwaydle.com" target="_blank">Subwaydle</a> game based on the NYC Subway system.
+            This game was forked from the <a href="https://github.com/Hnagzhi/subwaydle-berlin/">Berlin version</a> of the original New York <a href="https://github.com/blahblahblah-/subwaydle">Subwaydle</a>.
           </Trans>
         </p>
 
         <p>
           <Trans i18nKey="about.about.around_the_world">
-            Subwaydles around the world: <a href="https://www.subwaydle.com" target="_blank">New York</a>, <a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a>, <a href="https://london.subwaydle.com" target="_blank">London</a>.
+            Subwaydles around the world:
           </Trans>
+          <ul>
+            <li><a href="https://www.subwaydle.com" target="_blank">New York</a></li>
+            <li><a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a></li>
+            <li><a href="https://london.subwaydle.com/" target="_blank">London</a></li>
+            <li><a href="https://berlin.ubahndle.techtoto.dev" target="_blank">Berlin</a></li>
+            <li><a href="https://frankfurt.ubahndle.techtoto.dev" target="_blank">Frankfurt</a></li>
+            <li><a href="https://stadtbahndle-cologne.marie.cologne" target="_blank">{t("city.cologne")}</a></li>
+          </ul>
         </p>
 
         <p>
           <Trans i18nKey="about.about.inspirations">
-            Inspired by <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">Wordle</a>,
-            its <a href="https://github.com/hannahcode/wordle" target="_blank">open-source clone</a>, <a href="https://nerdlegame.com/" target="_blank">Nerdle</a>,
-            and <a href="https://www.nytransitmuseum.org/">New York Transit Museum</a> Trivia Nights.
+            Inspired by <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Wordle</a>, <a href="https://nerdlegame.com/" target="_blank">Nerdle</a>, and <a href="https://www.nytransitmuseum.org/">New York Transit Museum</a> Trivia Nights.
           </Trans>
         </p>
 
         <p>
           <Trans i18nKey="about.about.created">
-            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Berlin rapid transit system by <a href="https://www.hangzhi.de" target="_blank">Hangzhi Yu</a>
+            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Cologne rapid transit system by <a href="https://github.com/nycodeghg" target="_blank">Marie</a>.
           </Trans>
         </p>
 
-          <p><a href="https://github.com/Hnagzhi/subwaydle-berlin" target="_blank">Source code</a>.</p>
+        <p>
+          <Trans i18nKey="about.about.kvb_open_data_notice">
+            Special Thanks to the <a href="https://kvb.koeln" target="_blank">KVB</a> for their <a href="https://kvb.koeln/service/open_data.html" target="_blank">Open Data service</a>!
+          </Trans>
+        </p>
 
-          <p>Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.</p>
+        <p>
+          <Trans i18nKey="about.about.versatiles">
+            Special Thanks to <a href="https://versatiles.org/">Versatiles</a> for hosting the map tiles.
+          </Trans>
+        </p>
 
-          <p>{ t("about.about.other_projects")} <a href="https://www.theweekendest.com" target="_blank">The Weekendest</a> and <a href="https://www.goodservice.io" target="_blank">goodservice.io</a>.</p>
+        <p>
+          <Trans i18nKey="about.about.source_code">
+            <a href="https://github.com/techtoto/ubahndle/tree/cologne" target="_blank">Source Code</a> licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License Version 3.0</a>.
+          </Trans>
+        </p>
+
+        <p>
+          <Trans i18nKey="about.about.geo">
+            Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.
+          </Trans>
+        </p>
       </Modal.Content>
     </Modal>
   );
