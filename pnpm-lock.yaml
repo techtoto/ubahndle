@@ -6,7 +6,7 @@ settings:
 
 importers:
 
-  .:
+  frankfurt:
     dependencies:
       i18next:
         specifier: ^21.8.2

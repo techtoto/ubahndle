@@ -1,7 +1,7 @@
 {
-  "name": "subwaydle-berlin",
+  "name": "@ubahndle/frankfurt",
   "version": "0.1.1",
-  "homepage": "https://ubahndle.hangzhi.de",
+  "homepage": "https://frankfurt.ubahndle.techtoto.dev",
   "private": true,
   "type": "module",
   "dependencies": {
