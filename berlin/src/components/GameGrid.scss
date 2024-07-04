@@ -1,0 +1,52 @@
+.ui.grid.game-grid {
+  .row {
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+  }
+
+  .ui.placeholder.segment {
+    padding: 0;
+    min-height: 3.5rem;
+
+    &.correct {
+      background-color: #6aaa64;
+    }
+
+    &.similar {
+      background-color: #85c0f9;
+    }
+
+    &.present {
+      background-color: #c9b458;
+    }
+
+    &.absent {
+      background-color: #787c7e;
+    }
+  }
+
+  &.dark .ui.placeholder.segment {
+    background-color: #1b1c1d;
+    box-shadow: 0 0 0 2px #3a3a3c inset;
+
+    &.correct {
+      background-color: #538d4e;
+      box-shadow: none;
+    }
+
+    &.similar {
+      background-color: #3c9af5;
+      box-shadow: none;
+    }
+
+    &.present {
+      background-color: #b59f3b;
+      box-shadow: none;
+    }
+
+    &.absent {
+      background-color: #3a3a3c;
+      box-shadow: none;
+    }
+  }
+}
