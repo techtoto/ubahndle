@@ -61,14 +61,14 @@ i18n
             },
             about: {
               title: "About",
-              subwaydle: "This game is forked from the original <1>Subwaydle</1> game based on the NYC Subway system",
-              around_the_world: "Subwaydles around the world: <1>New York</1>, <3>Hong Kong</3>, <5>London</5>.",
-              inspirations: "Inspired by <1>Wordle</1>, its <3>open-source clone</3>, <5>Nerdle</5>, and <7>New York Transit Museum</7> Trivia Nights.",
-              created: "Created by <1>Sunny Ng</1> and adapted to the Berlin rapid transit system by <3>Hangzhi Yu</3>.",
-              sourcecode: "<0>Source code</0>.",
+              subwaydle: "This game is forked from the original <1>Berlin version</1>, which is a fork of the original <3>Subwaydle</3> game based on the NYC Subway system.",
+              around_the_world: "Subwaydles around the world:",
+              created: "Created by <1>Sunny Ng</1>, adapted to the Berlin rapid transit system by <3>Hangzhi Yu</3> and modernized by <5>techtoto</5> and <7>Marie</7>.",
               geo: "Geolocation data © <1>OpenStreetMap contributors</1>.",
-              other_projects: "Check out Sunny Ng's other NYC Subway related projects:"
             }
+          },
+          city: {
+            cologne: "Cologne"
           }
         }
       },
@@ -116,14 +116,17 @@ i18n
             },
             about: {
               title: "Über das Spiel",
-              subwaydle: "Dieses Spiel wurde von dem originalen <1>Subwaydle</1> für das New Yorker U-Bahn-System geforkt.",
-              around_the_world: "Subwaydles auf der ganzen Welt: <1>New York</1>, <3>Hong Kong</3>, <5>London</5>.",
-              inspirations: "Inspiriert von <1>Wordle</1>, dem <3>Open-Source-Klon</3>, <5>Nerdle</5>, und <7>New York Transit Museum</7> Trivia Nights.",
-              created: "Konzipiert und programmiert von <1>Sunny Ng</1> und an das Berliner ÖPNV-System angepasst von <3>Hangzhi Yu</3>.",
-              sourcecode: "<0>Quellcode</0>.",
+              created: "Konzipiert und programmiert von <1>Sunny Ng</1>, an das Berliner ÖPNV-System angepasst von <3>Hangzhi Yu</3> und modernisiert von <5>techtoto</5> und <7>Marie</7>.",
+              subwaydle: "Dieses Spiel wurde von der originalen <1>Berliner Version</1> des originalen New Yorker <3>Subwaydle</3> geforkt.",
               geo: "Geodaten © <1>OpenStreetMap Contributors</1>.",
-              other_projects: "Schaut gerne bei Sunny Ng's anderen New-York-Subway-basierten Projekten vorbei:"
+              around_the_world: "Subwaydles auf der ganzen Welt:",
+              inspirations: "Inspiriert von <1>Wordle</1>, <3>Nerdle</3> und <5>New York Transit Museum</5> Trivia Nights.",
+              source_code: "<0>Quellcode</0> lizensiert unter der <2>GNU Affero General Public License Version 3.0</2>.",
+              versatiles: "Vielen Dank an <1>Versatiles</1> für das Hosten der Kartenkacheln."
             }
+          },
+          city: {
+            cologne: "Köln"
           }
         }
       },
