@@ -1,7 +1,7 @@
 {
-  "name": "subwaydle-berlin",
+  "name": "@ubahndle/cologne",
   "version": "0.1.1",
-  "homepage": "https://ubahndle.hangzhi.de",
+  "homepage": "https://stadtbahndle-cologne.marie.cologne",
   "private": true,
   "type": "module",
   "dependencies": {
@@ -40,5 +40,5 @@
     "sass": "^1.77.4",
     "vite": "^5.2.12"
   },
-  "packageManager": "pnpm@9.1.1+sha1.09ada6cd05003e0ced25fb716f9fda4063ec2e3b"
+  "packageManager": "pnpm@9.1.4"
 }

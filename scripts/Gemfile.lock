@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    geokit (1.14.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  geokit
+
+BUNDLED WITH
+   2.3.27

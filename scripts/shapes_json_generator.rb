@@ -1,26 +1,10 @@
+#!/usr/bin/env ruby
+
 require "csv"
 require "json"
+require_relative "utils.rb"
 
-routes = [
-  "U1",
-  "U2",
-  "U3",
-  "U4",
-  "U5",
-  "U6",
-  "U7",
-  "U8",
-  "U9",
-  "S1",
-  "S2",
-  "S3",
-  "S4",
-  "S5",
-  "S6",
-  "S7",
-  "S8",
-  "S9",
-]
+routes = read_routes()
 
 stationPoints = {}
 
@@ -67,6 +51,6 @@ end
 
 puts "Writing to JSON file"
 
-file = File.open("../src/data/shapes.json", "w")
+file = File.open("src/data/shapes.json", "w")
 file.puts JSON.pretty_generate(data)
 file.close

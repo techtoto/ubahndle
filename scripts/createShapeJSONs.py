@@ -2,7 +2,11 @@
 import json, csv, glob, os
 stations = []
 
-with open("./scripts/data/stations.csv", newline="") as csvfile:
+if not os.path.exists("./data"):
+    print("./data does not exist. Make sure to navigate into the folder of the target city.")
+    exit(1)
+
+with open("./data/stations.csv", newline="") as csvfile:
     reader = csv.reader(csvfile)
 
     for line in reader:
@@ -14,7 +18,7 @@ def getStationById(id):
             return station
     raise Exception(f"id missing: {id}")
 
-for filename in glob.glob("./scripts/data/stops/*.csv"):
+for filename in glob.glob("./data/stops/*.csv"):
     stops = []
     with open(filename) as file:
         reader = csv.reader(file)
@@ -28,5 +32,5 @@ for filename in glob.glob("./scripts/data/stops/*.csv"):
         station = getStationById(stop)
         jsonArray.append([float(station[2]), float(station[3])])
 
-    with open(f"./scripts/data/shapes/{os.path.basename(filename).replace('.csv', '.json')}", "w") as outFile:
+    with open(f"./data/shapes/{os.path.basename(filename).replace('.csv', '.json')}", "w") as outFile:
         outFile.write(json.dumps(jsonArray, indent=4))
