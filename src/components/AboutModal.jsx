@@ -48,6 +48,7 @@ const AboutModal = (props) => {
         </Segment>
 
         <p><TrainLabel id='U6' size='small' /> { t('about.examples.correct') }</p>
+        <hr />
 
         <Segment basic>
           <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
@@ -76,6 +77,7 @@ const AboutModal = (props) => {
           </Grid>
         </Segment>
         <p><TrainLabel id='U8' size='small' /> { t('about.examples.present') }</p>
+        <hr />
 
         <Segment basic>
           <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
@@ -120,27 +122,39 @@ const AboutModal = (props) => {
 
         <p>
           <Trans i18nKey="about.about.around_the_world">
-            Subwaydles around the world: <a href="https://www.subwaydle.com" target="_blank">New York</a>, <a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a>, <a href="https://london.subwaydle.com" target="_blank">London</a>, <a href="https://ubahndle.hangzhi.de/">Berlin</a>.
+            Subwaydles around the world:
           </Trans>
+          <ul>
+            <li><a href="https://www.subwaydle.com" target="_blank">New York</a></li>
+            <li><a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a></li>
+            <li><a href="https://london.subwaydle.com/" target="_blank">London</a></li>
+            <li><a href="https://berlin.ubahndle.techtoto.dev" target="_blank">Berlin</a></li>
+            <li><a href="https://frankfurt.ubahndle.techtoto.dev" target="_blank">Frankfurt</a></li>
+            <li><a href="https://stadtbahndle-cologne.marie.cologne" target="_blank">{t("city.cologne")}</a></li>
+          </ul>
         </p>
 
         <p>
           <Trans i18nKey="about.about.inspirations">
-            Inspired by <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">Wordle</a>,
-            its <a href="https://github.com/hannahcode/wordle" target="_blank">open-source clone</a>, <a href="https://nerdlegame.com/" target="_blank">Nerdle</a>,
-            and <a href="https://www.nytransitmuseum.org/">New York Transit Museum</a> Trivia Nights.
+            Inspired by <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Wordle</a>, <a href="https://nerdlegame.com/" target="_blank">Nerdle</a>, and <a href="https://www.nytransitmuseum.org/">New York Transit Museum</a> Trivia Nights.
           </Trans>
         </p>
 
         <p>
           <Trans i18nKey="about.about.created">
-            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Berlin rapid transit system by <a href="https://www.github.com/techtoto" target="_blank">techtoto</a>.
+            Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Frankfurt rapid transit system by <a href="https://www.github.com/techtoto" target="_blank">techtoto</a>.
           </Trans>
         </p>
 
         <p>
-          <Trans i18nKey="about.about.sourcecode">
-            <a href="https://github.com/techtoto/ubahndle-frankfurt" target="_blank">Source code</a>.
+          <Trans i18nKey="about.about.versatiles">
+            Special Thanks to <a href="https://versatiles.org/">Versatiles</a> for hosting the map tiles.
+          </Trans>
+        </p>
+
+        <p>
+          <Trans i18nKey="about.about.source_code">
+            <a href="https://github.com/techtoto/ubahndle/tree/frankfurt" target="_blank">Source Code</a> licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License Version 3.0</a>.
           </Trans>
         </p>
 
@@ -149,8 +163,6 @@ const AboutModal = (props) => {
             Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.
           </Trans>
         </p>
-
-        <p>{ t("about.about.other_projects")} <a href="https://www.theweekendest.com" target="_blank">The Weekendest</a> and <a href="https://www.goodservice.io" target="_blank">goodservice.io</a>.</p>
       </Modal.Content>
     </Modal>
   );
