@@ -11,7 +11,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^11.16.9",
-    "semantic-ui-react": "^2.1.1"
+    "semantic-ui-react": "^2.1.1",
+    "@ubahndle/core": "workspace:*"
   },
   "scripts": {
     "dev": "vite",
