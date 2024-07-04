@@ -1,28 +1,12 @@
+#!/usr/bin/env ruby
+
 require "csv"
 require "set"
 require "json"
 require "geokit"
+require_relative "utils.rb"
 
-routes = [
-  "U1",
-  "U2",
-  "U3",
-  "U4",
-  "U5",
-  "U6",
-  "U7",
-  "U8",
-  "U9",
-  "S1",
-  "S2",
-  "S3",
-  "S4",
-  "S5",
-  "S6",
-  "S7",
-  "S8",
-  "S9",
-]
+routes = read_routes()
 
 transfers = {}
 
@@ -184,10 +168,10 @@ picked_solutions = solutions.map { |k, v|
 
 bad_solutions = picked_solutions.select { |_, v| v[:travel_distance_factor] >= 1.6 }.map { |k, _| k}.map { |k| k.split("-") }
 
-file = File.open("../src/data/answers.json", "w")
+file = File.open("src/data/answers.json", "w")
 file.puts JSON.pretty_generate((answers.to_a - bad_solutions).shuffle)
 file.close
 
-file = File.open("../src/data/solutions.json", "w")
+file = File.open("src/data/solutions.json", "w")
 file.puts JSON.pretty_generate(picked_solutions)
 file.close
