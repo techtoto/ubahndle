@@ -2,5 +2,5 @@ let
   pkgs = import <nixpkgs> {};
 in 
 pkgs.mkShell {
-  nativeBuildInputs = with pkgs; [ nodejs nodePackages.pnpm ruby ];
+  nativeBuildInputs = with pkgs; [ nodejs corepack ruby ];
 }
