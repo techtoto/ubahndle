@@ -1,0 +1,15 @@
+.solution-modal {
+  .share-btn {
+    width: 10em;
+  }
+
+  &.dark {
+    background-color: #1b1c1d;
+    color: #ffffff;
+
+    .header, .content {
+      background-color: #1b1c1d;
+      color: #ffffff;
+    }
+  }
+}
