@@ -2,3 +2,4 @@ packages:
   - "frankfurt"
   - "cologne"
   - "berlin"
+  - "ubahndle-core"
