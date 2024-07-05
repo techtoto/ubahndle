@@ -2,8 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Modal, Header, Button, Icon } from 'semantic-ui-react';
 import { useTranslation, Trans } from 'react-i18next';
 
-import Stats from './Stats';
-import TrainLabel from './TrainLabel';
+import { Stats } from '@ubahndle/core';
 import MapFrame from './MapFrame';
 
 import { todaysTrip, todaysSolution } from '../utils/answerValidations';
@@ -11,6 +10,8 @@ import { shareStatus } from '../utils/share';
 
 import stations from "../data/stations.json";
 import './SolutionModal.scss';
+
+import { TrainLabel } from "@ubahndle/core";
 
 const BUTTON_PROMPT_MS = 2000;
 
@@ -85,7 +86,7 @@ const SolutionModal = (props) => {
               const destination = pair[1];
               return (
                 <React.Fragment key={i}>
-                  <TrainLabel id={trip[i]} size='small' /> <Trans i18nKey="solution.direction">from {{ origin }} to {{ destination }}</Trans><br />
+                  <TrainLabel id={trip[i]} /> <Trans i18nKey="solution.direction">from {{ origin }} to {{ destination }}</Trans><br />
                 </React.Fragment>
               )
             })

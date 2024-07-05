@@ -3,7 +3,7 @@ import { Modal, Header, Button, Icon } from 'semantic-ui-react';
 import { useTranslation, Trans } from 'react-i18next';
 
 import Stats from './Stats';
-import TrainLabel from './TrainLabel';
+import { TrainLabel } from '@ubahndle/core';
 import MapFrame from './MapFrame';
 
 import { todaysTrip, todaysSolution } from '../utils/answerValidations';

@@ -6,6 +6,11 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "devDependencies": {
+    "@types/react": "^18.3.3",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "semantic-ui-react": "2.1.1"
   }
 }

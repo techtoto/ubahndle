@@ -1,5 +1,5 @@
 import { Grid, Segment } from 'semantic-ui-react';
-import TrainLabel from './TrainLabel';
+import { TrainLabel } from '@ubahndle/core';
 
 const CurrentRow = (props) => {
   const { currentGuess } = props;

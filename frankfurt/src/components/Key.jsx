@@ -1,5 +1,5 @@
 import { Grid, Button } from 'semantic-ui-react';
-import TrainLabel from './TrainLabel';
+import { TrainLabel } from '@ubahndle/core';
 
 import './Key.scss';
 
@@ -23,7 +23,7 @@ const Key = (props) => {
   return (
     <Grid.Column className='key' stretched>
       <Button disabled={disabled} onClick={handleClick} className={className} inverted={isDarkMode}>
-        <TrainLabel id={id} size='small' />
+        <TrainLabel id={id} />
       </Button>
     </Grid.Column>
   )

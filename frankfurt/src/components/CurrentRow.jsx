@@ -1,5 +1,5 @@
 import { Grid, Segment } from 'semantic-ui-react';
-import TrainLabel from './TrainLabel';
+import { TrainLabel } from '@ubahndle/core';
 
 const CurrentRow = (props) => {
   const { currentGuess } = props;
@@ -12,7 +12,7 @@ const CurrentRow = (props) => {
           return (
             <Grid.Column key={`guess-${index}`}>
               <Segment placeholder>
-                <TrainLabel id={routeId} size='small' />
+                <TrainLabel id={routeId} />
               </Segment>
             </Grid.Column>
           );

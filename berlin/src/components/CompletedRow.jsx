@@ -1,5 +1,5 @@
 import { Grid, Icon, Label, Segment } from 'semantic-ui-react';
-import TrainLabel from './TrainLabel';
+import { TrainLabel } from '@ubahndle/core';
 import { checkGuessStatuses } from '../utils/answerValidations';
 import { loadSettings } from '../utils/settings';
 
