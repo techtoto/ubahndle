@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Modal, Header, Button, Icon } from 'semantic-ui-react';
 import { useTranslation, Trans } from 'react-i18next';
 
-import Stats from './Stats';
+import { Stats } from '@ubahndle/core';
 import { TrainLabel } from '@ubahndle/core';
 import MapFrame from './MapFrame';
 

@@ -1,4 +1,10 @@
-.stats-histogram {
+.stats-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guess-dist {
   .ui.grid>.row {
     padding: .25rem;
   }

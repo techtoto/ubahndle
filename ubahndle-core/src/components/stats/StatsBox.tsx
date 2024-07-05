@@ -2,9 +2,9 @@ import { Header, Statistic } from 'semantic-ui-react';
 import { useTranslation, Trans } from 'react-i18next';
 
 import './StatsBox.scss'
+import { FC } from 'react';
 
-const StatsBox = (props) => {
-  const { isDarkMode, stats } = props;
+export const StatsBox: FC<{ stats: any, isDarkMode: boolean }> = ({ stats, isDarkMode }) => {
   const { t } = useTranslation();
   return (
     <>
@@ -40,5 +40,3 @@ const StatsBox = (props) => {
     </>
   )
 }
-
-export default StatsBox;
