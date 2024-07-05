@@ -1,5 +1,5 @@
 import { Grid, Button } from 'semantic-ui-react';
-import TrainLabel from './TrainLabel';
+import { TrainLabel } from '@ubahndle/core';
 
 import './Key.scss';
 

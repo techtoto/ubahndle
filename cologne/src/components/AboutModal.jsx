@@ -1,7 +1,7 @@
 import { Modal, Header, Grid, Segment, Icon, Label } from 'semantic-ui-react';
 import { useTranslation, Trans } from 'react-i18next';
 
-import TrainLabel from './TrainLabel';
+import { TrainLabel } from '@ubahndle/core';
 import { loadSettings } from '../utils/settings';
 
 import './AboutModal.scss';

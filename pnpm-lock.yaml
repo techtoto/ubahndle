@@ -33,6 +33,12 @@ importers:
         specifier: ^2.1.1
         version: 2.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
+      '@types/react':
+        specifier: ^18.3.3
+        version: 18.3.3
+      '@types/react-dom':
+        specifier: ^18.3.0
+        version: 18.3.0
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.0
         version: 3.7.0(vite@5.2.12(@types/node@20.12.12)(sass@1.77.4)(terser@5.31.0))
@@ -70,6 +76,12 @@ importers:
         specifier: ^2.1.1
         version: 2.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
+      '@types/react':
+        specifier: ^18.3.3
+        version: 18.3.3
+      '@types/react-dom':
+        specifier: ^18.3.0
+        version: 18.3.0
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.0
         version: 3.7.0(vite@5.2.12(@types/node@20.12.12)(sass@1.77.4)(terser@5.31.0))
@@ -107,6 +119,12 @@ importers:
         specifier: ^2.1.1
         version: 2.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
+      '@types/react':
+        specifier: ^18.3.3
+        version: 18.3.3
+      '@types/react-dom':
+        specifier: ^18.3.0
+        version: 18.3.0
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.0
         version: 3.7.0(vite@5.2.12(@types/node@20.12.12)(sass@1.77.4)(terser@5.31.0))
@@ -118,7 +136,17 @@ importers:
         version: 5.2.12(@types/node@20.12.12)(sass@1.77.4)(terser@5.31.0)
 
   ubahndle-core:
+    dependencies:
+      react:
+        specifier: 18.3.1
+        version: 18.3.1
+      semantic-ui-react:
+        specifier: 2.1.1
+        version: 2.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
+      '@types/react':
+        specifier: ^18.3.3
+        version: 18.3.3
       typescript:
         specifier: ^5.5.3
         version: 5.5.3
@@ -267,11 +295,23 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fluentui/react-component-event-listener@0.51.7':
+    resolution: {integrity: sha512-NjVm+crN0T9A7vITL8alZeHnuV8zi2gos0nezU/2YOxaUAB9E4zKiPxt/6k5U50rJs/gj8Nu45iXxnjO41HbZg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17
+      react-dom: ^16.8.0 || ^17
+
   '@fluentui/react-component-event-listener@0.63.1':
     resolution: {integrity: sha512-gSMdOh6tI3IJKZFqxfQwbTpskpME0CvxdxGM2tdglmf6ZPVDi0L4+KKIm+2dN8nzb8Ya1A8ZT+Ddq0KmZtwVQg==}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
       react-dom: ^16.8.0 || ^17 || ^18
+
+  '@fluentui/react-component-ref@0.51.7':
+    resolution: {integrity: sha512-CX27jVJYaFoBCWpuWAizQZ2se137ku1dmDyn8sw+ySNJa+kkQf7LnMydiPW5K7cRdUSqUJW3eS4EjKRvVAx8xA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17
+      react-dom: ^16.8.0 || ^17
 
   '@fluentui/react-component-ref@0.63.1':
     resolution: {integrity: sha512-8MkXX4+R3i80msdbD4rFpEB4WWq2UDvGwG386g3ckIWbekdvN9z2kWAd9OXhRGqB7QeOsoAGWocp6gAMCivRlw==}
@@ -516,6 +556,15 @@ packages:
   '@types/pbf@3.0.5':
     resolution: {integrity: sha512-j3pOPiEcWZ34R6a6mN07mUkM4o4Lwf6hPNt8eilOeZhTFbxFXmKhvXl9Y28jotFPaI1bpPDJsbCprUoNke6OrA==}
 
+  '@types/prop-types@15.7.12':
+    resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
+
+  '@types/react-dom@18.3.0':
+    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
+
+  '@types/react@18.3.3':
+    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
+
   '@types/supercluster@7.1.3':
     resolution: {integrity: sha512-Z0pOY34GDFl3Q6hUFYf3HkTwKEE02e7QgtJppBt+beEAxnyOpJua+voGFvxINBHa06GwLFFym7gRPY2SiKIfIA==}
 
@@ -568,6 +617,9 @@ packages:
 
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
+
+  csstype@3.1.3:
+    resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
   earcut@2.2.4:
     resolution: {integrity: sha512-/pjZsA1b4RPHbeWZQn66SWS8nZZWLQQ23oE3Eam7aroEFGEvwKAsJfZ9ytiEMycfzXWpca4FA9QIOehf7PocBQ==}
@@ -812,6 +864,12 @@ packages:
   scheduler@0.23.2:
     resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
+  semantic-ui-react@2.1.1:
+    resolution: {integrity: sha512-rgOHMTjJdOPv/2wGLA+Hr75nyEeQqW0Ag84J3Ha7xISBH5QnaQ6G1sT//e/mssYEZrpDy1ozjT8l/UgovTYSNA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0
+      react-dom: ^16.8.0 || ^17.0.0
+
   semantic-ui-react@2.1.5:
     resolution: {integrity: sha512-nIqmmUNpFHfovEb+RI2w3E2/maZQutd8UIWyRjf1SLse+XF51hI559xbz/sLN3O6RpLjr/echLOOXwKCirPy3Q==}
     peerDependencies:
@@ -1002,11 +1060,24 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
+  '@fluentui/react-component-event-listener@0.51.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@babel/runtime': 7.24.6
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
   '@fluentui/react-component-event-listener@0.63.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.6
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
+
+  '@fluentui/react-component-ref@0.51.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@babel/runtime': 7.24.6
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-is: 16.13.1
 
   '@fluentui/react-component-ref@0.63.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -1207,6 +1278,17 @@ snapshots:
 
   '@types/pbf@3.0.5': {}
 
+  '@types/prop-types@15.7.12': {}
+
+  '@types/react-dom@18.3.0':
+    dependencies:
+      '@types/react': 18.3.3
+
+  '@types/react@18.3.3':
+    dependencies:
+      '@types/prop-types': 15.7.12
+      csstype: 3.1.3
+
   '@types/supercluster@7.1.3':
     dependencies:
       '@types/geojson': 7946.0.14
@@ -1264,6 +1346,8 @@ snapshots:
 
   commander@2.20.3:
     optional: true
+
+  csstype@3.1.3: {}
 
   earcut@2.2.4: {}
 
@@ -1534,6 +1618,24 @@ snapshots:
   scheduler@0.23.2:
     dependencies:
       loose-envify: 1.4.0
+
+  semantic-ui-react@2.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@fluentui/react-component-event-listener': 0.51.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@fluentui/react-component-ref': 0.51.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@popperjs/core': 2.11.8
+      '@semantic-ui-react/event-stack': 3.1.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      clsx: 1.2.1
+      keyboard-key: 1.1.0
+      lodash: 4.17.21
+      lodash-es: 4.17.21
+      prop-types: 15.8.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-is: 16.13.1
+      react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      shallowequal: 1.1.0
 
   semantic-ui-react@2.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
