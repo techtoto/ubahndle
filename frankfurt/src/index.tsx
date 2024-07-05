@@ -1,6 +1,6 @@
 import React from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import './index.css';
+import 'semantic-ui-css/semantic.min.css'
 import App from './App';
 
 import './i18n';
