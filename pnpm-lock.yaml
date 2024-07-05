@@ -45,6 +45,9 @@ importers:
       sass:
         specifier: ^1.77.4
         version: 1.77.4
+      typescript:
+        specifier: ^5.5.3
+        version: 5.5.3
       vite:
         specifier: ^5.2.12
         version: 5.2.12(@types/node@20.12.12)(sass@1.77.4)(terser@5.31.0)
@@ -88,6 +91,9 @@ importers:
       sass:
         specifier: ^1.77.4
         version: 1.77.4
+      typescript:
+        specifier: ^5.5.3
+        version: 5.5.3
       vite:
         specifier: ^5.2.12
         version: 5.2.12(@types/node@20.12.12)(sass@1.77.4)(terser@5.31.0)
@@ -131,6 +137,9 @@ importers:
       sass:
         specifier: ^1.77.4
         version: 1.77.4
+      typescript:
+        specifier: ^5.5.3
+        version: 5.5.3
       vite:
         specifier: ^5.2.12
         version: 5.2.12(@types/node@20.12.12)(sass@1.77.4)(terser@5.31.0)
