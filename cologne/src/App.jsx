@@ -6,7 +6,7 @@ import GameGrid from './components/GameGrid';
 import Keyboard from './components/Keyboard';
 import AboutModal from './components/AboutModal';
 import SolutionModal from './components/SolutionModal';
-import StatsModal from './components/StatsModal';
+import { StatsModal } from '@ubahndle/core';
 import SettingsModal from './components/SettingsModal';
 
 import {

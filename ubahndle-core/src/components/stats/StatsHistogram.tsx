@@ -2,9 +2,9 @@ import { Header, Grid, Progress } from 'semantic-ui-react';
 import { useTranslation } from 'react-i18next';
 
 import './StatsHistogram.scss';
+import { FC } from 'react';
 
-const StatsHistogram = (props) => {
-  const { isDarkMode, stats } = props;
+export const StatsHistogram: FC<{ stats: any, isDarkMode: boolean }> = ({ stats, isDarkMode}) => {
   const { t } = useTranslation();
   const max = Math.max(...stats.winDistribution);
   return (
@@ -13,7 +13,7 @@ const StatsHistogram = (props) => {
       <div className='stats-histogram'>
         <Grid>
           {
-            stats.winDistribution.map((value, i) => {
+            stats.winDistribution.map((value: any, i: any) => {
               return (
                 <Grid.Row key={i}>
                   <Grid.Column width={2}>
@@ -31,5 +31,3 @@ const StatsHistogram = (props) => {
     </>
   )
 }
-
-export default StatsHistogram;
