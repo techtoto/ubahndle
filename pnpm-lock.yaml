@@ -6,6 +6,12 @@ settings:
 
 importers:
 
+  .:
+    devDependencies:
+      typescript:
+        specifier: ^5.5.3
+        version: 5.5.3
+
   berlin:
     dependencies:
       '@ubahndle/core':
