@@ -6,6 +6,7 @@ import App from './App';
 import './i18n';
 import { createRoot } from 'react-dom/client';
 import { RoutesContext } from '@ubahndle/core';
+import '@ubahndle/core/dist/style.css'
 
 import routes from "./data/routes.json";
 
