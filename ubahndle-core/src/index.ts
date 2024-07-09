@@ -6,3 +6,5 @@ export { StatsHistogram } from "./components/stats/StatsHistogram"
 export { StatsModal } from "./components/stats/StatsModal"
 
 export const RoutesContext = createContext<Record<string, any>>({})
+
+export { initI18n } from "./i18n"
