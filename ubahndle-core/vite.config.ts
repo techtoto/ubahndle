@@ -8,12 +8,15 @@ export default defineConfig({
       formats: ["es"]
     },
     rollupOptions: {
+      input: resolve(__dirname, "src/index.ts"),
       external: [
         'react',
         'react-dom',
         'react/jsx-runtime',
         'semantic-ui-react',
         'react-i18next',
+        'i18next',
+        'i18next-browser-languagedetector',
       ],
       output: {
         globals: {
