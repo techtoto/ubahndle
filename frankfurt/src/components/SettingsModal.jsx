@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Modal, Header, Grid, Checkbox, Icon, Popup } from 'semantic-ui-react';
 import { useTranslation } from 'react-i18next';
 
-import { saveSettings, loadSettings, defaultSettings } from '../utils/settings';
+import { saveSettings, loadSettings, defaultSettings } from '@ubahndle/core';
 
 import './SettingsModal.scss'
 

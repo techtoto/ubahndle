@@ -1,7 +1,7 @@
 import {
   loadStatsFromLocalStorage,
   saveStatsToLocalStorage,
-} from './localStorage'
+} from '@ubahndle/core'
 
 // In stats array elements 0-5 are successes in 1-6 tries
 export const addStatsForCompletedGame = (gameStats, count) => {

@@ -1,6 +1,8 @@
+import { Settings } from "./settings";
+
 const gameStateKey = 'gameState';
 
-export const saveGameStateToLocalStorage = (gameState) => {
+export const saveGameStateToLocalStorage = (gameState: any) => {
   localStorage.setItem(gameStateKey, JSON.stringify(gameState))
 }
 
@@ -11,7 +13,7 @@ export const loadGameStateFromLocalStorage = () => {
 
 const gameStatKey = 'gameStats'
 
-export const saveStatsToLocalStorage = (gameStats) => {
+export const saveStatsToLocalStorage = (gameStats: any) => {
   localStorage.setItem(gameStatKey, JSON.stringify(gameStats))
 }
 
@@ -26,7 +28,7 @@ export const isNewToGame = () => {
 
 const gameSettingsKey = 'gameSettings'
 
-export const saveSettingsToLocalStorage = (gameSettings) => {
+export const saveSettingsToLocalStorage = (gameSettings: Settings) => {
   localStorage.setItem(gameSettingsKey, JSON.stringify(gameSettings))
 }
 
