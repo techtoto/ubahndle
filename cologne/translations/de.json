@@ -1,0 +1,11 @@
+{
+  "brand": {
+    "city": "Köln"
+  },
+  "about": {
+    "intro": "<p>Errate das <strong>Stadtbahndle</strong> mit 6 Versuchen.</p><p>Jeder Versuch muss eine <strong>gültige Fahrt mit exakt drei verschiedenen Stadtbahn-Linien</strong> sein.</p><p>Dein Ziel ist es, die exakt korrekte Kombination an Linien für die tägliche Fahrt zu finden.</p>",
+    "created": "Konzipiert und programmiert von <1>Sunny Ng</1> und an das Kölner ÖPNV-System angepasst von <3>Marie</3>.",
+    "kvb_notice": "Vielen Dank an die <1>KVB</1> für ihren <3>Open Data Service</3>!",
+    "explanation": "<p>In den meisten Fällen ist es möglich, <strong>mit mehreren unterschiedlichen Fahrtverläufen</strong> die Strecke zwischen den beiden Stationen zu fahren. Dein Ziel ist es aber, <strong>den einen richtigen Fahrtverlauf</strong> zu finden, der die Lösung auf das Tagesrätsel darstellt. Diese Lösung <strong>muss nicht</strong> die schnellste Verbindung sein - in den allermeisten Fällen ist sie das gerade nicht.</p><p>Der Verlauf jeder Linie entspricht denen an einem regulären, störungsfreien Tag unter der Woche. Aktuelle Bauarbeiten oder Abweichungen im Nachtverkehr werden nicht berücksichtigt. Auch die provisiorischen Linien 14 und 19 und die Trennung der Linien 13 und 18 werden zurzeit nicht berücksichtigt.</p>"
+  }
+}

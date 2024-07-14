@@ -14,11 +14,7 @@ const AboutModal = (props) => {
     <Modal closeIcon open={open} onClose={handleClose} size='tiny' className={isDarkMode ? 'about-modal dark' : 'about-modal'}>
       <Modal.Header>{ t('about.title') }</Modal.Header>
       <Modal.Content scrolling>
-        <Trans i18nKey="about.intro">
-          <p>Guess the <strong>Stadtbahndle</strong> in 6 tries.</p>
-          <p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p>
-          <p>You need to guess a specific set of three trains that can make the trip.</p>
-        </Trans>
+        <Trans i18nKey="brand:about.intro" />
         <Header as='h4'>{ t('about.examples.title') }</Header>
         <Segment basic>
           <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
@@ -107,7 +103,7 @@ const AboutModal = (props) => {
         </Segment>
         <p><TrainLabel id='18' size='small' /> { t('about.examples.absent') }</p>
 
-        <Trans i18nKey="about.explanation">
+        <Trans i18nKey="brand:about.explanation">
           <p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to
           find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p>
           <p>
@@ -150,7 +146,7 @@ const AboutModal = (props) => {
         </p>
 
         <p>
-          <Trans i18nKey="about.about.kvb_open_data_notice">
+          <Trans i18nKey="brand:about.kvb_notice">
             Special Thanks to the <a href="https://kvb.koeln" target="_blank">KVB</a> for their <a href="https://kvb.koeln/service/open_data.html" target="_blank">Open Data service</a>!
           </Trans>
         </p>
