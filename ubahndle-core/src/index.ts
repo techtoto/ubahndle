@@ -20,3 +20,5 @@ export * from "./utils/settings"
 export * from "./utils/localStorage"
 
 export { AboutModal } from "./components/about/AboutModal"
+
+export { Keyboard } from "./components/keyboard/Keyboard"
