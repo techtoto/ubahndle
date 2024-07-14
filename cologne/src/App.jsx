@@ -4,7 +4,6 @@ import { useTranslation, Trans } from 'react-i18next';
 
 import GameGrid from './components/GameGrid';
 import Keyboard from './components/Keyboard';
-import AboutModal from './components/AboutModal';
 import SolutionModal from './components/SolutionModal';
 import { StatsModal } from '@ubahndle/core';
 import SettingsModal from './components/SettingsModal';
@@ -30,6 +29,7 @@ import { loadSettings } from './utils/settings';
 import stations from './data/stations.json';
 
 import './App.scss';
+import { WrappedAboutModal } from './components/WrappedAboutModal';
 
 const ATTEMPTS = 6;
 const ALERT_TIME_MS = 2000;
@@ -230,7 +230,7 @@ const App = () => {
           absentRoutes={absentRoutes}
         />
       </Segment>
-      <AboutModal open={isAboutOpen} isDarkMode={isDarkMode} handleClose={onAboutClose} />
+      <WrappedAboutModal open={isAboutOpen} isDarkMode={isDarkMode} handleClose={onAboutClose} />
       <SolutionModal open={isSolutionsOpen} isDarkMode={isDarkMode} isGameWon={isGameWon} handleModalClose={onSolutionsClose} stats={stats} guesses={guesses} />
       <StatsModal open={isStatsOpen} isDarkMode={isDarkMode} stats={stats} handleClose={onStatsClose} />
       <SettingsModal open={isSettingsOpen} isDarkMode={isDarkMode} handleClose={onSettingsClose} onSettingsChange={setSettings} />

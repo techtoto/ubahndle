@@ -12,10 +12,12 @@ export const defaultSettings = {
   }
 }
 
-export const saveSettings = (gameSettings) => {
+export type Settings = typeof defaultSettings;
+
+export function saveSettings(gameSettings: Settings) {
   saveSettingsToLocalStorage(gameSettings);
 }
 
-export const loadSettings = () => {
+export function loadSettings(): Settings {
   return loadSettingsFromLocalStorage() || defaultSettings;
 }
