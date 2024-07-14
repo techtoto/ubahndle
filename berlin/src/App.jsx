@@ -3,9 +3,8 @@ import { Header, Segment, Icon, Message } from 'semantic-ui-react';
 import { useTranslation, Trans } from 'react-i18next';
 
 import GameGrid from './components/GameGrid';
-import Keyboard from './components/Keyboard';
 import SolutionModal from './components/SolutionModal';
-import { StatsModal } from '@ubahndle/core';
+import { Keyboard, StatsModal } from '@ubahndle/core';
 import { WrappedAboutModal } from './components/WrappedAboutModal';
 import SettingsModal from './components/SettingsModal';
 
@@ -28,6 +27,7 @@ import { addStatsForCompletedGame, loadStats } from './utils/stats';
 import { loadSettings } from './utils/settings';
 
 import stations from './data/stations.json';
+import routes from './data/routes.json';
 
 import './App.scss';
 
@@ -221,7 +221,7 @@ const App = () => {
       </Segment>
       <Segment basic>
         <Keyboard
-          isDarkMode={isDarkMode}
+          keys={Object.keys(routes)}
           onChar={onChar}
           onDelete={onDelete}
           onEnter={onEnter}

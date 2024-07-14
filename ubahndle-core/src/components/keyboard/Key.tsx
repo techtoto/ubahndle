@@ -1,10 +1,21 @@
 import { Grid, Button } from 'semantic-ui-react';
-import { TrainLabel } from '@ubahndle/core';
 
 import './Key.scss';
+import { TrainLabel } from '../TrainLabel';
+import { FC } from 'react';
+import { useDarkMode } from '../..';
 
-const Key = (props) => {
-  const { id, isDarkMode, disabled, onClick, isCorrect, isPresent, isAbsent } = props;
+type Props = {
+  id: string,
+  disabled?: boolean,
+  onClick: (id: string) => void,
+  isCorrect: boolean,
+  isPresent: boolean,
+  isAbsent: boolean,
+};
+
+export const Key: FC<Props> = ({ id, disabled, onClick, isCorrect, isPresent, isAbsent }) => {
+  const isDarkMode = useDarkMode();
 
   const handleClick = () => {
     onClick(id);
@@ -23,10 +34,8 @@ const Key = (props) => {
   return (
     <Grid.Column className='key' stretched>
       <Button disabled={disabled} onClick={handleClick} className={className} inverted={isDarkMode}>
-        <TrainLabel id={id} size='small' />
+        <TrainLabel id={id} />
       </Button>
     </Grid.Column>
   )
 }
-
-export default Key;
