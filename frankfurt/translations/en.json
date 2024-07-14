@@ -1,0 +1,9 @@
+{
+  "brand": {
+    "city": "Frankfurt"
+  },
+  "about": {
+    "intro": "<p>Guess the <strong>UBAHNDLE</strong> in 6 tries.</p><p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges marked on the RMV-Schnellbahnplan (as well with walking disance, such as S F-Eschersheim/U Weißer Stein) between them.</p><p>You need to guess a specific set of three trains that can make the trip.</p>",
+    "created": "Created by <1>Sunny Ng</1> and adapted to the Frankfurt rapid transit system by <3>techtoto</3>."
+  }
+}

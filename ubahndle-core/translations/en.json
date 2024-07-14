@@ -1,87 +1,50 @@
 {
-   "hint": "Travel from {{origin}} to {{destination}} with 2 changes.",
-   "error": {
-     "not_enough": "Not enough trains for the journey",
-     "not_valid": "Not a valid journey"
-   },
-   "settings": {
-     "title": "Settings",
-     "display": {
-       "title": "Display",
-       "show_badges": "Show answer status badges",
-       "show_badges_hint": "Having trouble seeing the difference in the colours? Turn on status badges!",
-       "darkMode": "Dark Mode"
-     }
-   },
-   "statistics": {
-     "title": "Statistics",
-     "total_games": "Played",
-     "success_rate": "Win %",
-     "current_streak": "Current<1 />Streak",
-     "max_streak": "Max<1 />Streak",
-     "guess_distribution": "Guess Distribution"
-   },
-   "solution": {
-     "win_message": "Brilliant! You completed today's journey!",
-     "lose_message": "Oh no, looks like you got lost in $t(brand:brand.city)...",
-     "title": "Today's Journey",
-     "direction": "from {{origin}} to {{destination}}",
-     "share": "Share",
-     "copied": "Copied"
-   },
-   "about": {
-     "title": "How to Play",
-     "explanation": "<p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p><p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (except the S8 runs to Hanau Hbf).</p>",
-     "examples": {
-       "title": "Examples",
-       "correct": "is in the correct position of the trip.",
-       "present": "is part of the trip, but in the wrong position.",
-       "absent": "is not part of the trip in any position."
-    },
-    "settings": {
-      "title": "Settings",
-      "display": {
-        "title": "Display",
-        "show_badges": "Show answer status badges",
-        "show_badges_hint": "Having trouble seeing the difference in the colours? Turn on status badges!",
-        "darkMode": "Dark Mode"
-      }
-    },
-    "statistics": {
-      "title": "Statistics",
-      "total_games": "Played",
-      "success_rate": "Win %",
-      "current_streak": "Current<1 />Streak",
-      "max_streak": "Max<1 />Streak",
-      "guess_distribution": "Guess Distribution"
-    },
-    "solution": {
-      "win_message": "Brilliant! You completed today's journey!",
-      "lose_message": "Oh no, looks like you got lost in Frankfurt...",
-      "title": "Today's Journey",
-      "direction": "from {{origin}} to {{destination}}",
-      "share": "Share",
-      "copied": "Copied"
+  "hint": "Travel from {{origin}} to {{destination}} with 2 changes.",
+  "error": {
+    "not_enough": "Not enough trains for the journey",
+    "not_valid": "Not a valid journey"
+  },
+  "settings": {
+    "title": "Settings",
+    "display": {
+      "title": "Display",
+      "show_badges": "Show answer status badges",
+      "show_badges_hint": "Having trouble seeing the difference in the colours? Turn on status badges!",
+      "darkMode": "Dark Mode"
+    }
+  },
+  "statistics": {
+    "title": "Statistics",
+    "total_games": "Played",
+    "success_rate": "Win %",
+    "current_streak": "Current<1 />Streak",
+    "max_streak": "Max<1 />Streak",
+    "guess_distribution": "Guess Distribution"
+  },
+  "solution": {
+    "win_message": "Brilliant! You completed today's journey!",
+    "lose_message": "Oh no, looks like you got lost in $t(brand:brand.city)...",
+    "title": "Today's Journey",
+    "direction": "from {{origin}} to {{destination}}",
+    "share": "Share",
+    "copied": "Copied"
+  },
+  "about": {
+    "title": "How to Play",
+    "explanation": "<p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p><p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (except the S8 runs to Hanau Hbf).</p>",
+    "examples": {
+      "title": "Examples",
+      "correct": "is in the correct position of the trip.",
+      "present": "is part of the trip, but in the wrong position.",
+      "absent": "is not part of the trip in any position."
     },
     "about": {
-      "title": "How to Play",
-      "intro": "<p>Guess the <strong>UBAHNDLE</strong> in 6 tries.</p><p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges marked on the RMV-Schnellbahnplan (as well with walking disance, such as S F-Eschersheim/U Weißer Stein) between them.</p><p>You need to guess a specific set of three trains that can make the trip.</p>",
-      "explanation": "<p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p><p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (except the S8 runs to Hanau Hbf).</p>",
-      "examples": {
-        "title": "Examples",
-        "correct": "is in the correct position of the trip.",
-        "present": "is part of the trip, but in the wrong position.",
-        "absent": "is not part of the trip in any position."
-      },
-      "about": {
-        "title": "About",
-        "around_the_world": "Subwaydles around the world:",
-        "created": "Created by <1>Sunny Ng</1> and adapted to the Frankfurt rapid transit system by <3>techtoto</3>.",
-        "geo": "Geolocation data © <1>OpenStreetMap contributors</1>."
-      }
-    },
-    "city": {
-      "cologne": "Cologne"
+      "title": "About",
+      "around_the_world": "Subwaydles around the world:",
+      "geo": "Geolocation data © <1>OpenStreetMap contributors</1>."
     }
+  },
+  "city": {
+    "cologne": "Cologne"
   }
 }
