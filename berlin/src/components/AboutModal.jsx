@@ -14,11 +14,7 @@ const AboutModal = (props) => {
     <Modal closeIcon open={open} onClose={handleClose} size='tiny' className={isDarkMode ? 'about-modal dark' : 'about-modal'}>
       <Modal.Header>{ t('about.title') }</Modal.Header>
       <Modal.Content scrolling>
-        <Trans i18nKey="about.intro">
-          <p>Guess the <strong>UBAHNDLE</strong> in 6 tries.</p>
-          <p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p>
-          <p>You need to guess a specific set of three trains that can make the trip.</p>
-        </Trans>
+        <Trans i18nKey="brand:about.intro" />
         <Header as='h4'>{ t('about.examples.title') }</Header>
         <Segment basic>
           <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
