@@ -9,5 +9,5 @@
     "build": "turbo check-types build",
     "dev": "turbo watch dev"
   },
-  "packageManager": "pnpm@9.4.0"
+  "packageManager": "pnpm@9.5.0"
 }
