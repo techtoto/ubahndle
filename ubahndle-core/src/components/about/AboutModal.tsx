@@ -1,12 +1,11 @@
-import { FC, ReactNode } from "react";
+import { ReactNode } from "react";
 import { useTranslation, Trans } from "react-i18next";
-import { Modal, Header, Segment, Grid, Label, Icon } from "semantic-ui-react";
+import { Modal, Header } from "semantic-ui-react";
 import { TrainLabel } from "../TrainLabel";
-import { loadSettings } from "../../utils/settings";
 import { Train, TrainGrid } from "./TrainGrid";
 
 import './AboutModal.scss';
-import { useDarkMode } from "../..";
+import { useDarkMode } from "../../settings";
 
 type Props = {
   open: boolean,
@@ -22,7 +21,6 @@ type TrainExample = {
 
 function AboutModal({ open, handleClose, children }: Props) {
   const { t } = useTranslation();
-  const settings = loadSettings();
   const isDarkMode = useDarkMode();
   return (
     <Modal closeIcon open={open} onClose={handleClose} size='tiny' className={isDarkMode ? 'about-modal dark' : 'about-modal'}>

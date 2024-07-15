@@ -1,41 +1,27 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo, FC, ReactNode } from 'react';
 import { Header, Segment, Icon, Message } from 'semantic-ui-react';
 import { useTranslation, Trans } from 'react-i18next';
 
-import GameGrid from './components/GameGrid';
-import SolutionModal from './components/SolutionModal';
-import { Keyboard, StatsModal } from '@ubahndle/core';
-import SettingsModal from './components/SettingsModal';
-
-import {
-  isValidGuess,
-  isWinningGuess,
-  updateGuessStatuses,
-  flattenedTodaysTrip,
-  todaysSolution,
-} from './utils/answerValidations';
-
-import {
-  loadGameStateFromLocalStorage,
-  saveGameStateToLocalStorage,
-  isNewToGame
-} from './utils/localStorage';
-
-import { addStatsForCompletedGame, loadStats } from './utils/stats';
-
-import { loadSettings } from './utils/settings';
-
-import stations from './data/stations.json';
-import routes from './data/routes.json';
-
-import './App.scss';
-import { WrappedAboutModal } from './components/WrappedAboutModal';
+import './Game.scss';
+import { useData } from '..';
+import { GameGrid } from '../components/gamegrid/GameGrid';
+import { Keyboard } from '../components/keyboard/Keyboard';
+import { SettingsModal } from '../components/settings/SettingsModal';
+import { SolutionModal } from '../components/solution/SolutionModal';
+import { StatsModal } from '../components/stats/StatsModal';
+import { useDarkMode, useSettings } from '../settings';
+import { AnswerValidator } from '../utils/answerValidator';
+import { loadGameStateFromLocalStorage, isNewToGame, saveGameStateToLocalStorage } from '../utils/localStorage';
+import { loadStats, addStatsForCompletedGame } from '../utils/stats';
 
 const ATTEMPTS = 6;
 const ALERT_TIME_MS = 2000;
 
-const App = () => {
-  const [currentGuess, setCurrentGuess] = useState([]);
+export const Game: FC<{ about: FC<{ open: boolean, handleClose: () => void }> }> = ({ about: AboutComponent }) => {
+  const { solutions, answers, routes, stations } = useData();
+  const validator = useMemo(() => new AnswerValidator(solutions, answers), [solutions, answers]);
+
+  const [currentGuess, setCurrentGuess] = useState<string[]>([]);
   const [isGameWon, setIsGameWon] = useState(false);
   const [isGameLost, setIsGameLost] = useState(false);
   const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
@@ -44,18 +30,18 @@ const App = () => {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isNotEnoughRoutes, setIsNotEnoughRoutes] = useState(false);
   const [isGuessInvalid, setIsGuessInvalid] = useState(false);
-  const [absentRoutes, setAbsentRoutes] = useState([]);
-  const [presentRoutes, setPresentRoutes] = useState([]);
-  const [correctRoutes, setCorrectRoutes] = useState([]);
+  const [absentRoutes, setAbsentRoutes] = useState<string[]>([]);
+  const [presentRoutes, setPresentRoutes] = useState<string[]>([]);
+  const [correctRoutes, setCorrectRoutes] = useState<string[]>([]);
   const [guesses, setGuesses] = useState(() => {
     const loaded = loadGameStateFromLocalStorage();
-    if (loaded?.answer !== flattenedTodaysTrip()) {
+    if (loaded?.answer !== validator.flattenedTodaysTrip) {
       if (isNewToGame() && window.location === window.parent.location) {
         setIsAboutOpen(true);
       }
       return [];
     }
-    const gameWasWon = loaded.guesses.map((g) => g.join('-')).includes(flattenedTodaysTrip())
+    const gameWasWon = loaded.guesses.map((g: string[]) => g.join('-')).includes(validator.flattenedTodaysTrip)
     if (gameWasWon) {
       setIsGameWon(true);
       setIsSolutionsOpen(true);
@@ -64,23 +50,20 @@ const App = () => {
       setIsGameLost(true)
       setIsSolutionsOpen(true);
     }
-    updateGuessStatuses(loaded.guesses, setCorrectRoutes, setPresentRoutes, setAbsentRoutes);
+    validator.updateGuessStatuses(loaded.guesses, setCorrectRoutes, setPresentRoutes, setAbsentRoutes);
     return loaded.guesses;
   });
   const [stats, setStats] = useState(() => loadStats());
-  const [settings, setSettings] = useState(() => loadSettings());
 
   const { t } = useTranslation();
 
-  const solution = todaysSolution();
-
-  const isDarkMode = settings.display.darkMode;
+  const solution = validator.todaysSolution;
 
   useEffect(() => {
-    saveGameStateToLocalStorage({ guesses, answer: flattenedTodaysTrip() })
+    saveGameStateToLocalStorage({ guesses, answer: validator.flattenedTodaysTrip })
   }, [guesses])
 
-  const onChar = (routeId) => {
+  const onChar = (routeId: string) => {
     if (!isStatsOpen && !isGameWon && currentGuess.length < 3 && guesses.length < ATTEMPTS) {
       setCurrentGuess([...currentGuess, routeId]);
     }
@@ -105,8 +88,9 @@ const App = () => {
       }, ALERT_TIME_MS);
       return;
     }
+    let guess = currentGuess as [string, string, string];
 
-    if (!isValidGuess(currentGuess)) {
+    if (!validator.isValidGuess(guess)) {
       setIsGuessInvalid(true);
       setTimeout(() => {
         setIsGuessInvalid(false)
@@ -114,11 +98,11 @@ const App = () => {
       return;
     }
 
-    const winningGuess = isWinningGuess(currentGuess);
+    const winningGuess = validator.isWinningGuess(guess);
     const newGuesses = [...guesses, currentGuess];
 
-    updateGuessStatuses(
-      [currentGuess],
+    validator.updateGuessStatuses(
+      [guess],
       setCorrectRoutes,
       setPresentRoutes,
       setAbsentRoutes,
@@ -181,6 +165,8 @@ const App = () => {
   const origin = stations[solution.origin].name;
   const destination = stations[solution.destination].name;
 
+  const isDarkMode = useDarkMode();
+
   useEffect(() => {
     document.body.classList.toggle('dark', isDarkMode);
   }, [isDarkMode]);
@@ -188,7 +174,7 @@ const App = () => {
   return (
     <Segment basic className='app-wrapper' inverted={isDarkMode}>
       <Segment clearing basic className='header-wrapper' inverted={isDarkMode}>
-        <Header floated='left'>Stadtbahndle</Header>
+        <Header floated='left'>Ubahndle</Header>
         <Icon className='float-right' inverted={isDarkMode} name='cog' size='large' link onClick={handleSettingsOpen} />
         <Icon className='float-right' inverted={isDarkMode} name='chart bar' size='large' link onClick={handleStatsOpen} />
         <Icon className='float-right' inverted={isDarkMode} name='question circle outline' size='large' link onClick={handleAboutOpen} />
@@ -212,17 +198,16 @@ const App = () => {
           </Message>
         }
         <GameGrid
-          isDarkMode={isDarkMode}
           currentGuess={currentGuess}
           guesses={guesses}
           attempts={ATTEMPTS}
           inPlay={!isGameWon && !isGameLost && guesses.length < 6}
+          validator={validator}
         />
       </Segment>
       <Segment basic>
         <Keyboard
           keys={Object.keys(routes)}
-          isDarkMode={isDarkMode}
           onChar={onChar}
           onDelete={onDelete}
           onEnter={onEnter}
@@ -231,12 +216,10 @@ const App = () => {
           absentRoutes={absentRoutes}
         />
       </Segment>
-      <WrappedAboutModal open={isAboutOpen} isDarkMode={isDarkMode} handleClose={onAboutClose} />
-      <SolutionModal open={isSolutionsOpen} isDarkMode={isDarkMode} isGameWon={isGameWon} handleModalClose={onSolutionsClose} stats={stats} guesses={guesses} />
+      <AboutComponent open={isAboutOpen} handleClose={onAboutClose} />
+      <SolutionModal open={isSolutionsOpen} isGameWon={isGameWon} handleModalClose={onSolutionsClose} stats={stats} guesses={guesses} validator={validator} />
       <StatsModal open={isStatsOpen} isDarkMode={isDarkMode} stats={stats} handleClose={onStatsClose} />
-      <SettingsModal open={isSettingsOpen} isDarkMode={isDarkMode} handleClose={onSettingsClose} onSettingsChange={setSettings} />
+      <SettingsModal open={isSettingsOpen} handleClose={onSettingsClose} />
     </Segment>
   );
 }
-
-export default App;

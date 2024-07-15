@@ -6,7 +6,8 @@
     "typescript": "^5.5.3"
   },
   "scripts": {
-    "build": "turbo check-types build"
+    "build": "turbo check-types build",
+    "dev": "turbo watch dev"
   },
   "packageManager": "pnpm@9.4.0"
 }

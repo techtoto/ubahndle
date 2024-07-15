@@ -1,12 +1,15 @@
 import { Grid } from 'semantic-ui-react';
-import CompletedRow from './CompletedRow';
-import CurrentRow from './CurrentRow';
-import EmptyRow from './EmptyRow';
 
 import './GameGrid.scss';
+import { FC } from 'react';
+import { AnswerValidator, Guess } from '../../utils/answerValidator';
+import { useDarkMode } from '../../settings';
+import { CompletedRow, CurrentRow, EmptyRow } from '../rows';
 
-const GameGrid = (props) => {
-  const { isDarkMode, currentGuess, guesses, attempts, inPlay } = props;
+export const GameGrid: FC<{
+  currentGuess: string[], guesses: Guess[], attempts: number, inPlay: boolean, validator: AnswerValidator
+}> = ({ currentGuess, guesses, attempts, inPlay, validator }) => {
+  const isDarkMode = useDarkMode();
   const emptyRows = [...Array(inPlay ? (attempts - 1) : attempts).keys()];
   return (
     <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>
@@ -14,7 +17,7 @@ const GameGrid = (props) => {
         guesses.slice().map((g, i) => {
           emptyRows.pop();
           return (
-            <CompletedRow id={i} guess={g} key={i} />
+            <CompletedRow guess={g} key={i} validator={validator} />
           )
         })
       }
@@ -32,5 +35,3 @@ const GameGrid = (props) => {
     </Grid>
   );
 }
-
-export default GameGrid;

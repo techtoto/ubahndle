@@ -1,20 +1,35 @@
 import React from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import 'semantic-ui-css/semantic.min.css'
-import App from './App';
 
 import './i18n';
 import { createRoot } from 'react-dom/client';
-import { RoutesContext } from '@ubahndle/core';
 import '@ubahndle/core/dist/style.css'
 
 import routes from "./data/routes.json";
+import stations from "./data/stations.json";
+import shapes from "./data/shapes.json";
+import solutions from "./data/solutions.json";
+import answers from "./data/answers.json";
+import { WrappedAboutModal } from './components/WrappedAboutModal';
+import { GameWrapper } from '@ubahndle/core';
 
 const root = createRoot(document.getElementById("root")!!);
 root.render(
   <React.StrictMode>
-    <RoutesContext.Provider value={routes}>
-      <App />
-    </RoutesContext.Provider>
+    <GameWrapper
+      data={{
+        routes,
+        stations,
+        shapes,
+        solutions,
+        answers,
+      }}
+      AboutComponent={WrappedAboutModal}
+      initialMapSettings={{
+        latitude: 50.1180118,
+        longitude: 8.6835449,
+        zoom: 10.08,
+      }} />
   </React.StrictMode>
 );
