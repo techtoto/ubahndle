@@ -1,6 +1,6 @@
 import { Label } from 'semantic-ui-react';
 import { FC, useContext } from 'react';
-import { RoutesContext } from '..';
+import { DataContext } from '..';
 
 const style = (train: any) => {
   const { color, text_color } = train;
@@ -14,7 +14,7 @@ const style = (train: any) => {
 }
 
 export const TrainLabel: FC<{ id: string }> = ({ id }) => {
-  const routes = useContext(RoutesContext)
+  const { routes } = useContext(DataContext)
   const train = routes[id];
   const name = train.name;
   const size = 'small';

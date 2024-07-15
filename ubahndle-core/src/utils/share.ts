@@ -1,21 +1,21 @@
-import { todayGameIndex, checkGuessStatuses } from './answerValidations';
+import { t } from 'i18next';
+import { todayGameIndex, Guess, AnswerValidator } from './answerValidator';
 
-export const shareStatus = (guesses, lost) => {
-  const title = `Ubahndle Frankfurt ${todayGameIndex()}`;
+export function shareStatus(validator: AnswerValidator, guesses: Guess[], lost: any) {
+  const title = `${t("brand:brand.game_name")} ${todayGameIndex()}`;
   const text = `${title} ${lost ? 'X' : guesses.length}/6\n\n` +
-    generateEmojiGrid(guesses);
-  const isIos = /iP(ad|od|hone)/i.test(window.navigator.userAgent) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform));
-  if (navigator.share && isIos) {
+    generateEmojiGrid(validator, guesses);
+  if (navigator.share) {
     navigator.share({text: text});
   } else {
     navigator.clipboard.writeText(text);
   }
 }
 
-const generateEmojiGrid = (guesses) => {
+function generateEmojiGrid(validator: AnswerValidator, guesses: Guess[]) {
   return guesses
     .map((guess) => {
-      const status = checkGuessStatuses(guess);
+      const status = validator.checkGuessStatus(guess);
       return status.map((s) => {
           switch (s) {
             case 'correct':

@@ -1,7 +1,8 @@
 import { FC, ReactNode } from "react";
 import { Grid, Icon, Label, Segment, SemanticICONS } from "semantic-ui-react";
-import { TrainLabel, useDarkMode } from "../..";
 import { loadSettings } from "../../utils/settings";
+import { useDarkMode } from "../../settings";
+import { TrainLabel } from "../TrainLabel";
 
 type Props = {
   children: ReactNode[]

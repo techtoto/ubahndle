@@ -1,6 +1,7 @@
 {
   "brand": {
-    "city": "Berlin"
+    "city": "Berlin",
+    "game_name": "Ubahndle"
   },
   "about": {
     "intro": "<p>Errate das <strong>UBAHNDLE</strong> mit 6 Versuchen.</p><p>Jeder Versuch muss eine <strong>gültige Fahrt mit exakt drei verschiedenen S- und U-Bahn-Linien</strong> sein.</p><p>Dabei müssen <strong>gültige Umstiege</strong> verwendet werden, d.h. solche, die auf der offiziellen VBB-Karte für Berlin als solche (auch mit Laufdistanz, z.B. S Charlottenburg/U Wilmersdorfer Straße) gekennzeichnet sind.</p><p>Dein Ziel ist es, die exakt korrekte Kombination an Linien für die tägliche Fahrt zu finden.</p>",

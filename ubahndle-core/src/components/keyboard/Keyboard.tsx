@@ -3,7 +3,7 @@ import { Key } from './Key';
 
 import './Keyboard.scss';
 import { FC } from 'react';
-import { useDarkMode } from '../..';
+import { useDarkMode } from '../../settings';
 
 type Props = {
   onChar: (id: string) => void,

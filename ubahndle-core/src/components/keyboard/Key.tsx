@@ -3,7 +3,7 @@ import { Grid, Button } from 'semantic-ui-react';
 import './Key.scss';
 import { TrainLabel } from '../TrainLabel';
 import { FC } from 'react';
-import { useDarkMode } from '../..';
+import { useDarkMode } from '../../settings';
 
 type Props = {
   id: string,

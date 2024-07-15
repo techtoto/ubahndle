@@ -5,11 +5,11 @@ export default defineConfig({
   build: {
     sourcemap: true,
     lib: {
-      entry: resolve(__dirname, "src/index.ts"),
+      entry: resolve(__dirname, "src/index.tsx"),
       formats: ["es"]
     },
     rollupOptions: {
-      input: resolve(__dirname, "src/index.ts"),
+      input: resolve(__dirname, "src/index.tsx"),
       external: [
         'react',
         'react-dom',

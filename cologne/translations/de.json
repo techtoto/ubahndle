@@ -1,6 +1,7 @@
 {
   "brand": {
-    "city": "Köln"
+    "city": "Köln",
+    "game_name": "Stadtbahndle"
   },
   "about": {
     "intro": "<p>Errate das <strong>Stadtbahndle</strong> mit 6 Versuchen.</p><p>Jeder Versuch muss eine <strong>gültige Fahrt mit exakt drei verschiedenen Stadtbahn-Linien</strong> sein.</p><p>Dein Ziel ist es, die exakt korrekte Kombination an Linien für die tägliche Fahrt zu finden.</p>",
