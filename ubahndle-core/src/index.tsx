@@ -1,6 +1,7 @@
 import { createContext, FC, useContext } from "react"
 import { Game } from "./game/Game"
 import { SettingsProvider } from "./settings"
+import 'maplibre-gl/dist/maplibre-gl.css';
 
 export const DataContext = createContext<{
   routes: Record<string, any>,

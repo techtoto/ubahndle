@@ -1,5 +1,4 @@
 import React from 'react';
-import 'maplibre-gl/dist/maplibre-gl.css';
 import 'semantic-ui-css/semantic.min.css'
 
 import './i18n';
