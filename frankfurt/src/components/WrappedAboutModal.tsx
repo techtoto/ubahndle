@@ -21,7 +21,11 @@ export const WrappedAboutModal: FC<{ open: boolean, handleClose: () => void }> =
     <AboutModal.ForkNote />
     <AboutModal.AroundTheWorld />
     <AboutModal.InspirationNote />
-    <AboutModal.CreationNote />
+    <p>
+      <Trans i18nKey="brand:about.created">
+        Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Frankfurt rapid transit system by <a href="https://www.github.com/techtoto" target="_blank">techtoto</a>.
+      </Trans>
+    </p>;
     <AboutModal.VersatilesNote />
     <AboutModal.SourceCodeNote />
     <AboutModal.OSMNote />
