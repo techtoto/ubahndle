@@ -93,13 +93,6 @@ AboutModal.InspirationNote = () =>
     </Trans>
   </p>;
 
-AboutModal.CreationNote = () =>
-  <p>
-    <Trans i18nKey="brand:about.created">
-      Created by <a href="https://www.sunny.ng" target="_blank">Sunny Ng</a> and adapted to the Frankfurt rapid transit system by <a href="https://www.github.com/techtoto" target="_blank">techtoto</a>.
-    </Trans>
-  </p>;
-
 AboutModal.VersatilesNote = () =>
   <p>
     <Trans i18nKey="about.about.versatiles">
