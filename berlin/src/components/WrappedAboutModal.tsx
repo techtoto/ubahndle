@@ -18,7 +18,11 @@ export const WrappedAboutModal: FC<{ open: boolean, handleClose: () => void }> =
 
     <Header as='h4'>{t('about.about.title')}</Header>
 
-    <AboutModal.ForkNote />
+    <p>
+      <Trans i18nKey="brand:about.fork">
+        This game is forked from the original <a href="https://ubahndle.hangzhi.de/">Berlin version</a>, which is a fork of the original <a href="https://www.subwaydle.com" target="_blank">Subwaydle</a> game based on the NYC Subway system.
+      </Trans>
+    </p>
     <AboutModal.AroundTheWorld />
     <AboutModal.InspirationNote />
     <AboutModal.CreationNote />
