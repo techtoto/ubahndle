@@ -1,7 +1,6 @@
 import { useRef, useEffect, useState, FC, useContext } from 'react';
-import { Map } from 'maplibre-gl';
-
 import './MapFrame.scss';
+import { type Map } from "maplibre-gl"
 import { AnswerValidator } from '../../utils/answerValidator';
 import { MapContext, useData } from '../..';
 
@@ -97,96 +96,100 @@ export const MapFrame: FC<{
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
-    map.current = new Map({
-      container: mapContainer.current!!,
-      style: 'https://tiles.versatiles.org/assets/styles/colorful.json',
-      center: [lng, lat],
-      minZoom: 1,
-      zoom: zoom,
-      maxPitch: 0,
-    });
-    map.current.dragRotate.disable();
-    map.current.touchZoomRotate.disableRotation();
+    import("maplibre-gl")
+      .then(({ Map }) => {
+        map.current = new Map({
+          container: mapContainer.current!!,
+          style: 'https://tiles.versatiles.org/assets/styles/colorful.json',
+          center: [lng, lat],
+          minZoom: 1,
+          zoom: zoom,
+          maxPitch: 0,
+        });
+        map.current.dragRotate.disable();
+        map.current.touchZoomRotate.disableRotation();
 
-    map.current.on('load', async () => {
-      if (!map.current) {
-        return;
-      }
-      map.current.resize();
-      const trip = validator.todaysTrip;
-      const solution = validator.todaysSolution;
-      const image = await map.current.loadImage("ic--twotone-circle.png");
-      map.current.addImage("custom-marker", image.data);
-      let coordinates: number[] = [];
-      for (const line of [
-        {
-          route: trip[0],
-          begin: solution.origin,
-          end: solution.first_transfer_arrival,
-        },
-        {
-          route: trip[1],
-          begin: solution.first_transfer_departure,
-          end: solution.second_transfer_arrival,
-        },
-        {
-          route: trip[2],
-          begin: solution.second_transfer_departure,
-          end: solution.destination,
-        },
-      ]) {
-        const lineJson = lineGeoJson(line);
-        // @ts-expect-error
-        coordinates = coordinates.concat(lineJson.geometry.coordinates);
-        const layerId = `line-${line.route}-${line.begin}-${line.end}`;
-        map.current.addSource(layerId, {
-          "type": "geojson",
-          "data": lineJson,
-        });
-        map.current.addLayer({
-          "id": layerId,
-          "type": "line",
-          "source": layerId,
-          "layout": {
-            "line-join": "miter",
-            "line-cap": "round",
-          },
-          "paint": {
-            "line-width": 2,
-            "line-color": ["get", "color"],
+        map.current.on('load', async () => {
+          if (!map.current) {
+            return;
           }
+          map.current.resize();
+          const trip = validator.todaysTrip;
+          const solution = validator.todaysSolution;
+          const image = await map.current.loadImage("ic--twotone-circle.png");
+          map.current.addImage("custom-marker", image.data);
+          let coordinates: number[] = [];
+          for (const line of [
+            {
+              route: trip[0],
+              begin: solution.origin,
+              end: solution.first_transfer_arrival,
+            },
+            {
+              route: trip[1],
+              begin: solution.first_transfer_departure,
+              end: solution.second_transfer_arrival,
+            },
+            {
+              route: trip[2],
+              begin: solution.second_transfer_departure,
+              end: solution.destination,
+            },
+          ]) {
+            const lineJson = lineGeoJson(line);
+            // @ts-expect-error
+            coordinates = coordinates.concat(lineJson.geometry.coordinates);
+            const layerId = `line-${line.route}-${line.begin}-${line.end}`;
+            map.current.addSource(layerId, {
+              "type": "geojson",
+              "data": lineJson,
+            });
+            map.current.addLayer({
+              "id": layerId,
+              "type": "line",
+              "source": layerId,
+              "layout": {
+                "line-join": "miter",
+                "line-cap": "round",
+              },
+              "paint": {
+                "line-width": 2,
+                "line-color": ["get", "color"],
+              }
+            });
+          }
+          const stopsJson = stopsGeoJson();
+          map.current.addSource("Stops", {
+            "type": "geojson",
+            // @ts-expect-error
+            "data": stopsJson
+          });
+          map.current.addLayer({
+            "id": "Stops",
+            "type": "symbol",
+            "source": "Stops",
+            "layout": {
+              "text-field": ['get', 'name'],
+              "text-size": 12,
+              "text-font": ["noto_sans_regular"],
+              "text-optional": false,
+              "text-justify": "auto",
+              'text-allow-overlap': false,
+              "text-padding": 1,
+              "text-variable-anchor": ["bottom-right", "top-right", "bottom-left", "top-left", "right", "left", "bottom"],
+              "text-radial-offset": 0.5,
+              "icon-image": "custom-marker",
+              "icon-size": 4 / 13,
+              "icon-allow-overlap": true,
+            },
+            "paint": {
+              "text-color": '#000000',
+            },
+          });
         });
-      }
-      const stopsJson = stopsGeoJson();
-      map.current.addSource("Stops", {
-        "type": "geojson",
-        // @ts-expect-error
-        "data": stopsJson
-      });
-      map.current.addLayer({
-        "id": "Stops",
-        "type": "symbol",
-        "source": "Stops",
-        "layout": {
-          "text-field": ['get', 'name'],
-          "text-size": 12,
-          "text-font": ["noto_sans_regular"],
-          "text-optional": false,
-          "text-justify": "auto",
-          'text-allow-overlap': false,
-          "text-padding": 1,
-          "text-variable-anchor": ["bottom-right", "top-right", "bottom-left", "top-left", "right", "left", "bottom"],
-          "text-radial-offset": 0.5,
-          "icon-image": "custom-marker",
-          "icon-size": 4 / 13,
-          "icon-allow-overlap": true,
-        },
-        "paint": {
-          "text-color": '#000000',
-        },
-      });
-    });
-  });
+      })
+      .catch(console.error);
+  }, []);
 
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
@@ -198,7 +201,7 @@ export const MapFrame: FC<{
       setLat(Number(map.current.getCenter().lat.toFixed(4)));
       setZoom(Number(map.current.getZoom().toFixed(2)));
     });
-  });
+  }, [map]);
 
   return (
     <div>
