@@ -1,9 +1,9 @@
-import { defineConfig } from "vite"
+import { defineConfig, mergeConfig } from "vite"
 import { resolve } from "node:path"
+import { reactConfig } from "@ubahndle/vite-config"
 
-export default defineConfig({
+export default mergeConfig(reactConfig, defineConfig({
   build: {
-    sourcemap: true,
     lib: {
       entry: resolve(__dirname, "src/index.tsx"),
       formats: ["es"]
@@ -28,4 +28,4 @@ export default defineConfig({
       },
     },
   }
-})
+}))

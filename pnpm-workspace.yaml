@@ -3,3 +3,4 @@ packages:
   - "cologne"
   - "berlin"
   - "ubahndle-core"
+  - "vite-config"
