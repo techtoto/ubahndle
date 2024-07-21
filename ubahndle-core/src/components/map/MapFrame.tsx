@@ -153,7 +153,7 @@ export const MapFrame: FC<{
                 "line-cap": "round",
               },
               "paint": {
-                "line-width": 2,
+                "line-width": 2.5,
                 "line-color": ["get", "color"],
               }
             });
