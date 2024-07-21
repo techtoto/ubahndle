@@ -69,20 +69,10 @@
     "name": "S3",
     "color": "#6ECEB2"
   },
-  "S3":{
-    "id": "S3",
-    "name": "S3",
-    "color": "#6ECEB2"
-  },
-  "S41":{
-    "id": "S41",
-    "name": "S41",
-    "color": "#ad5837"
-  },
-  "S42":{
-    "id": "S42",
-    "name": "S42",
-    "color": "#cb6318"
+  "S41_S42":{
+    "id": "S41_S42",
+    "name": "S41/S42",
+    "color": "#BC5D27"
   },
   "S45":{
     "id": "S45",
