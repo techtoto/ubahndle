@@ -2,12 +2,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     geokit (1.14.0)
+    rgeo (3.0.1)
 
 PLATFORMS
+  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
   geokit
+  rgeo
 
 BUNDLED WITH
    2.3.27
