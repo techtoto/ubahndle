@@ -9,9 +9,9 @@ export const WrappedAboutModal: FC<{ open: boolean, handleClose: () => void }> =
     <Trans i18nKey="brand:about.intro" />
 
     <AboutModal.TrainExamples exampleTrainIds={{
-      correct: ["U1", "U9", "S41"],
+      correct: ["U1", "U9", "S41_S42"],
       present: ["S25", "U8", "S45"],
-      absent: ["S41", "U3", "S9"],
+      absent: ["S41_S42", "U3", "S9"],
     }} />
 
     <Trans i18nKey="about.explanation" />
