@@ -3,7 +3,6 @@ import 'semantic-ui-css/semantic.min.css'
 
 import './i18n';
 import { createRoot } from 'react-dom/client';
-import '@ubahndle/core/dist/style.css'
 
 import routes from "./data/routes.json";
 import stations from "./data/stations.json";

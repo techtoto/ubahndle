@@ -1,13 +1,5 @@
 {
   "name": "@ubahndle/workspace",
   "private": true,
-  "devDependencies": {
-    "turbo": "^2.0.6",
-    "typescript": "^5.5.3"
-  },
-  "scripts": {
-    "build": "turbo check-types build",
-    "dev": "turbo watch dev"
-  },
   "packageManager": "pnpm@9.5.0"
 }

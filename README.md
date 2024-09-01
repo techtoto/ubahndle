@@ -39,7 +39,7 @@ It's available to play at https://berlin.ubahndle.techtoto.dev.
 
 ## Development
 
-This repository utilizes [pnpm](https://pnpm.io) and [Turborepo](https://turbo.build) for managing multiple projects in a monorepo.
+This repository utilizes [pnpm](https://pnpm.io) for managing multiple projects in a monorepo.
 
 Install dependencies using pnpm:
 ```shell
@@ -49,23 +49,24 @@ pnpm install --frozen-lockfile
 To run a single city project in development mode use the following command:
 
 ```shell
-pnpm turbo watch dev --filter <subproject name in package.json>
+pnpm --filter <subproject name in package.json> dev
 
 # Frankfurt
-pnpm turbo watch dev --filter @ubahndle/frankfurt
+pnpm --filter @ubahndle/frankfurt dev
 # Cologne
-pnpm turbo watch dev --filter @ubahndle/cologne
+pnpm --filter @ubahndle/cologne dev
 # Berlin
-pnpm turbo watch dev --filter @ubahndle/berlin
+pnpm --filter @ubahndle/berlin dev
 ```
 
 To run all projects at the same time, omit the filter argument:
 
 ```shell
-pnpm turbo watch dev
+pnpm -r dev
 ```
 
-Run `pnpm build` to create a production build for all projects.
+Run `pnpm -r build` to create a production build for all projects.
+Use `pnpm -r check-types` to run typechecking over all projects.
 
 ## Credits
 
