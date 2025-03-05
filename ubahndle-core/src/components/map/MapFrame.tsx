@@ -100,7 +100,7 @@ export const MapFrame: FC<{
       .then(({ Map }) => {
         map.current = new Map({
           container: mapContainer.current!!,
-          style: 'https://tiles.versatiles.org/assets/styles/colorful.json',
+          style: 'https://tiles.versatiles.org/assets/styles/colorful/style.json',
           center: [lng, lat],
           minZoom: 1,
           zoom: zoom,
